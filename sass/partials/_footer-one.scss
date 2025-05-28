@@ -8,6 +8,12 @@
     a {
       color: v.$white !important;
     }
+    .footer-top{
+      
+      .footer-wrap {
+        border-bottom: 1px solid v.$border-color-05;
+      }
+    }
     .footer-wrapper {
       display: flex;
       justify-content: space-between;
@@ -162,7 +168,7 @@
       }
     }
     .copyright-area {
-      border-top: 1px solid v.$border-color-05;
+     
       padding-top: 30px;
       @include m.md {
         text-align: center;
