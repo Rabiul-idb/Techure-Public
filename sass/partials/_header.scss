@@ -2,7 +2,19 @@
 @use "./mixin" as m;
 
 /*-======== header area =======-*/
+@keyframes sticy-menu {
+    0% {
+     top: -50px;   
+       
+    }
+    100% {
+     top: 0; 
+    }
+}
+
+
 .header-area {
+
   &.style-one {
     background: transparent;
     position: absolute;
@@ -11,13 +23,15 @@
     width: 100%;
     z-index: 1023;
     padding: 20px 0;
-    
+
     &.header-fixed {
-
-      position: fixed;
+     position: fixed !important;
+      z-index: 9999;
+      right: 0;
+      left: 0;
       top: 0;
-
-      transition: all 0.5s;
+      animation: sticy-menu 1s;
+      animation-direction: inherited;
 
       &.style-one {
         background: v.$gray-100;
