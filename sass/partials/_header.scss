@@ -4,17 +4,23 @@
 /*-======== header area =======-*/
 .header-area {
   &.style-one {
-    background: v.$gray-100;
+    background: transparent;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1023;
     padding: 20px 0;
+    
     &.header-fixed {
+
       position: fixed;
+      top: 0;
+
+      transition: all 0.5s;
+
       &.style-one {
-        background: v.$gray-900;
+        background: v.$gray-100;
 
         .logo {
           .standard-logo {
@@ -28,7 +34,7 @@
           ul {
             li {
               a {
-                color: v.$white;
+                color: v.$gray-900;
               }
             }
           }
@@ -54,10 +60,10 @@
         .number-with-btn {
           .contact-number {
             a {
-              color: v.$white !important;
+              color: v.$gray-900 !important;
               svg {
                 path {
-                  fill: v.$gray-100;
+                  fill: v.$primary-color;
                 }
               }
             }

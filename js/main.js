@@ -37,7 +37,7 @@
             var $window = $(window);
             $window.on('scroll', function() {
               //header fixed animation and control
-              if($window.scrollTop() > 0) {
+              if($window.scrollTop() > 200) {
                   $(".header-area").addClass('header-fixed');
               }else{
                   $(".header-area").removeClass('header-fixed');

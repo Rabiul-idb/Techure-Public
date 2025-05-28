@@ -2,6 +2,14 @@
 @use "./mixin" as m;
 /*-======== footer-area  style-two=======-*/
 .footer-area {
+
+  &.footer-2-bg{
+    background: v.$gray-100;
+
+    .copyright-area{
+     // border-top: 1px solid v.$border-color-03;
+    }
+  }
   &.style-two {
     position: relative;
     z-index: 1;
