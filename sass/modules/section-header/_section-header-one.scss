@@ -1,0 +1,37 @@
+@use "../../variables" as v;
+@use "../../mixin" as m;
+/*-======== section header  =======-*/
+.section-header {
+  &.style-one {
+    .section-meta {
+      font-size: 18px;
+      font-weight: v.$font-weight-bold;
+      letter-spacing: 4px;
+      color: v.$gray-900;
+      line-height: 18px;
+      text-transform: uppercase;
+    }
+    .section-title {
+      font-size: 70px;
+      font-weight: v.$font-weight-bold;
+      line-height: 72px;
+      letter-spacing: -2px;
+      @include m.device-768px {
+        font-size: 60px;
+        line-height: 60px;
+      }
+      @include m.rmaxwd(767) {
+        font-size: 48px;
+        line-height: 50px;
+      }
+      @include m.device-425px {
+        font-size: 46px;
+        line-height: 48px;
+      }
+      @include m.device-375px {
+        font-size: 42px;
+        line-height: 48px;
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+@use "./variables" as v;
+@use "./mixin" as m;
+
+/*-======== main-menu =======-*/
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+  float: right;
+  @include m.laptop_m_two {
+    float: right;
+  }
+  .number-with-btn {
+    display: flex;
+    align-items: center;
+    float: right;
+    gap: 30px;
+    margin-left: 50px;
+    .contact-number {
+      a {
+        color: v.$gray-900;
+      }
+      font-size: 18px;
+      font-weight: v.$font-weight-bold;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      @include m.device-576px {
+        display: none;
+      }
+      svg {
+        path {
+          fill: v.$primary-color;
+        }
+      }
+    }
+  }
+}
+.main-menu {
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    li {
+      position: relative;
+      a {
+        color: v.$color-1;
+        font-weight: v.$font-weight-bold;
+        font-size: 18px;
+        @include m.transition(0.4s);
+        .fa-angle-down {
+          font-size: 10px;
+          font-weight: 900;
+          line-height: 10px;
+        }
+      }
+
+      &:hover {
+        .submenu {
+          visibility: visible;
+          opacity: 1;
+          @include m.transform(scaleY(1));
+        }
+      }
+    }
+  }
+  @include m.laptop_m {
+    display: none;
+  }
+}
+/*-======== submenu =======-*/
+.submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: inherit !important;
+  position: absolute;
+  top: 57px;
+  left: -20px;
+  padding: 0px 0px;
+  width: 210px;
+  gap: 0px !important;
+  background-color: #ffffff;
+  z-index: 99999;
+  @include m.transition(0.5s);
+  border-top: 2px solid v.$primary-color;
+  @include m.box-shadow(0px 10px 20px 0px rgba(8, 0, 42, 0.08));
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  @include m.transform(scaleY(0));
+  li {
+    a {
+      padding: 10px 20px;
+      color: v.$gray-900 !important;
+      border-bottom: 1px solid v.$border-color;
+      margin-right: 0;
+      width: 100%;
+      display: inline-block;
+      &:hover {
+        background: v.$primary-color;
+        border-bottom: 0px;
+        color: v.$white !important;
+      }
+    }
+  }
+}

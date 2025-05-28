@@ -1,0 +1,55 @@
+@use "../../variables" as v;
+@use "../../mixin" as m;
+/*-======== video-box =======-*/
+.video-box {
+  &.style-one {
+    position: relative;
+    width: 200px;
+    img {
+      @include m.border-radius(20px);
+    }
+    @include m.lg {
+      margin-top: 20px;
+    }
+    @include m.md {
+      margin-top: 15px;
+    }
+    @include m.laptop_m_four {
+      height: 150px;
+      width: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include m.transform(translate(-50%, -50%));
+      text-align: center;
+      font-size: 36px;
+      color: v.$white;
+      cursor: pointer;
+
+      .play-icon {
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include m.border-radius(50px);
+        @include m.transform(translate(-50%, -50%));
+        text-align: center;
+        font-size: 16px;
+        line-height: 48px;
+        background: v.$primary-color;
+        color: v.$white;
+        cursor: pointer;
+        opacity: 1;
+        animation: 2s ease pulse infinite;
+      }
+    }
+  }
+}

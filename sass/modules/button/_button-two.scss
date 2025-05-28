@@ -1,0 +1,56 @@
+@use "../../variables" as v;
+@use "../../mixin" as m;
+/*-======== theme-btn two =======-*/
+
+.theme--btn {
+  display: flex;
+  align-items: center;
+  &:hover {
+    .theme-btn {
+      background: v.$gray-900;
+      color: v.$white;
+      &:nth-child(2) {
+        @include m.transform(rotate(405deg));
+      }
+      
+    }
+  }
+}
+.theme-btn {
+  &.style-two {
+    background: v.$primary-color;
+    color: v.$white;
+    font-size: 18px;
+    font-weight: v.$font-weight-bold;
+    border: initial;
+    line-height: 18px;
+    @include m.transition(0.3s);
+
+    &:nth-child(1) {
+      padding: 21px 30px;
+      @include m.border-radius(50px);
+      border: 1px solid rgba(7, 0, 14, 0.2);
+      @include m.device-320px {
+      padding: 10px 10px;
+      }
+    }
+    &:nth-child(2) {
+     // padding: 16px 18px;
+      height: 60px;
+      width: 60px;
+      @include m.border-radius(50%);
+      margin-left: -5px;
+      @include m.transition(0.3s);
+      @include m.device-320px {
+      padding: 10px;
+      }
+      &.icon-right-arrow:before {
+        @include m.transition(0.4s);
+        @include m.transform(rotate(45deg));
+        color: v.$white;
+        
+      }
+    }
+  }
+ 
+}

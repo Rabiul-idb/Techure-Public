@@ -1,0 +1,72 @@
+@use "../../variables" as v;
+@use "../../mixin" as m;
+/*-======== client-box =======-*/
+.porject-card-wrapper {
+  &.style-one {
+    .card-item {
+      padding-top: 60px;
+      @include m.transition(0.4s);
+      margin-left: 40px;
+      @include m.border-radius(20px);
+      @include m.laptop_m_three {
+        margin-left: 20px;
+      }
+      @include m.sm {
+        margin-left: 0;
+        padding-top: 47px;
+      }
+      .card-img {
+        position: relative;
+
+        img {
+          position: relative;
+          width: 100%;
+          @include m.transition(0.4s);
+          border: 1px solid transparent;
+          @include m.border-radius(20px);
+          &.left-img {
+            height: 100%;
+          }
+          &.right-img {
+            height: 100%;
+          }
+        }
+        .card-meta {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          padding: 6px 20px;
+          background: v.$gray-900;
+          @include m.border-radius(50px);
+          font-weight: v.$font-weight-medium;
+          color: v.$white;
+        }
+      }
+      .card-content {
+        a {
+          @include m.transition(0.4s);
+
+          color: v.$gray-900;
+          &:hover {
+            color: v.$primary-color;
+          }
+        }
+        .card-title {
+          font-size: 24px;
+          font-weight: v.$font-weight-bold;
+          margin-top: 20px;
+        }
+      }
+
+      &:hover {
+        img {
+          border-color: v.$primary-color;
+        }
+
+        .card-meta {
+          background: v.$primary-color;
+        }
+      }
+    }
+  }
+}

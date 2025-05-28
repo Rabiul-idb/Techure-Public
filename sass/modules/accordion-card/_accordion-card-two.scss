@@ -1,0 +1,76 @@
+@use "../../variables" as v;
+@use "../../mixin" as m;
+/*-======== accordion =======-*/
+.accordion-wrapper {
+  &.style-two {
+    position: relative;
+
+    .faq-wrap {
+      color: v.$gray-900 !important;
+      .section-header {
+        .section-title {
+          color: v.$gray-900 !important;
+        }
+      }
+      .accordion {
+        .faq-item {
+          &.card {
+            background: none;
+            border-radius: 0;
+            border: 0;
+            border-bottom: 1px solid v.$border-color-03;
+          }
+          .faq-header {
+            button {
+              background: initial;
+              border: none;
+              color: v.$gray-900;
+              width: 100%;
+              text-align: left;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              font-size: 18px;
+              font-weight: v.$font-weight-bold;
+              line-height: 27px;
+              padding-bottom: 15px;
+              &.them-btn[aria-expanded="true"] {
+                .faq-icon {
+                  i {
+                    color: v.$primary-color;
+                    &::before {
+                      content: "\f068";
+                    }
+                  }
+                }
+              }
+
+              .faq-icon {
+                i {
+                  color: v.$gray-900;
+                  font-size: 18px;
+                }
+              }
+              .faq--title {
+                .single-num {
+                  color: v.$gray-800;
+                  font-weight: v.$font-weight-bold;
+                  font-size: 18px;
+                  margin-right: 8px;
+                }
+              }
+            }
+          }
+          .accordion-collapse {
+            .faq-body {
+              padding-bottom: 15px;
+              .faq-desc {
+                color: v.$gray-900;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+@use "../../variables" as v;
+@use "../../mixin" as m;
+/*-======== client-box =======-*/
+.blog-card-wrapper {
+  &.style-two {
+    .card-item {
+      @include m.border-radius(20px);
+      @include m.md {
+        margin-top: 30px;
+      }
+      @include m.sm {
+        margin-top: 30px;
+      }
+      @include m.xs {
+        margin-top: 30px;
+      }
+      .card-img {
+        position: relative;
+        padding: 10px 10px 0px 10px;
+        img {
+          width: 100%;
+          position: relative;
+          @include m.border-radius(20px);
+        }
+      }
+      .card-content {
+        position: relative;
+        z-index: 1;
+        background: v.$white;
+        margin-top: -105px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px 30px 30px 30px;
+        @include m.border-radius(20px);
+
+        .card-sub {
+          a {
+            display: inline-block;
+            margin-right: 8px;
+            color: v.$gray-800;
+            svg {
+              width: 14px;
+              height: 15px;
+              path {
+                fill: v.$primary-color;
+              }
+            }
+            span {
+              font-size: 14px;
+              font-weight: v.$font-weight-regular;
+              margin-left: 5px;
+              color: v.$gray-800;
+            }
+          }
+        }
+        .card-heading {
+          padding-top: 20px;
+          .card-title {
+            font-size: 24px;
+            font-weight: v.$font-weight-bold;
+            margin-bottom: 34px;
+            a {
+              color: v.$gray-900;
+              @include m.transition(0.3s);
+              &:hover {
+                color: v.$primary-color;
+              }
+            }
+          }
+        }
+        .more-btn {
+          color: v.$gray-900;
+          display: flex;
+          gap: 5px;
+          align-items: center;
+          &:hover {
+            p {
+              color: v.$primary-color;
+            }
+            i {
+              
+              color: v.$primary-color;
+              @include m.transform(rotate(45deg));
+            }
+          }
+          p {
+            color: v.$gray-900;
+            font-size: 18px;
+            font-weight: v.$font-weight-bold;
+            @include m.transition(0.3s);
+          }
+          i {            
+            @include m.transition(0.3s);           
+            
+          }
+        }
+      }
+    }
+  }
+}

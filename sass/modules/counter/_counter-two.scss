@@ -1,0 +1,103 @@
+@use "../../variables" as v;
+@use "../../mixin" as m;
+/*-======== counter box =======-*/
+
+.count-box-wrapper {
+  &.style-two {
+    display: flex;
+    justify-content: space-between;
+    @include m.md {
+      flex-wrap: wrap;
+    }
+    @include m.sm {
+      flex-wrap: wrap;
+    }
+    @include m.device-425px {
+      justify-content: center;
+    }
+    .counter-item {
+      width: 300px;
+      position: relative;
+      align-items: center;
+      text-align: center;
+      @include m.md {
+        align-items: start;
+        text-align: start;
+        width: 180px;
+        margin-bottom: 30px;
+      }
+
+      @include m.sm {
+        align-items: start;
+        text-align: start;
+        width: 180px;
+        margin-bottom: 30px;
+      }
+      .coun-title {
+        font-size: 72px;
+        font-weight: v.$font-weight-bold;
+        position: relative;
+        @include m.device-768px {
+          font-size: 60px;
+          line-height: 60px;
+        }
+      }
+      .coun-decs {
+        font-size: 18px;
+        font-weight: v.$font-weight-medium;
+        color: v.$gray-900;
+      }
+      &::after {
+        content: "";
+        width: 80px;
+        height: 1px;
+        position: absolute;       
+        top: 41%;
+        right: -65px;
+        @include m.transform(translateY(-50%));
+        display: block;
+        background: v.$border-color-03;
+        @include m.lg {
+          right: -50px;
+          width: 40px;
+        }
+        @include m.device-768px {
+          right: -70px;
+          width: 40px;
+        }
+        @include m.sm {
+          right: -50px;
+          width: 40px;
+        }
+        @include m.xs {
+          display: none;
+        }
+      }
+      @include m.md {
+        &:nth-child(2) {
+          &::after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+        }
+      }
+      @include m.sm {
+        &:nth-child(2) {
+          &::after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+        }
+      }
+      &:nth-child(4) {
+        &::after {
+          content: "";
+          position: absolute;
+          display: none;
+        }
+      }
+    }
+  }
+}

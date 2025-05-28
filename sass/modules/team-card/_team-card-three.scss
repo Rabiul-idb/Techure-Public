@@ -1,0 +1,199 @@
+@use "../../variables" as v;
+@use "../../mixin" as m;
+
+/*-======== card =======-*/
+.team-card-wrapper {
+  &.style-three {
+    .card-item {
+      position: relative;
+      border: 1px solid v.$border-color-02;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @include m.transition(0.8s);
+      @include m.border-radius(20px);
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 7px;
+      margin-top: 40px;
+      @include m.device-425px {
+        padding: 15px;
+        padding-bottom: 0 !important;
+        flex-direction: column;
+      }
+      @include m.sm {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 0 !important;
+      }
+      @include m.xs {
+        padding: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .section-heading {
+        display: flex;
+        gap: 63px;
+        align-items: center;
+        @include m.sm {
+          gap: 12px;
+          flex-direction: column;
+          align-items: start;
+        }
+
+        .section-title {
+          font-size: 32px;
+          font-weight: v.$font-weight-bold;
+          color: v.$gray-900;
+          width: 142px;
+          @include m.device-425px {
+            width: 100%;
+          }
+          @include m.transition(2s);
+        }
+        .section-desc {
+          font-size: 18px;
+          font-weight: v.$font-weight-medium;
+          color: v.$gray-900;
+          @include m.transition(2s);
+        }
+      }
+      .card-team-img {
+        width: 124px;
+        height: 157px;
+        @include m.sm {
+          margin: 0 auto;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          @include m.transition(1.5s);
+          @include m.sm {
+            opacity: 1;
+          }
+        }
+      }
+      .media-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        position: relative;
+        @include m.sm {
+          position: absolute;
+          bottom: 0px;
+          right: 0;
+        }
+
+        .shear-media {
+          @include m.transition(0.5s);
+          cursor: pointer;
+          z-index: -1;
+          position: absolute;
+          right: 68px;
+          top: 50%;
+          width: 280px;
+          @include m.transform(transitionY(-50%));
+          opacity: 0;
+          visibility: hidden;
+
+          ul {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            li {
+              display: inline-block;
+              margin-left: 18px;
+              background: v.$color-4;
+              @include m.border-radius(50%);
+              width: 37px;
+              height: 37px;
+              line-height: 37px;
+              text-align: center;
+              margin-left: -45px;
+              @include m.transition(0.5s);
+
+              a {
+                svg {
+                  path {
+                    color: v.$white;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .media-wrap {
+          margin-left: 20px;
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          text-align: center;
+          background: v.$gray-100;
+          border: 1px solid v.$white;
+          @include m.border-radius(50%);
+          cursor: pointer;
+          @include m.transition(2s);
+          @include m.box-shadow(0px 0px 60px 0px rgba(0, 0, 0, 0.05));
+          svg {
+            path {
+              color: v.$gray-900;
+              border: 0px;
+              border-color: none;
+            }
+          }
+        }
+        &:hover {
+          .shear-media {
+            opacity: 1;
+            z-index: 1;
+            visibility: visible;
+            ul {
+              li {
+                margin-left: 0px;
+              }
+            }
+          }
+        }
+        // &:has(.media-wrap:hover) {
+        //   .shear-media {
+        //     opacity: 1;
+        //     ul {
+        //       li {
+        //         margin-right: 0px;
+        //       }
+        //     }
+        //   }
+        // }
+      }
+      &:hover {
+        transition-delay: 0.2;
+        background: v.$primary-color;
+        .section-heading {
+          .section-title {
+            color: v.$white;
+          }
+          .section-desc {
+            color: v.$white;
+          }
+        }
+        .card-team-img {
+          img {
+            opacity: 1;
+          }
+        }
+        .media-wrap {
+          background: v.$color-4;
+          border: 0px;
+          svg {
+            path {
+              color: v.$white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

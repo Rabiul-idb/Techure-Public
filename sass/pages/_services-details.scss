@@ -1,0 +1,87 @@
+@use "./variables" as v;
+@use "./mixin" as m;
+/*-======== services-details-area  =======-*/
+.services-details-area {
+  @include m.laptop_m_four {
+    padding-bottom: 0px;
+  }
+  @include m.md {
+    padding-bottom: 80px;
+  }
+  .section-title {
+    font-size: 32px;
+    font-weight: v.$font-weight-bold;
+    line-height: 41px;
+    @include m.device-375px {
+      font-size: 26px;
+    }
+  }
+  ul {
+    margin-top: 10px;
+    li {
+      margin-top: 20px;
+      color: v.$gray-800;
+      font-size: 18px;
+      font-weight: v.$font-weight-medium;
+      margin-right: 8px;
+      a {
+        color: v.$gray-800;
+        font-weight: v.$font-weight-medium;
+        font-size: 18px;
+      }
+      svg{
+        color: v.$primary-color;
+      }
+    }
+  }
+  .service-wrapper {
+    .info-card-wrapper {
+      @include m.device-768px {
+        padding-left: 34px;
+      }
+
+      .card-item {
+        background: v.$gray-100;
+        border: 0;
+        .card-svg {
+          background: v.$white ;
+          span {            
+            color: v.$primary-color ;            
+          }
+        }
+        &:hover{
+          .card-svg{
+            background-color: v.$primary-color;
+          }
+        }
+      }
+    }
+    @include m.md {
+      margin-top: 30px;
+    }
+    @include m.sm {
+      margin-top: 30px;
+    }
+
+    .service-img {
+      @include m.border-radius(20px);
+      margin: 30px 0;
+      width: 100%;
+    }
+
+    .card-wrapper {
+      &.style-one {
+        @include m.device-768px {
+          padding-left: 30px;
+        }
+        @include m.sm {
+          padding-left: 30px;
+        }
+        .card-item {
+          background: v.$gray-100;
+          border: 0px;
+        }
+      }
+    }
+  }
+}

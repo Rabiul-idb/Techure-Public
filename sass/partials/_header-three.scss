@@ -1,0 +1,318 @@
+@use "./variables" as v;
+@use "./mixin" as m;
+
+/*-======== header area =======-*/
+.header-area {
+  &.style-three {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1023;
+    padding-top: 24px;
+    &.header-fixed {
+      position: fixed;
+      background: v.$gray-100;
+      .logo {
+        .standard-logo {
+          display: none;
+        }
+        .sticky-logo {
+          display: block;
+        }
+      }
+      .header-wrapper {
+        border: 0;
+      }
+    }
+    .header-wrapper {
+      padding-bottom: 15px;
+    }
+    .logo {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-top: 3px;
+      .standard-logo {
+        display: block;
+      }
+      .sticky-logo {
+        display: none;
+      }
+      .logo-name {
+        font-size: 30px;
+        font-weight: v.$font-weight-bold;
+      }
+    }
+    .menu-wrapper {
+      &.main--gap {
+        gap: 60px;
+      }
+      .main-menu {
+        margin-top: 8px;
+        ul {
+          li {
+            a {
+              color: v.$gray-900;
+            }
+            .submenu {
+              li {
+                a {
+                  color: v.$gray-900;
+                }
+              }
+            }
+          }
+        }
+      }
+      .number-with-btn {
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 38%;
+          width: 1px;
+          height: 80%;
+          background: v.$border-color-07;
+          @include m.transform(translate(-50%, -50%));
+        }
+      }
+    }
+    .contact-number {
+      font-size: 18px;
+      font-weight: v.$font-weight-bold;
+      color: v.$white;
+      @include m.device-425px {
+        display: none;
+      }
+    }
+  }
+  .bar-btn {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    @include m.border-radius(50px);
+    line-height: 50px;
+    cursor: pointer;
+    @include m.laptop_m {
+      display: none;
+    }
+  }
+  .main-menu-bar-btn {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background: v.$primary-color;
+    position: relative;
+    @include m.border-radius(50px);
+    cursor: pointer;
+    text-align: center;
+    @include m.laptop_m {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+    }
+    svg {
+      width: 20px;
+      height: 20px;
+      path {
+        fill: v.$white;
+      }
+    }
+  }
+
+  /*===== search-dropdown======*/
+  .search-box {
+    position: relative;
+    display: block;
+    &.active {
+      .search-dropdown {
+        opacity: 1;
+        visibility: visible;
+      }
+      .search-icon {
+        display: none !important;
+      }
+      .close-icon {
+        display: block !important;
+      }
+    }
+    .input-group-append {
+      border: none;      
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0px;
+      background: v.$primary-color;
+      padding: 6px 12px;
+      line-height: 38px;
+      text-align: center;
+      svg {
+        path {
+          fill: v.$white;
+        }
+      }
+    }
+    .search-icon-box {
+      cursor: pointer;
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+      .search-icon {
+        display: block;
+      }
+      .close-icon {
+        display: none;
+      }
+    }
+  }
+  .search-dropdown {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    margin: 0px;
+    transform: translate(-12px, 27px);
+    width: 350px;
+    opacity: 0;
+    visibility: hidden;
+    padding: 15px;
+    border: 0;
+    @include m.transition(0.4s);
+    @include m.box-shadow(0 1px 10px rgba(0, 0, 0, 0.1));
+    @include m.border-radius(8px);
+    background: v.$white;
+
+    @include m.xs {
+      width: 300px;
+    }
+    @include m.device-375px {
+      width: 250px;
+    }
+    @include m.device-320px {
+      right: -47px;
+    }
+    .form-control {
+      border: 1px solid v.$gray-800 !important;
+      @include m.border-radius(8px);
+      color: v.$gray-100 !important;
+      margin: 0 !important;
+      color: v.$gray-900 !important;
+    }
+    .btn {
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+  }
+  .input-group-append {
+    &.btn {
+      @include m.transform(rotate(90deg));
+      svg {
+        path {
+          fill: v.$white;
+        }
+      }
+    }
+  }
+}
+
+
+.search-container{
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.432);
+  backdrop-filter: blur(50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  form{
+    display: flex;
+  }
+}
+
+/* ====== search field ======= */
+
+.search-field {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(15px);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.search-field .search {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  @include m.sm{
+    width: 100%;
+  }
+  
+}
+
+.search-field .search .close-btn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid v.$primary-color;
+
+  @include m.xs{
+    top: 30px;
+    right: 30px;
+  }
+}
+
+.search-field .search form {
+  display: flex;
+  width: 70%;
+  border-radius: 10px;
+  border: 1px solid rgba(5, 5, 5, .1);
+  overflow: hidden;
+  transform: scale(0);
+  transition: all 0.4s;
+
+  @include m.xs{
+    width: 80%;
+    flex-direction: column;
+  }
+}
+
+.search-field .search form input {
+  width: 100%;
+  padding: 0 20px;
+  background: white;
+  border: 0;
+  transition: .4s ease;
+  height: 60px;
+}
+
+.search-field .search form button {
+  padding: 0 25px;
+  border: none;
+  color: white;
+  background-color: v.$primary-color;
+  height: 60px;
+}
+
+.search-field.active {
+  visibility: visible;
+  opacity: 1;
+}
+.search-field.active .search form{
+  transform: scale(1);
+}

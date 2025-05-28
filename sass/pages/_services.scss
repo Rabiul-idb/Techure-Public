@@ -1,0 +1,31 @@
+@use "./variables" as v;
+@use "./mixin" as m;
+/*-======== services-details-area  =======-*/
+.service-area {
+  &.style-one {
+    .info-card-wrapper {
+      @include m.nesthub {
+        padding-left: 34px;
+      }
+      @include m.device-768px {
+        padding-left: 34px;
+      }
+      @include m.rmaxwd(576) {
+        padding-left: 15px;
+      }
+      @include m.device-525px {
+        padding-left: 30px;
+      }
+    }
+    .card-wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+
+      @include m.device-768px {
+        padding-left: 35px;
+      }
+    }
+  }
+}

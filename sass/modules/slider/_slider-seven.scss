@@ -1,0 +1,155 @@
+@use "../../variables" as v;
+@use "../../mixin" as m;
+/*-======== slider  =======-*/
+.slider-wrapper {
+  &.style-seven {
+    .slider-carousel {
+      .owl-stage-outer {
+        position: relative;
+        padding-bottom: 30px;
+        .owl-stage {
+          .owl-item {
+            .slider-item {
+              .client-review {
+                padding: 40px;
+                @include m.border-radius(20px);
+                background: v.$secondary;
+                @include m.device-425px {
+                  padding: 20px;
+                }
+                p {
+                  color: v.$gray-900;
+                }
+              }
+              .post-img {
+                display: flex;
+                gap: 30px;
+                img {
+                  @include m.border-radius(20px);
+                }
+              }
+              .post-info-wrap {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                @include m.xs {
+                  flex-wrap: wrap;
+                }
+                .post-tags {
+                  display: flex;
+                  gap: 10px;
+                  .section-title {
+                    font-size: 32px;
+                    font-weight: v.$font-weight-bold;
+                  }
+                  .tags-wrap {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    a {
+                      display: inline-flex;
+                      justify-content: center;
+                      align-items: center;
+                      padding: 4px 10px;
+                      border: 1px solid v.$border-color-04;
+                      @include m.border-radius(50px);
+                      color: v.$gray-800;
+                      font-size: 14px;
+                      font-weight: v.$font-weight-regular;
+                      &:hover {
+                        background: v.$primary-color;
+                        color: v.$white;
+                      }
+                    }
+                  }
+                }
+                .shear-media {
+                  @include m.device-525px {
+                    margin-top: 40px;
+                  }
+                  .media--icons {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    a {
+                      width: 38px;
+                      height: 38px;
+                      background: v.$gray-100;
+                      @include m.border-radius(50%);
+                      line-height: 38px;
+                      text-align: center;
+                      svg {
+                        path {
+                          fill: v.$primary-color;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .owl-nav {
+        position: relative;
+        padding: 10px 25px;
+        border: 1px solid v.$color-07;
+        display: flex;
+        justify-content: space-between;
+        @include m.border-radius(20px);
+        @include m.device-375px {
+          padding: 12px 20px;
+        }
+        .owl-prev,
+        .owl-next {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 14px;
+          background: none !important;
+
+          svg {
+            width: 18px;
+            height: 18px;
+            @include m.border-radius(50%);
+            @include m.transition(0.5s);
+            background: v.$gray-100;
+            padding: 18px;
+            path {
+              fill: v.$primary-color;
+            }
+            &:hover {
+              background: v.$primary-color;
+              path {
+                fill: v.$white;
+              }
+            }
+          }
+          p {
+            font-size: 24px;
+            font-weight: v.$font-weight-bold;
+            color: v.$gray-900;
+            @include m.device-375px {
+              display: none;
+            }
+          }
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          height: 50px;
+          width: 1px;
+          background: v.$primary-color;
+          @include m.transform(translate(-50%, -50%));
+          @include m.device-425px {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,214 @@
+@use "./variables" as v;
+@use "./mixin" as m;
+/*-======== footer-area  style-two=======-*/
+.footer-area {
+  &.style-two {
+    position: relative;
+    z-index: 1;
+    .section-header {
+      &.style-two {
+        border-bottom: 1px solid v.$border-color-03;
+        @include m.xs {
+          padding-bottom: 40px;
+        }
+        .section-meta {
+          font-size: 24px;
+          font-weight: v.$font-weight-bold;
+          @include m.device-375px {
+            font-size: 18px;
+          }
+          @include m.device-320px {
+            font-size: 16px;
+          }
+        }
+        .section-content {
+          .section-title {
+            @include m.nesthub {
+              font-size: 62px;
+            }
+            @include m.sm {
+              font-size: 48px;
+            }
+            @include m.sm {
+              font-size: 36px;
+            }
+            @include m.device-375px {
+              font-size: 28px;
+            }
+            @include m.device-320px {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 340px;
+      height: 340px;
+      @include m.border-radius(50%);
+      overflow: hidden;
+      z-index: -1;
+
+      img {
+        object-fit: cover;
+        position: relative;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .footer-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @include m.xs {
+        padding-top: 38px;
+        flex-wrap: wrap;
+      }
+      @include m.device-525px {
+        flex-wrap: wrap;
+      }
+      @include m.device-425px {
+        flex-direction: column;
+        align-items: start;
+      }
+      .menu-list {
+        @include m.xs {
+          margin-bottom: 30px;
+        }
+        ul {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          @include m.device-425px {
+            flex-direction: column;
+            align-items: start;
+          }
+          li {
+            a {
+              color: v.$gray-900;
+              font-weight: v.$font-weight-regular;
+              font-size: 18px;
+              @include m.transition(0.4s);
+              &:hover {
+                color: v.$primary-color;
+              }
+            }
+          }
+        }
+      }
+      .shear-media {
+        @include m.device-525px {
+          margin-top: 20px;
+        }
+        .media--icons {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          a {
+            width: 38px;
+            height: 38px;
+            background: v.$white;
+            color: v.$gray-900;
+            @include m.border-radius(50%);
+            line-height: 38px;
+            text-align: center;
+            @include m.transition(0.4s);
+            &:hover {
+              background: v.$primary-color;
+              color: v.$white;
+            }
+          }
+        }
+      }
+    }
+    .footer-copy-list {
+      float: right;
+      @include m.md {
+        margin-top: 30px;
+        float: inherit;
+        text-align: center;
+      }
+      @include m.sm {
+        margin-top: 10px;
+        float: inherit;
+        text-align: center;
+      }
+      @include m.xs {
+        margin-top: 10px;
+        float: inherit;
+        text-align: center;
+      }
+      li {
+        font-size: 18px;
+        font-weight: v.$font-weight-regular;
+        a {
+          color: v.$gray-800;
+          @include m.transition(0.3s);
+          &:hover {
+            color: v.$primary-color !important;
+          }
+        }
+      }
+    }
+
+    .copyright-area {
+
+      @include m.lg{
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
+      @include m.device-525px {
+        padding-top: 25px;
+      }
+      .copyright-desc {
+        a {
+          color: v.$primary-color;
+        }
+        @include m.device-525px {
+          text-align: center;
+        }
+      }
+      .footer-copy-list {
+        display: flex;
+        gap: 20px;
+        @include m.md {
+          display: block;
+          text-align: center;
+        }
+        @include m.sm {
+          display: block;
+          text-align: center;
+        }
+
+        @include m.xs {
+          display: block;
+          text-align: center;
+        }
+        li {
+          @include m.md {
+            display: inline-block;
+            margin-left: 20px;
+          }
+          @include m.sm {
+            display: block;
+            display: inline-block;
+            margin-left: 20px;
+          }
+          @include m.xs {
+            display: block;
+            display: inline-block;
+            margin-left: 20px;
+          }
+          a {
+            color: v.$gray-800;
+          }
+        }
+      }
+    }
+  }
+}

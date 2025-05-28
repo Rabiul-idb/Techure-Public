@@ -1,0 +1,57 @@
+@use "../../variables" as v;
+@use "../../mixin" as m;
+/*-======== forms =======-*/
+.form-wrapper {
+  &.style-one {
+    padding: 62px 40px;
+    background: v.$white;
+    @include m.border-radius(20px);
+    @include m.device-425px {
+      padding: 50px 13px;
+      padding-top: 20px;
+    }
+    @include m.md {
+      margin-top: 40px;
+    }
+    @include m.sm {
+      margin-top: 40px;
+    }
+    @include m.xs {
+      margin-top: 40px;
+    }
+    .form-content {
+      label {
+        font-size: 18px;
+        font-weight: v.$font-weight-bold;
+        margin-bottom: 10px;
+      }
+      .form-control {
+        padding: 16px 30px;
+        border: 1px solid v.$border-color-03;
+        font-size: 18px;
+        font-weight: v.$font-weight-medium;
+        @include m.border-radius(50px);
+        color: v.$gray-800;
+      }
+      .comment {
+        @include m.border-radius(20px !important);
+      }
+      .form-slide {
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        @include m.device-425px {
+          flex-wrap: wrap;
+        }
+        div {
+          @include m.device-425px {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .nice-select {
+      background: none !important;
+    }
+  }
+}

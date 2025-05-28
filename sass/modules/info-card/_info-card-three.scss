@@ -1,0 +1,98 @@
+@use "../../variables" as v;
+@use "../../mixin" as m;
+/*-======== card =======-*/
+
+.info-card-wrapper {
+  &.style-three {
+    .card-item {
+      border: 1px solid v.$border-color-03;
+      @include m.border-radius(20px);
+      @include m.transition(2s);
+      @include m.md {
+        margin-bottom: 30px;
+      }
+      @include m.sm {
+        margin-bottom: 30px;
+      }
+      @include m.xs {
+        margin-bottom: 30px;
+      }
+
+      &.service-card {
+        .card-content {
+          padding: 30px;
+
+          .card-svg {
+            svg {
+              path {
+                fill: v.$primary-color;
+              }
+            }
+          }
+          .section-header {
+            .section-title {
+              padding: 20px 0;
+              font-size: 24px;
+              font-weight: v.$font-weight-bold;
+            }
+          }
+        }
+        .card-img {
+          width: 100%;
+          opacity: 0;
+          visibility: hidden;
+          @include m.transition(2s);
+          @include m.device-425px {
+            opacity: 1;
+            visibility: visible;
+          }
+          img {
+            width: 100%;
+          }
+        }
+        .more-btn {
+          color: v.$gray-900;
+          display: flex;
+          gap: 8px;
+          padding: 20px;
+
+          p {
+            color: v.$gray-900;
+            font-weight: v.$font-weight-bold;
+          }
+          i {
+            @include m.transition(0.3s);
+            
+              color: v.$gray-900;
+            
+          }
+        }
+      }
+      &:hover {
+        border-color: v.$primary-color;
+        .more-btn {
+          p {
+            color: v.$primary-color;
+          }
+          i {
+            transform: rotate(45deg);
+            
+            color: v.$primary-color;
+            
+          }
+        }
+      }
+    }
+  }
+}
+.solutions-items-active {
+  color: red;
+  font-size: 20px;
+  font-weight: 700; /* just for the demo */
+}
+.item-active {
+  .card-img {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}
