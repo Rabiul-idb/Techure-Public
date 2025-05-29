@@ -8358,6 +8358,9 @@ p {
     display: none;
   }
 }
+.blog-area .blog-posts .single-post-item.format-image .post-content-wrapper .post-heading {
+  padding-top: 20px;
+}
 .blog-area .blog-posts .single-post-item.format-image .post-content-wrapper .post-heading .post-title a {
   font-size: 32px;
   color: #07000e;
