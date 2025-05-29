@@ -8397,13 +8397,11 @@ p {
     margin-top: 50px;
   }
 }
-.blog-area .blog-posts .single-post-item.format-image .post-thumbnail a img {
-  width: 100%;
-  height: 480px;
-}
 .blog-area .blog-posts .single-post-item.format-image .post-thumbnail img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  width: 100%;
+  height: 480px;
 }
 @media (max-width: 425px) {
   .blog-area .blog-posts .single-post-item.format-video {
@@ -8523,6 +8521,12 @@ p {
 }
 .blog-area .blog-posts .single-post-item.format-audio .post-content-wrapper {
   margin-top: -10px;
+}
+.blog-area .blog-posts .single-post-item.format-standard .post-thumbnail img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  height: 480px;
 }
 .blog-area .blog-posts .single-post-item.format-standard .post-content-wrapper {
   border-radius: 20px;
