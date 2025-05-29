@@ -8249,6 +8249,7 @@ p {
 }
 .blog-area .blog-posts .single-post-item.sticky {
   border: 1px solid #573db8;
+  border-radius: 20px;
 }
 .blog-area .blog-posts .single-post-item:last-child {
   margin-bottom: 0;
