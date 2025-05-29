@@ -259,6 +259,12 @@
 
         }
       }
+
+      &.format-standard{
+        .post-content-wrapper{
+            border-radius: 20px;
+        }
+      }
     }
   }
 }
