@@ -8347,7 +8347,7 @@ p {
   background-color: white;
   display: inline-flex;
   align-items: center;
-  transition: all 0.3s;
+  transition: all 0.5s;
   border: 1px solid #573db8;
 }
 .blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .read-more a span {
@@ -8360,10 +8360,10 @@ p {
   color: white;
   background-color: #573db8;
   margin-left: 10px;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 .blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .read-more a span i {
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 .blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .read-more a:hover {
   background-color: #07000e;
@@ -8391,32 +8391,6 @@ p {
 .blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .share-blog .share-links a {
   font-size: 18px;
   color: #573db8;
-}
-.blog-area .blog-posts .single-post-item .post-content-wrapper .theme-btn {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.blog-area .blog-posts .single-post-item .post-content-wrapper .theme-btn:nth-child(1) {
-  background: #ffffff;
-  color: #07000e;
-  border: 0;
-}
-.blog-area .blog-posts .single-post-item .post-content-wrapper .card--btn {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.blog-area .blog-posts .single-post-item .post-content-wrapper .card--btn:hover {
-  color: #ffffff;
-}
-.blog-area .blog-posts .single-post-item .post-content-wrapper .card--btn:hover .theme-btn {
-  background: #07000e;
-  color: #ffffff;
 }
 @media (max-width: 425px) {
   .blog-area .blog-posts .single-post-item.format-image {

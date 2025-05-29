@@ -105,7 +105,7 @@
                    background-color: white;
                    display: inline-flex;
                    align-items: center;
-                   transition: all 0.3s;
+                   transition: all 0.5s;
                    border: 1px solid v.$primary-color;
 
                    span{
@@ -118,10 +118,10 @@
                     color: white;
                     background-color: v.$primary-color;
                     margin-left: 10px;
-                    transition: all 0.3s;
+                    transition: all 0.5s;
                    
                     i{
-                        transition: all 0.3s;
+                        transition: all 0.5s;
                     }
 
                    }
@@ -164,24 +164,6 @@
             }
           }
 
-          .theme-btn {
-            @include m.transition(0.3s);
-            &:nth-child(1) {
-              background: v.$white;
-              color: v.$gray-900;
-              border: 0;
-            }
-          }
-          .card--btn {
-            @include m.transition(0.3s);
-            &:hover {
-              color: v.$white;
-              .theme-btn {
-                background: v.$gray-900;
-                color: v.$white;
-              }
-            }
-          }
         }
 
       &.format-image{
