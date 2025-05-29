@@ -8052,10 +8052,11 @@ p {
 .blog-area .blog-details-wrapper .single.single-post #respond {
   margin-bottom: 2rem;
 }
-.blog-area .blog-details-wrapper .post-comments-form {
+
+.post-comments-form {
   margin-top: 40px;
 }
-.blog-area .blog-details-wrapper .post-comments-form .post-comments-title h2 {
+.post-comments-form .post-comments-title h2 {
   margin-top: 20px;
   margin-bottom: 30px;
   font-size: 38px;
@@ -8063,40 +8064,40 @@ p {
   font-weight: 700;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .blog-area .blog-details-wrapper .post-comments-form .post-comments-title h2 {
+  .post-comments-form .post-comments-title h2 {
     font-size: 32px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .blog-area .blog-details-wrapper .post-comments-form .post-comments-title h2 {
+  .post-comments-form .post-comments-title h2 {
     font-size: 30px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {
-  .blog-area .blog-details-wrapper .post-comments-form .post-comments-title h2 {
+  .post-comments-form .post-comments-title h2 {
     font-size: 28px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .blog-area .blog-details-wrapper .post-comments-form .comment-form .contacts-name,
-  .blog-area .blog-details-wrapper .post-comments-form .comment-form .contacts-email {
+  .post-comments-form .comment-form .contacts-name,
+  .post-comments-form .comment-form .contacts-email {
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .blog-area .blog-details-wrapper .post-comments-form .comment-form .contacts-name,
-  .blog-area .blog-details-wrapper .post-comments-form .comment-form .contacts-email {
+  .post-comments-form .comment-form .contacts-name,
+  .post-comments-form .comment-form .contacts-email {
     margin-bottom: 20px;
   }
 }
-.blog-area .blog-details-wrapper .post-comments-form .comment-form .contacts-name label,
-.blog-area .blog-details-wrapper .post-comments-form .comment-form .contacts-email label {
+.post-comments-form .comment-form .contacts-name label,
+.post-comments-form .comment-form .contacts-email label {
   font-size: 18px;
   font-weight: 700;
   color: black;
 }
-.blog-area .blog-details-wrapper .post-comments-form .comment-form .contacts-name input,
-.blog-area .blog-details-wrapper .post-comments-form .comment-form .contacts-email input {
+.post-comments-form .comment-form .contacts-name input,
+.post-comments-form .comment-form .contacts-email input {
   height: 50px;
   width: 100%;
   margin-top: 5px;
@@ -8105,21 +8106,21 @@ p {
   border: 1px solid gray;
   padding: 0 20px;
 }
-.blog-area .blog-details-wrapper .post-comments-form .comment-form .comment-form-cookies-consent {
+.post-comments-form .comment-form .comment-form-cookies-consent {
   display: none;
 }
-.blog-area .blog-details-wrapper .post-comments-form .comment-form p {
+.post-comments-form .comment-form p {
   margin-top: 20px;
 }
-.blog-area .blog-details-wrapper .post-comments-form .comment-form .contacts-message {
+.post-comments-form .comment-form .contacts-message {
   margin-top: 20px;
 }
-.blog-area .blog-details-wrapper .post-comments-form .comment-form .contacts-message label {
+.post-comments-form .comment-form .contacts-message label {
   font-size: 18px;
   font-weight: 700;
   color: black;
 }
-.blog-area .blog-details-wrapper .post-comments-form .comment-form .contacts-message textarea {
+.post-comments-form .comment-form .contacts-message textarea {
   width: 100%;
   margin-top: 5px;
   border-radius: 10px;
