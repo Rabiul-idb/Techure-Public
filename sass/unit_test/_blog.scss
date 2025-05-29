@@ -9,6 +9,10 @@
     .single-post-item {
         margin-bottom: 60px;
 
+        &.sticky{
+            border: 1px solid v.$primary-color;
+        }
+
         &:last-child{
             margin-bottom: 0;
         }

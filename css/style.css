@@ -8247,6 +8247,9 @@ p {
 .blog-area .blog-posts .single-post-item {
   margin-bottom: 60px;
 }
+.blog-area .blog-posts .single-post-item.sticky {
+  border: 1px solid #573db8;
+}
 .blog-area .blog-posts .single-post-item:last-child {
   margin-bottom: 0;
 }
