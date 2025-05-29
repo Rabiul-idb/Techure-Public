@@ -38,9 +38,10 @@
 @use "./pages/services";
 @use "./pages/services-details";
 @use "./pages/project-details";
-@use "./pages/blog";
+// @use "./pages/blog";
 @use "./pages/blog-details";
 @use "./pages/contact";
+@use "./unit_test/blog";
 
 // video-box
 @use "./modules/video-box/video-box";
