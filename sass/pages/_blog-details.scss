@@ -118,7 +118,7 @@
             .post-content {
       
               p{
-                padding-top: 20px;
+                margin-top: 20px;
 
                 @include m.xxs{
                   font-size: 16px;
@@ -191,7 +191,7 @@
               }
               
             }
-            .single-post-meta {
+            .default-single-post-meta {
               display: flex;
               justify-content: space-between;
               align-items: center;
@@ -220,9 +220,9 @@
                 }
 
                 .post-cat-list{
-                  span{
+                  margin-top: 10px;
 
-                    a{
+                  a{
                     display: inline-flex;
                     justify-content: center;
                     align-items: center;
@@ -236,8 +236,8 @@
                       background: v.$primary-color;
                       color: v.$white;
                     }
-                    }
                   }
+                  
                 }
               }
               
@@ -245,7 +245,7 @@
                 @include m.device-525px {
                   margin-top: 40px;
                 }
-                .title{
+                span{
                   font-size: 32px;
                   font-weight: v.$font-weight-bold;
                   margin-bottom: 5px;
@@ -267,6 +267,7 @@
                   align-items: center;
                   gap: 20px;
                   margin-top: 10px;
+                  
                   a {                    
                     display: inline-flex;
                     justify-content: center;
