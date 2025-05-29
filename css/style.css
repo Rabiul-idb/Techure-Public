@@ -7244,7 +7244,7 @@ p {
   -moz-border-radius: 50px;
   border-radius: 50px;
   color: #716f73;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat .post-cat-list a:hover {
@@ -7297,7 +7297,7 @@ p {
   -moz-border-radius: 50px;
   border-radius: 50px;
   color: #716f73;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list a:hover {
@@ -8093,8 +8093,8 @@ p {
 .post-comments-form .comment-form .contacts-name label,
 .post-comments-form .comment-form .contacts-email label {
   font-size: 18px;
-  font-weight: 700;
-  color: black;
+  font-weight: 500;
+  color: #716f73;
 }
 .post-comments-form .comment-form .contacts-name input,
 .post-comments-form .comment-form .contacts-email input {
@@ -8107,7 +8107,7 @@ p {
   padding: 0 20px;
 }
 .post-comments-form .comment-form .comment-form-cookies-consent {
-  display: none;
+  margin-top: 10px;
 }
 .post-comments-form .comment-form p {
   margin-top: 20px;
@@ -8117,8 +8117,8 @@ p {
 }
 .post-comments-form .comment-form .contacts-message label {
   font-size: 18px;
-  font-weight: 700;
-  color: black;
+  font-weight: 500;
+  color: #716f73;
 }
 .post-comments-form .comment-form .contacts-message textarea {
   width: 100%;
@@ -8127,6 +8127,23 @@ p {
   outline: none;
   border: 1px solid gray;
   padding: 20px;
+}
+.post-comments-form .comment-form .theme-btn {
+  display: inline-block;
+  border-radius: 7px;
+  color: white;
+  background-color: #573db8;
+  font-size: 20px;
+  border: none;
+  width: fit-content;
+  margin-top: 30px;
+  padding: 15px 20px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.post-comments-form .comment-form .theme-btn:hover {
+  background-color: black;
+  color: white;
 }
 
 .sidebar.style-two .search-bar .search-icon {

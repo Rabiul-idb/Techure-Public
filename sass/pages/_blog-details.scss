@@ -196,7 +196,7 @@
                 border: 1px solid v.$border-color-04;
                 @include m.border-radius(50px);
                 color: v.$gray-800;
-                font-size: 14px;
+                font-size: 15px;
                 font-weight: v.$font-weight-regular;
                 &:hover {
                   background: v.$primary-color;
@@ -242,7 +242,7 @@
                 border: 1px solid v.$border-color-04;
                 @include m.border-radius(50px);
                 color: v.$gray-800;
-                font-size: 14px;
+                font-size: 15px;
                 font-weight: v.$font-weight-regular;
                 &:hover {
                   background: v.$primary-color;
@@ -1047,8 +1047,10 @@
   }
 }
 
+//comment form 
 .post-comments-form {
   margin-top: 40px;
+
   .post-comments-title h2 {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -1079,8 +1081,8 @@
     }
       label{
         font-size: 18px;
-        font-weight: 700;
-        color: black;
+        font-weight: 500;
+        color: v.$gray-800;
       }
       input{
         height: 50px;
@@ -1094,7 +1096,7 @@
     
     }
     .comment-form-cookies-consent{
-      display: none;
+      margin-top: 10px;
     }
     p{
       margin-top: 20px;
@@ -1104,8 +1106,8 @@
       margin-top: 20px;
       label{
         font-size: 18px;
-        font-weight: 700;
-        color: black;
+        font-weight: 500;
+        color: v.$gray-800;
       }
       textarea{
         width: 100%;
@@ -1116,6 +1118,25 @@
         padding: 20px;
       }
 
+    }
+
+    .theme-btn{
+      display: inline-block;
+      border-radius: 7px;
+      color: white;
+      background-color: v.$primary-color;
+      font-size: 20px;
+      border: none;
+      width: fit-content;
+      margin-top: 30px;
+      padding: 15px 20px;
+      font-weight: 500;
+      transition: all 0.3s;
+
+      &:hover{
+        background-color: black;
+        color: white;
+      }
     }
 
   }
