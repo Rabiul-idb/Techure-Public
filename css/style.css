@@ -8247,13 +8247,6 @@ p {
 .blog-area .blog-posts .single-post-item {
   margin-bottom: 60px;
 }
-.blog-area .blog-posts .single-post-item.sticky {
-  border: 1px solid #573db8;
-  border-radius: 20px;
-}
-.blog-area .blog-posts .single-post-item:last-child {
-  margin-bottom: 0;
-}
 .blog-area .blog-posts .single-post-item .post-content-wrapper {
   background: #f7f1fc;
   padding: 20px 20px 40px;
@@ -8346,7 +8339,7 @@ p {
   color: #07000e;
   font-weight: 700;
   font-size: 18px;
-  padding: 7px 10px 7px 25px;
+  padding: 7px 25px;
   border-radius: 50px;
   background-color: white;
   display: inline-flex;
@@ -8364,6 +8357,7 @@ p {
   color: white;
   background-color: #573db8;
   margin-left: 10px;
+  margin-right: -15px;
   transition: all 0.5s;
 }
 .blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .read-more a span i {
@@ -8395,6 +8389,13 @@ p {
 .blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .share-blog .share-links a {
   font-size: 18px;
   color: #573db8;
+}
+.blog-area .blog-posts .single-post-item:last-child {
+  margin-bottom: 0;
+}
+.blog-area .blog-posts .single-post-item.sticky {
+  border: 1px solid #573db8;
+  border-radius: 20px;
 }
 @media (max-width: 425px) {
   .blog-area .blog-posts .single-post-item.format-image {

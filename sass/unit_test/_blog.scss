@@ -9,15 +9,6 @@
     .single-post-item {
         margin-bottom: 60px;
 
-        &.sticky{
-            border: 1px solid v.$primary-color;
-            border-radius: 20px;
-        }
-
-        &:last-child{
-            margin-bottom: 0;
-        }
-
         .post-content-wrapper {
           background: v.$gray-100;
           padding: 20px 20px 40px;
@@ -105,7 +96,7 @@
                    color: v.$gray-900;
                    font-weight: 700;
                    font-size: 18px;
-                   padding: 7px 10px 7px 25px;
+                   padding: 7px 25px;
                    border-radius: 50px;
                    background-color: white;
                    display: inline-flex;
@@ -123,6 +114,7 @@
                     color: white;
                     background-color: v.$primary-color;
                     margin-left: 10px;
+                    margin-right: -15px;
                     transition: all 0.5s;
                    
                     i{
@@ -169,6 +161,15 @@
             }
           }
 
+        }
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+
+        &.sticky{
+            border: 1px solid v.$primary-color;
+            border-radius: 20px;
         }
 
       &.format-image{
