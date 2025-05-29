@@ -8433,7 +8433,7 @@ p {
   border-top-left-radius: 20px;
   width: 100%;
 }
-.blog-area .blog-posts .single-post-item.format-video .post-video .play-btn {
+.blog-area .blog-posts .single-post-item.format-video .post-video .video-btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -8443,7 +8443,7 @@ p {
   color: #ffffff;
   cursor: pointer;
 }
-.blog-area .blog-posts .single-post-item.format-video .post-video .play-icon {
+.blog-area .blog-posts .single-post-item.format-video .post-video .video-btn a {
   width: 48px;
   height: 48px;
   position: absolute;
