@@ -8332,6 +8332,66 @@ p {
   font-weight: 400;
   font-size: 18px;
 }
+.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .read-more a {
+  color: #07000e;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 7px 10px 7px 25px;
+  border-radius: 50px;
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s;
+  border: 1px solid #573db8;
+}
+.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .read-more a span {
+  height: 48px;
+  width: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #573db8;
+  margin-left: 10px;
+  transition: all 0.3s;
+}
+.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .read-more a span i {
+  transition: all 0.3s;
+}
+.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .read-more a:hover {
+  background-color: #07000e;
+  color: white;
+}
+.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .read-more a:hover span {
+  background-color: #07000e;
+  color: white;
+}
+.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .read-more a:hover span i {
+  transform: rotate(405deg);
+}
+.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .share-blog span {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #07000e;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .share-blog .share-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .share-blog .share-links a {
+  font-size: 18px;
+  color: #573db8;
+}
 .blog-area .blog-posts .single-post-item .post-content-wrapper .theme-btn {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;

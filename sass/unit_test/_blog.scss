@@ -87,6 +87,83 @@
                 font-size: 18px;
             }
           }
+
+          .blog-read-more{
+
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .read-more{
+                a{
+                   color: v.$gray-900;
+                   font-weight: 700;
+                   font-size: 18px;
+                   padding: 7px 10px 7px 25px;
+                   border-radius: 50px;
+                   background-color: white;
+                   display: inline-flex;
+                   align-items: center;
+                   transition: all 0.3s;
+                   border: 1px solid v.$primary-color;
+
+                   span{
+                    height: 48px;
+                    width: 48px;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    color: white;
+                    background-color: v.$primary-color;
+                    margin-left: 10px;
+                    transition: all 0.3s;
+                   
+                    i{
+                        transition: all 0.3s;
+                    }
+
+                   }
+
+                   &:hover{
+                    background-color: v.$gray-900;
+                    color: white;
+
+                    span{
+                        background-color: v.$gray-900;
+                        color: white;
+                       
+
+                        i{
+                            transform: rotate(405deg)
+                        }
+                    }
+                   }
+                }
+            }
+
+            .share-blog{
+
+                span{
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    color: v.$gray-900;
+                    font-weight: 500;
+                    margin-right: 10px;
+                }
+                .share-links{
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 20px;
+                    a{
+                        font-size: 18px;
+                        color: v.$primary-color
+                    }
+                }
+            }
+          }
+
           .theme-btn {
             @include m.transition(0.3s);
             &:nth-child(1) {
