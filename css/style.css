@@ -8544,17 +8544,18 @@ p {
 }
 .blog-area .blog-posts .single-post-item.format-quote .post-content blockquote {
   padding: 40px 60px;
+  margin-bottom: 0;
 }
 .blog-area .blog-posts .single-post-item.format-quote .post-content blockquote cite a {
   color: #573db8;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: capitalize;
   color: #616670;
   margin-top: 20px;
   font-style: normal;
   transition: all 0.5s ease-out;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 /* Theme Default CSS */
