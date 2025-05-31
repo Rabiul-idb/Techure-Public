@@ -8295,6 +8295,7 @@ p {
 }
 .blog-area .blog-posts .single-post-item .post-content-wrapper .post-heading {
   padding-top: 20px;
+  overflow-wrap: break-word;
 }
 .blog-area .blog-posts .single-post-item .post-content-wrapper .post-heading .post-title a {
   font-size: 32px;
