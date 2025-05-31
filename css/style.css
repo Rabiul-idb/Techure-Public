@@ -8536,6 +8536,26 @@ p {
 .blog-area .blog-posts .single-post-item.format-standard .post-content-wrapper {
   border-radius: 20px;
 }
+.blog-area .blog-posts .single-post-item.format-quote {
+  border-left: 1px solid #573db8;
+}
+.blog-area .blog-posts .single-post-item.format-quote .post-content {
+  margin: 0;
+}
+.blog-area .blog-posts .single-post-item.format-quote .post-content blockquote {
+  padding: 40px 60px;
+}
+.blog-area .blog-posts .single-post-item.format-quote .post-content blockquote cite a {
+  color: #573db8;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #616670;
+  margin-top: 20px;
+  font-style: normal;
+  transition: all 0.5s ease-out;
+  text-decoration: underline;
+}
 
 /* Theme Default CSS */
 /*-======== video-box =======-*/
