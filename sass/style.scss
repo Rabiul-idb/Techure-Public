@@ -38,10 +38,12 @@
 @use "./pages/services";
 @use "./pages/services-details";
 @use "./pages/project-details";
-// @use "./pages/blog";
 @use "./pages/blog-details";
 @use "./pages/contact";
+
+//blog unit testing
 @use "./unit_test/blog";
+@use "./unit_test/sidebar";
 
 // video-box
 @use "./modules/video-box/video-box";
