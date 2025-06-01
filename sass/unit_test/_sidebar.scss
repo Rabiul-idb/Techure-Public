@@ -16,7 +16,7 @@
 
 /* Widget */
 .widget {
-  background-color:v.$gray-100;
+  background-color:#F4F4F4;
   padding: 40px;
   margin-bottom: 40px;
   @include m.sm {
@@ -48,6 +48,7 @@
     width: 100%;
     color: #23262D;
     font-size: 18px;
+    border: 1px solid #E3E3E3 !important;
   }
 
   .wp-block-search__button{
@@ -55,6 +56,7 @@
     background-color: v.$primary-color;
     color: white;
     font-weight: 700;
+    border: transparent;
   }
 
 
@@ -229,12 +231,12 @@
 
   //select -month dropdown
 
-  .wp-block-archives-dropdown{
+  
     .nice-select{
         width: 100%;
         border-radius: 10px;
     }
-  }
+  
 
   /* Select Option  */
   select {

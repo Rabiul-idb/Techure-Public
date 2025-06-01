@@ -8569,7 +8569,7 @@ p {
 
 /* Widget */
 .widget {
-  background-color: #f7f1fc;
+  background-color: #F4F4F4;
   padding: 40px;
   margin-bottom: 40px;
   /* Widget Instagram Feed */
@@ -8615,12 +8615,14 @@ p {
   width: 100%;
   color: #23262D;
   font-size: 18px;
+  border: 1px solid #E3E3E3 !important;
 }
 .widget .wp-block-search__button {
   margin-left: 0;
   background-color: #573db8;
   color: white;
   font-weight: 700;
+  border: transparent;
 }
 .widget .widget-instagram-feed {
   width: 315px;
@@ -8753,7 +8755,7 @@ p {
   background-color: #573db8;
   color: white;
 }
-.widget .wp-block-archives-dropdown .nice-select {
+.widget .nice-select {
   width: 100%;
   border-radius: 10px;
 }
