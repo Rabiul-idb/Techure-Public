@@ -8609,6 +8609,19 @@ p {
 .widget ul {
   margin-bottom: 0;
 }
+.widget .wp-block-search__input {
+  padding: 0 25px;
+  height: 60px;
+  width: 100%;
+  color: #23262D;
+  font-size: 18px;
+}
+.widget .wp-block-search__button {
+  margin-left: 0;
+  background-color: #573db8;
+  color: white;
+  font-weight: 700;
+}
 .widget .widget-instagram-feed {
   width: 315px;
 }
@@ -8648,7 +8661,7 @@ p {
 .widget .has-avatars.has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta,
 .widget .has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta {
   font-weight: 500;
-  color: black;
+  color: #716f73;
 }
 .widget .has-avatars.has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-author,
 .widget .has-avatars.has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-link,
@@ -8674,7 +8687,7 @@ p {
   font-size: 14px !important;
   margin-bottom: 10px;
   position: relative;
-  color: black;
+  color: #716f73;
 }
 .widget .wp-block-latest-comments li .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-date:before,
 .widget .wp-block-latest-comments li .wp-block-latest-posts__post-title .wp-block-latest-comments__comment-date:before,
@@ -8686,7 +8699,7 @@ p {
 }
 .widget .wp-block-latest-comments li a,
 .widget .wp-block-latest-posts li a {
-  color: black;
+  color: #716f73;
 }
 .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-author, .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-link,
 .widget .wp-block-latest-posts li a.wp-block-latest-comments__comment-author,
@@ -8695,6 +8708,7 @@ p {
   text-transform: capitalize;
   line-height: 28px;
   font-weight: 400;
+  transition: all 0.3s;
 }
 .widget .wp-block-latest-comments li a:hover,
 .widget .wp-block-latest-posts li a:hover {
@@ -8738,6 +8752,10 @@ p {
   transition: all 0.3s;
   background-color: #573db8;
   color: white;
+}
+.widget .wp-block-archives-dropdown .nice-select {
+  width: 100%;
+  border-radius: 10px;
 }
 .widget select {
   max-width: 100%;

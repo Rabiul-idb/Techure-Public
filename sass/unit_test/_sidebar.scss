@@ -39,6 +39,25 @@
     margin-bottom: 0;
   }
 
+  // search fiesd
+
+  .wp-block-search__input{
+
+    padding: 0 25px;
+    height: 60px;
+    width: 100%;
+    color: #23262D;
+    font-size: 18px;
+  }
+
+  .wp-block-search__button{
+    margin-left: 0;
+    background-color: v.$primary-color;
+    color: white;
+    font-weight: 700;
+  }
+
+
   /* Widget Instagram Feed */
   .widget-instagram-feed {
     width: 315px;
@@ -105,7 +124,7 @@
       &.wp-block-latest-comments__comment {
         .wp-block-latest-comments__comment-meta {
           font-weight: 500;
-          color: black;
+          color: v.$gray-800;
 
           .wp-block-latest-comments__comment-author,
           .wp-block-latest-comments__comment-link {
@@ -131,7 +150,7 @@
           margin-bottom: 10px;
           position: relative;
         //   color: $text-color;
-          color: black;
+          color: v.$gray-800;
 
           &:before {
             content: "\f274";
@@ -141,7 +160,7 @@
         }
       }
       a {
-        color: black;
+        color: v.$gray-800;
 
         &.wp-block-latest-comments__comment-author,
         &.wp-block-latest-comments__comment-link {
@@ -149,6 +168,7 @@
           text-transform: capitalize;
           line-height: 28px;
           font-weight: 400;
+          transition: all 0.3s;
         }
         &:hover {
           color: v.$primary-color;
@@ -206,6 +226,16 @@
       }
     }
   }
+
+  //select -month dropdown
+
+  .wp-block-archives-dropdown{
+    .nice-select{
+        width: 100%;
+        border-radius: 10px;
+    }
+  }
+
   /* Select Option  */
   select {
     max-width: 100%;
