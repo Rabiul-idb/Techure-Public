@@ -8987,13 +8987,13 @@ p {
 }
 
 /* Latest Post Widget*/
-.has-dates.has-author.wp-block-latest-posts .wp-block-latest-posts__post-title {
+.wp-block-latest-posts__list.has-dates.has-author.wp-block-latest-posts .wp-block-latest-posts__post-title {
   display: inline-block;
   width: 100%;
   font-weight: 600;
   transition: all 0.3s;
 }
-.has-dates.has-author.wp-block-latest-posts .wp-block-latest-posts__post-title li a {
+.wp-block-latest-posts__list.has-dates.has-author.wp-block-latest-posts .wp-block-latest-posts__post-title li a {
   color: black;
 }
 
