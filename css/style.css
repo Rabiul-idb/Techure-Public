@@ -8618,11 +8618,16 @@ p {
   border: 1px solid #E3E3E3 !important;
 }
 .widget .wp-block-search__button {
-  margin-left: 0;
+  color: #ffffff;
+  padding: 0 20px;
+  position: relative;
+  right: 0;
   background-color: #573db8;
-  color: white;
-  font-weight: 700;
-  border: transparent;
+  top: 0;
+  height: auto;
+  line-height: 0;
+  border: 0;
+  margin-left: 0 !important;
 }
 .widget .wp-block-search__inside-wrapper {
   border: none;
