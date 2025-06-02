@@ -566,6 +566,7 @@
     display: inline-block;
     font-size: 14px !important;
     font-weight: 600;
+    color: #616670;
     text-transform: capitalize;
     position: relative;
   }
@@ -595,6 +596,28 @@
     margin-bottom: 0;
     font-size: 16px;
     color: #616670;
+  }
+}
+
+.wp-block-loginout{
+  a{
+    display: inline-flex;
+    background-color: v.$primary-color;
+    border: 1px solid v.$primary-color;
+    color: #ffffff;
+    padding: 14px 24px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.5s ease-out;
+    font-size: 16px;
+    letter-spacing: 1.28px;
+    align-items: center;
+    gap: 15px;
+    overflow: hidden;
+    z-index: 2;
+    white-space: nowrap;
   }
 }
 .widget_latest_post {
