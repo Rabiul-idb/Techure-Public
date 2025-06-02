@@ -8773,7 +8773,7 @@ p {
 }
 .widget select {
   max-width: 100%;
-  height: 66px;
+  height: 60px;
   width: 100%;
   border: 1px solid #E3E3E3;
   padding: 0 10px;
@@ -8781,6 +8781,8 @@ p {
   color: #616670;
   margin-bottom: 0;
   background-color: transparent;
+  display: block !important;
+  margin-top: 10px;
 }
 .widget .has-login-form .login-username label,
 .widget .has-login-form .login-password label {
