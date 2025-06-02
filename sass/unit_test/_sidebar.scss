@@ -68,6 +68,33 @@
     border: none;
   }
 
+  .search-form{
+        width: 100%;
+    overflow: hidden;
+    display: flex !important;
+    gap: 10px;
+    input{
+          padding: 0 25px;
+          height: 60px;
+          width: 100%;
+          color: #23262D;
+          font-size: 18px;
+    }
+
+    button{
+      color: #ffffff;
+      padding: 0 20px;
+      position: relative;
+      right: 0;
+      background-color: v.$primary-color;
+      top: 0;
+      height: auto;
+      line-height: 0;
+      border: 0;
+      margin-left: 0 !important;
+    }
+  }
+
   /* Widget Instagram Feed */
   .widget-instagram-feed {
     width: 315px;

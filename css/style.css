@@ -8632,6 +8632,31 @@ p {
 .widget .wp-block-search__inside-wrapper {
   border: none;
 }
+.widget .search-form {
+  width: 100%;
+  overflow: hidden;
+  display: flex !important;
+  gap: 10px;
+}
+.widget .search-form input {
+  padding: 0 25px;
+  height: 60px;
+  width: 100%;
+  color: #23262D;
+  font-size: 18px;
+}
+.widget .search-form button {
+  color: #ffffff;
+  padding: 0 20px;
+  position: relative;
+  right: 0;
+  background-color: #573db8;
+  top: 0;
+  height: auto;
+  line-height: 0;
+  border: 0;
+  margin-left: 0 !important;
+}
 .widget .widget-instagram-feed {
   width: 315px;
 }
