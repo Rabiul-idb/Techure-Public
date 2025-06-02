@@ -8790,6 +8790,14 @@ p {
   justify-content: space-between;
   display: flex;
 }
+.widget .calendar_wrap table {
+  width: 100%;
+  text-align: center;
+}
+.widget .calendar_wrap table td {
+  border: 1px solid #ddd;
+  padding: 0.25em;
+}
 .widget select {
   max-width: 100%;
   height: 60px;
