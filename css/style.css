@@ -8993,6 +8993,9 @@ p {
   font-weight: 600;
   transition: all 0.3s;
 }
+.has-dates.has-author.wp-block-latest-posts .wp-block-latest-posts__post-title li a {
+  color: black;
+}
 
 .widget_rss .wp-block-heading:before,
 .widget_rss .widget-title:before {
