@@ -8992,6 +8992,7 @@ p {
   width: 100%;
   font-weight: 600;
   transition: all 0.3s;
+  color: black;
 }
 .wp-block-group__inner-container .wp-block-latest-posts__list.has-dates.has-author.wp-block-latest-posts .wp-block-latest-posts__post-title li a {
   color: black;
