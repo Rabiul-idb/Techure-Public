@@ -8679,6 +8679,13 @@ p {
 .widget .has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-link {
   font-weight: 600;
   color: black;
+  transition: all 0.3s;
+}
+.widget .has-avatars.has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-author:hover,
+.widget .has-avatars.has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-link:hover,
+.widget .has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-author:hover,
+.widget .has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-link:hover {
+  color: #573db8;
 }
 .widget .wp-block-latest-comments li.wp-block-latest-comments__comment,
 .widget .wp-block-latest-posts li.wp-block-latest-comments__comment {
@@ -9003,8 +9010,8 @@ p {
   transition: all 0.3s;
   color: black;
 }
-.wp-block-group__inner-container .wp-block-latest-posts__list.has-dates.has-author.wp-block-latest-posts .wp-block-latest-posts__post-title li a {
-  color: black;
+.wp-block-group__inner-container .wp-block-latest-posts__list.has-dates.has-author.wp-block-latest-posts .wp-block-latest-posts__post-title:hover {
+  color: #573db8;
 }
 
 .widget_rss .wp-block-heading:before,

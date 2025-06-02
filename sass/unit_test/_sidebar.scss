@@ -140,6 +140,11 @@
           .wp-block-latest-comments__comment-link {
             font-weight: 600;
             color: black;
+            transition: all 0.3s;
+
+            &:hover{
+              color: v.$primary-color;
+            }
           }
         }
       }
@@ -525,12 +530,12 @@
       font-weight: 600;
       transition: all 0.3s;
       color: black;
-  
-      li{
-        a{
-          color: black;
-        }
+
+      &:hover{
+        color: v.$primary-color;
       }
+
+     
     }
   }
 
