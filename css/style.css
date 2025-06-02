@@ -8681,7 +8681,7 @@ p {
 .widget .wp-block-latest-posts li .wp-block-latest-posts__post-title {
   line-height: 28px;
   font-weight: 700;
-  color: black;
+  color: #616670;
 }
 .widget .wp-block-latest-comments li .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-date,
 .widget .wp-block-latest-comments li .wp-block-latest-posts__post-title .wp-block-latest-comments__comment-date,
@@ -8703,7 +8703,7 @@ p {
 }
 .widget .wp-block-latest-comments li a,
 .widget .wp-block-latest-posts li a {
-  color: black;
+  color: #616670;
   font-weight: 700;
 }
 .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-author, .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-link,
