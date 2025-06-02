@@ -151,8 +151,8 @@
           font-size: 14px !important;
           margin-bottom: 10px;
           position: relative;
-        //   color: $text-color;
-          color: v.$gray-800;
+          color: #616670;
+          font-weight: 500;
 
           &:before {
             content: "\f274";
@@ -162,14 +162,14 @@
         }
       }
       a {
-        color: v.$gray-800;
+        color: black;
 
         &.wp-block-latest-comments__comment-author,
         &.wp-block-latest-comments__comment-link {
           display: inline !important;
           text-transform: capitalize;
           line-height: 28px;
-          font-weight: 400;
+          font-weight: 700;
           transition: all 0.3s;
         }
         &:hover {

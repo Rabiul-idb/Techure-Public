@@ -8689,7 +8689,8 @@ p {
   font-size: 14px !important;
   margin-bottom: 10px;
   position: relative;
-  color: #716f73;
+  color: #616670;
+  font-weight: 500;
 }
 .widget .wp-block-latest-comments li .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-date:before,
 .widget .wp-block-latest-comments li .wp-block-latest-posts__post-title .wp-block-latest-comments__comment-date:before,
@@ -8701,7 +8702,7 @@ p {
 }
 .widget .wp-block-latest-comments li a,
 .widget .wp-block-latest-posts li a {
-  color: #716f73;
+  color: black;
 }
 .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-author, .widget .wp-block-latest-comments li a.wp-block-latest-comments__comment-link,
 .widget .wp-block-latest-posts li a.wp-block-latest-comments__comment-author,
@@ -8709,7 +8710,7 @@ p {
   display: inline !important;
   text-transform: capitalize;
   line-height: 28px;
-  font-weight: 400;
+  font-weight: 700;
   transition: all 0.3s;
 }
 .widget .wp-block-latest-comments li a:hover,
