@@ -108,6 +108,12 @@
         max-width: 100%;
       }
     }
+    .wp-caption{
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
   }
 
   /* Widget Instagram Feed */

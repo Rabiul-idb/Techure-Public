@@ -8667,6 +8667,10 @@ p {
 .widget .textwidget p img {
   max-width: 100%;
 }
+.widget .textwidget .wp-caption img {
+  max-width: 100%;
+  height: auto;
+}
 .widget .widget-instagram-feed {
   width: 315px;
 }
