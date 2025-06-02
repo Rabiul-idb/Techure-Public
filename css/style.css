@@ -8644,6 +8644,7 @@ p {
   width: 100%;
   color: #23262D;
   font-size: 18px;
+  border: none !important;
 }
 .widget .search-form button {
   color: #ffffff;
@@ -8656,6 +8657,15 @@ p {
   line-height: 0;
   border: 0;
   margin-left: 0 !important;
+}
+.widget .textwidget p {
+  margin-bottom: 15px;
+}
+.widget .textwidget p strong {
+  color: black;
+}
+.widget .textwidget p img {
+  max-width: 100%;
 }
 .widget .widget-instagram-feed {
   width: 315px;

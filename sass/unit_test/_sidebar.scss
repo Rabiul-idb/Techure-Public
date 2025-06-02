@@ -79,6 +79,7 @@
           width: 100%;
           color: #23262D;
           font-size: 18px;
+          border: none !important;
     }
 
     button{
@@ -92,6 +93,20 @@
       line-height: 0;
       border: 0;
       margin-left: 0 !important;
+    }
+  }
+
+  // imgs 
+
+  .textwidget{
+    p{
+      margin-bottom: 15px;
+      strong{
+        color: black;
+      }
+      img{
+        max-width: 100%;
+      }
     }
   }
 
