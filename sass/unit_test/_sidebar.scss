@@ -145,7 +145,8 @@
       .wp-block-latest-comments__comment-meta,
       .wp-block-latest-posts__post-title {
         line-height: 28px;
-        font-weight: 400;
+        font-weight: 700;
+        color: black;
 
         .wp-block-latest-comments__comment-date {
           font-size: 14px !important;
@@ -163,6 +164,7 @@
       }
       a {
         color: black;
+        font-weight: 700;
 
         &.wp-block-latest-comments__comment-author,
         &.wp-block-latest-comments__comment-link {
@@ -194,8 +196,8 @@
       height: 60px;
       background-color: v.$primary-color;
       color: white;
-    //   @include transition;
-    transition: all 0.3s;
+    
+      transition: all 0.3s;
       border-radius: 50px;
       flex-shrink: 0;
       flex-wrap: wrap;
