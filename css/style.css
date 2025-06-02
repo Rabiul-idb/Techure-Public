@@ -8787,6 +8787,10 @@ p {
   display: block !important;
   margin-top: 10px;
 }
+.widget .has-login-form .login-username,
+.widget .has-login-form .login-password {
+  margin-bottom: 15px;
+}
 .widget .has-login-form .login-username label,
 .widget .has-login-form .login-password label {
   margin-bottom: 10px;
@@ -8796,10 +8800,10 @@ p {
   max-width: 100%;
   height: 50px;
   width: 100%;
-  border: 1px solid red;
+  border: 1px solid #E3E3E3;
   padding: 0 10px;
   border-radius: 5px;
-  color: black;
+  color: #616670;
 }
 .widget .has-login-form .login-remember label {
   display: flex;
@@ -8824,6 +8828,7 @@ p {
   align-items: center;
   gap: 10px;
   border-radius: 50px;
+  margin-top: 15px;
 }
 .widget .tagcloud,
 .widget .wp-block-tag-cloud {
@@ -8885,12 +8890,13 @@ p {
 }
 .widget ul li a,
 .widget ol li a {
-  color: black;
+  color: #616670;
   position: relative;
   display: inline-block;
   text-transform: capitalize;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
+  transition: all 0.3s;
   /* RSS Widget */
 }
 .widget ul li a:hover,
