@@ -9061,6 +9061,13 @@ p {
   color: #573db8;
 }
 
+.widget-title .rss-widget-title {
+  color: black;
+}
+.widget-title .rss-widget-title:hover {
+  color: #573db8;
+}
+
 .widget_rss .wp-block-heading:before,
 .widget_rss .widget-title:before {
   display: none;

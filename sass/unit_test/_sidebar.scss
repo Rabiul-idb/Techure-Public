@@ -598,6 +598,17 @@
   }
 
 }
+
+.widget-title{
+  .rss-widget-title{
+    color: black;
+    
+
+    &:hover{
+      color: v.$primary-color;
+    }
+  }
+}
 .widget_rss {
   .wp-block-heading:before,
   .widget-title:before {
