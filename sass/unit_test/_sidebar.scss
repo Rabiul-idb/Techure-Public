@@ -59,6 +59,9 @@
     border: transparent;
   }
 
+  .wp-block-search__inside-wrapper {
+    border: none;
+  }
 
   /* Widget Instagram Feed */
   .widget-instagram-feed {
@@ -126,7 +129,7 @@
       &.wp-block-latest-comments__comment {
         .wp-block-latest-comments__comment-meta {
           font-weight: 600;
-          color: #616670;
+          color: black;
 
           .wp-block-latest-comments__comment-author,
           .wp-block-latest-comments__comment-link {
@@ -554,11 +557,11 @@
   .wp-block-rss__item-title {
     display: inline-block;
     width: 100%;
-    font-weight: 500;
+    font-weight: 600;
 
     > a {
       color: black;
-      font-weight: 500;
+      font-weight: 600;
     }
   }
   .wp-block-latest-posts__post-author,
