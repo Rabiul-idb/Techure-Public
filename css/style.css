@@ -7254,7 +7254,7 @@ p {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-group p strong {
   font-size: 16px;
 }
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-pages-list__item .wp-block-navigation-item:before {
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-pages-list__item.wp-block-navigation-item:before {
   display: none;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-navigation__responsive-container-content ul {

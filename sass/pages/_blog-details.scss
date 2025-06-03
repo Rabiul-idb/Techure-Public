@@ -231,7 +231,7 @@
             }
 
             .wp-block-pages-list__item {
-              .wp-block-navigation-item{
+              &.wp-block-navigation-item{
                 &:before{
                   display: none;
                 }
