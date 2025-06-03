@@ -1349,6 +1349,15 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            
+            a{
+              color: black;
+              transition: all 0.3s;
+
+              &:hover{
+                color: v.$primary-color;
+              }
+            }
           }
           span {
             color: #616670;

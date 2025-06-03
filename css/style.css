@@ -8325,6 +8325,13 @@ p {
   align-items: center;
   justify-content: space-between;
 }
+.latest-comments li .comments-box .comments-text .avatar-name h5 a {
+  color: black;
+  transition: all 0.3s;
+}
+.latest-comments li .comments-box .comments-text .avatar-name h5 a:hover {
+  color: #573db8;
+}
 .latest-comments li .comments-box .comments-text .avatar-name span {
   color: #616670;
   font-size: 14px;
