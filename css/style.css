@@ -7054,6 +7054,9 @@ p {
     padding-bottom: 80px;
   }
 }
+.blog-area .blog-details-wrapper .single-post-item {
+  margin-bottom: 60px;
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-meta {
   display: flex;
   align-items: center;
