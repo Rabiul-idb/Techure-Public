@@ -172,6 +172,7 @@
         padding: 0;
         display: flex;
         justify-content: center;
+        color: white;
       }
     }
   }
@@ -316,6 +317,19 @@
         justify-content: space-between;
         display: flex;
 
+        span{
+          a{
+            text-decoration: none;
+            color: #616670;
+            font-weight: 500;
+            transition: all 0.3s;
+
+            &:hover{
+              color: v.$primary-color;
+            }
+          }
+        }
+
     }
 
     //legecy table
@@ -435,6 +449,7 @@
     li {
       display: block;
       padding: 7px 0;
+      color: #616670;
 
       &:first-child {
         padding-top: 0;

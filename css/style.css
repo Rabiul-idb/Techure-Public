@@ -8707,6 +8707,7 @@ p {
   padding: 0;
   display: flex;
   justify-content: center;
+  color: white;
 }
 .widget .has-avatars.has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta,
 .widget .has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta {
@@ -8830,6 +8831,15 @@ p {
   justify-content: space-between;
   display: flex;
 }
+.widget nav.wp-calendar-nav span a {
+  text-decoration: none;
+  color: #616670;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.widget nav.wp-calendar-nav span a:hover {
+  color: #573db8;
+}
 .widget .calendar_wrap table {
   width: 100%;
   text-align: center;
@@ -8928,6 +8938,7 @@ p {
 .widget ol li {
   display: block;
   padding: 7px 0;
+  color: #616670;
   /* Recent Comment Widget */
 }
 .widget ul li:first-child,
