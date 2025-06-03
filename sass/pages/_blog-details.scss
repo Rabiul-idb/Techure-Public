@@ -213,11 +213,16 @@
 
                 &:where(.wp-block-group.has-background) {
                     padding: 1.25em 2.375em;
+                    
+                    p{
+                      color: black;
+                    }
                 }
 
                 p{
                   margin: 0;
                   font-size: 16px;
+                  
 
                   strong{
                     font-size: 16px;
