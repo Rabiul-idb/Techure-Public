@@ -7290,18 +7290,14 @@ p {
   color: black;
   word-break: break-word;
 }
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers,
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .page-links {
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers {
   display: inline-flex;
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
   margin-bottom: 10px;
 }
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers,
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .post-page-numbers,
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .page-links .page-numbers,
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .page-links .post-page-numbers {
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7315,13 +7311,7 @@ p {
   font-weight: 700;
   text-transform: capitalize;
 }
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers:hover, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers.current,
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .post-page-numbers:hover,
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .post-page-numbers.current,
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .page-links .page-numbers:hover,
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .page-links .page-numbers.current,
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .page-links .post-page-numbers:hover,
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .page-links .post-page-numbers.current {
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers:hover, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination .wp-block-query-pagination-numbers .page-numbers.current {
   background-color: #573db8;
   color: white;
 }
@@ -7439,6 +7429,31 @@ p {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .has-pale-pink-blue-background-color .wp-block-column p {
   color: black;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .page-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .page-links .post-page-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #23262D;
+  background-color: rgba(217, 161, 76, 0.1);
+  border-radius: 50%;
+  height: 67px;
+  width: 67px;
+  transition: all 0.5s ease-out;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .page-links .post-page-numbers:hover, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .page-links .post-page-numbers.current {
+  background-color: #573db8;
+  color: white;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
   display: flex;
