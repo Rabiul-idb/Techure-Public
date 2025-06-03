@@ -451,12 +451,12 @@
                   
                   &:first-child{
                     a{
-                      color: black;
+                      color: black !important;
                     }
                   }
                   &:last-child{
                     a{
-                      color: v.$primary-color;
+                      color: v.$primary-color I !important;
                     }
                   }
 

@@ -7407,10 +7407,10 @@ p {
   display: inline-block;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-social-links.is-style-logos-only li:first-child a {
-  color: black;
+  color: black !important;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-social-links.is-style-logos-only li:last-child a {
-  color: #573db8;
+  color: #573db8 I !important;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-social-links.is-style-pill-shape li {
   width: auto;
