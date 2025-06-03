@@ -8546,8 +8546,9 @@ p {
   margin: 0;
 }
 .blog-area .blog-posts .single-post-item.format-quote .post-content blockquote {
-  padding: 40px 60px;
+  padding: 35px 40px;
   margin-bottom: 0;
+  background: #f7f1fc;
 }
 .blog-area .blog-posts .single-post-item.format-quote .post-content blockquote cite a {
   color: #573db8;

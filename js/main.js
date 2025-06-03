@@ -388,6 +388,15 @@
         });
       }
 
+
+      // remove white space from p in blog page for wp
+
+      $('p').each(function () {
+        if ($(this).text().trim() === '') {
+          $(this).hide();
+        }
+      });
+
   });
 
   
