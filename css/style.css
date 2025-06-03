@@ -8700,6 +8700,7 @@ p {
   padding: 0;
   margin: 0;
   line-height: 0;
+  transition: all 0.3s;
 }
 .widget .wp-block-social-links .wp-social-link a {
   width: 44px;
@@ -8707,7 +8708,8 @@ p {
   padding: 0;
   display: flex;
   justify-content: center;
-  color: white;
+  color: white !important;
+  transition: all 0.3s;
 }
 .widget .has-avatars.has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta,
 .widget .has-dates.has-excerpts.wp-block-latest-comments li.wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta {
