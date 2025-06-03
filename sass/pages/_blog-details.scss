@@ -392,6 +392,10 @@
                 a{
                   color: #616670;
                   transition: all 0.3s;
+
+                  &:hover{
+                    color: v.$primary-color;
+                  }
                 }
               }
             }
@@ -402,18 +406,7 @@
                 }
               }
             }
-            .wp-calendar-nav{
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-
-              span{
-                a{
-                  color: #616670;
-                }
-              }
-            }
-
+            
             .wp-block-latest-posts__list{
               li{
                 a{
@@ -439,6 +432,32 @@
                 width: 100%;
                 display: inline-block;
                 overflow: hidden;
+            }
+
+            .wp-block-social-links{
+              font-size: 24px;
+
+              &.is-style-logos-only{
+                li{
+                  margin: 0;
+                  padding: 0;
+                  display: inline-block;
+                  
+                  a{
+                    color: currentColor;
+                  }
+
+                }
+              }
+
+              &.is-style-pill-shape{
+                li{
+                  a{
+                    padding-left: .66667em;
+                    padding-right: .66667em;
+                  }
+                }
+              }
             }
 
 
