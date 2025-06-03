@@ -117,6 +117,11 @@
                   font-size: 22px;
                 }
               }
+              em{
+                strong{
+                  font-size: 16px;
+                }
+              }
               &.blog-imgs{
                 display: flex;
                 justify-content: space-between;
@@ -290,13 +295,15 @@
             }
 
             .wp-block-query-pagination{
-              .wp-block-query-pagination-numbers{
+              .wp-block-query-pagination-numbers, 
+              .page-links{
                     display: inline-flex;
                     align-items: center;
                     gap: 12px;
                     flex-wrap: wrap;
                     margin-bottom: 10px;
-                .page-numbers{
+                .page-numbers,
+                .post-page-numbers{
                   display: flex;
                   align-items: center;
                   justify-content: center;
@@ -476,10 +483,17 @@
               }
             }
 
-            .has-pale-cyan-blue-background-color,
-            .has-pale-pink-blue-background-color{
+            .has-pale-cyan-blue-background-color{
               p{
-                color: black;
+                  color: black;
+                }
+            }
+            .has-pale-pink-blue-background-color{
+              .wp-block-column{
+                p{
+                  color: black;
+                }
+
               }
             }
 
