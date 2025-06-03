@@ -435,7 +435,13 @@
             }
 
             .wp-block-social-links{
-              font-size: 24px;
+              li{
+                width: auto;
+                a{
+                  font-size: 24px;
+                  padding: .25em;
+                }
+              }
 
               &.is-style-logos-only{
                 li{
@@ -443,8 +449,15 @@
                   padding: 0;
                   display: inline-block;
                   
-                  a{
-                    color: currentColor;
+                  &:first-child{
+                    a{
+                      color: black;
+                    }
+                  }
+                  &:last-child{
+                    a{
+                      color: v.$primary-color;
+                    }
                   }
 
                 }
@@ -452,9 +465,12 @@
 
               &.is-style-pill-shape{
                 li{
+                  width: auto;
                   a{
                     padding-left: .66667em;
                     padding-right: .66667em;
+                    width: unset;
+                    height: unset;
                   }
                 }
               }
