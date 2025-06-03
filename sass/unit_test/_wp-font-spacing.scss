@@ -1,4 +1,5 @@
-
+@use "../variables" as v;
+@use "../mixin" as m;
 
 :root {
                 --wp--preset--aspect-ratio--square: 1;
@@ -323,3 +324,53 @@
                 font-size: 1.5em;
                 line-height: 1.6;
             }
+
+
+.wp-block-avatar {
+    width: 100px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+    width: 100%;
+    }
+}
+.wp-block-comment-author-name {
+    a {
+        font-size: 21px;
+        margin-bottom: 5px;
+        font-weight: 500;
+        color: black;
+    }
+}
+.wp-block-comment-edit-link {
+    a {
+    color: v.$primary-color;
+    }
+}
+.wp-block-comment-date,
+.wp-block-comment-edit-link {
+    a {
+    color: #9ba8c3;
+    font-size: 16px;
+    font-weight: 400;
+    }
+}
+.wp-block-comment-reply-link {
+    a {
+        //border-radius: 6px;
+        font-size: 14px;
+        font-weight: 500;
+        color: black;
+        border: 1px solid v.$primary-color;
+        padding: 4px 26px;
+        display: inline-block;
+
+        &:hover {
+        background-color: v.$primary-color;
+        color: white;
+       transition: all 0.3s;
+        }
+    }
+}

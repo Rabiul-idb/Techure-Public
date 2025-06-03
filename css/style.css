@@ -7292,8 +7292,6 @@ p {
   display: none;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query .wp-block-post-template .wp-block-post h2 {
-  font-size: 42px;
-  line-height: 54px;
   font-weight: 700;
   color: black;
   word-break: break-word;
@@ -7340,6 +7338,17 @@ p {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-query-pagination-next:hover {
   color: white;
   background-color: #573db8;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-terms a {
+  color: #573db8;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .blog-coment-title h2,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .blog-coment-title .wp-block-comments-title,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-comments h2,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-comments .wp-block-comments-title {
+  margin-bottom: 0;
+  font-weight: 500;
+  margin-top: -10px;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
   display: flex;
@@ -9777,6 +9786,7 @@ ul.children {
   margin-bottom: 32px;
 }
 
+/* Theme Default CSS */
 :root {
   --wp--preset--aspect-ratio--square: 1;
   --wp--preset--aspect-ratio--4-3: 4/3;
@@ -10099,6 +10109,48 @@ body .is-layout-grid {
 :root :where(.wp-block-pullquote) {
   font-size: 1.5em;
   line-height: 1.6;
+}
+
+.wp-block-avatar {
+  width: 100px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.wp-block-avatar img {
+  width: 100%;
+}
+
+.wp-block-comment-author-name a {
+  font-size: 21px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: black;
+}
+
+.wp-block-comment-edit-link a {
+  color: #573db8;
+}
+
+.wp-block-comment-date a,
+.wp-block-comment-edit-link a {
+  color: #9ba8c3;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.wp-block-comment-reply-link a {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  border: 1px solid #573db8;
+  padding: 4px 26px;
+  display: inline-block;
+}
+.wp-block-comment-reply-link a:hover {
+  background-color: #573db8;
+  color: white;
+  transition: all 0.3s;
 }
 
 /* Theme Default CSS */
