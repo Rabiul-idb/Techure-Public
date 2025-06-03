@@ -131,6 +131,28 @@
                   margin-right: 0;
                 }
               }
+
+              &.has-small-font-size {
+                font-size: 13px !important;
+                line-height: 24px;
+                margin-bottom: 20px;
+              }
+
+              &.has-medium-font-size {
+                  font-size: 20px !important;
+                  line-height: 32px;
+                  margin-bottom: 20px;
+              }
+
+              &.has-large-font-size {
+                  font-size: 36px !important;
+                  line-height: 48px;
+                  margin-bottom: 20px;
+              }
+
+              &.has-x-large-font-size {
+                  font-size: 42px !important;
+              }
             }
             ul {
               margin-top: 20px;
@@ -160,20 +182,29 @@
 
             h2{
               margin-bottom: 10px;
+              font-weight: 600;
 
-              .has-small-font-size {
+              &:first-child{
+                margin-top: 25px;
+              }
+             
+
+              &.has-small-font-size {
                 font-size: 13px !important;
+                line-height: 24px;
               }
 
-              .has-medium-font-size {
+              &.has-medium-font-size {
                   font-size: 20px !important;
+                  line-height: 32px;
               }
 
-              .has-large-font-size {
+              &.has-large-font-size {
                   font-size: 36px !important;
+                  line-height: 48px;
               }
 
-              .has-x-large-font-size {
+              &.has-x-large-font-size {
                   font-size: 42px !important;
               }
             }
