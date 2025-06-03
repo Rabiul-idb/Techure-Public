@@ -20,6 +20,12 @@
     padding-bottom: 80px;
   }
 
+  ol{
+    li{
+      padding-top: 10px;
+    }
+  }
+
   .blog-details-wrapper{
   
       .single-post-item {  
@@ -361,9 +367,44 @@
                
               }
             }
+            .wp-block-comments {
+              padding-left: 0;
+
+              .wp-block-comment-template li .wp-block-columns {
+                  padding: 50px;
+                  border: 1px solid #dfe2e9;
+                  margin-bottom: 24px;
+              }
+            }
+            .wp-block-avatar {
+                width: 100px;
+                flex-shrink: 0;
+                border-radius: 50%;
+                overflow: hidden;
+
+                img {
+                  width: 100%;
+                }
+            }
+            
+            .comment-form{
+
+              .comment-respond .contacts-message {
+                  margin-bottom: 10px;
+              }
+
+            }
             
           }
         }
+
+
+
+
+
+
+
+
         .default-single-post-meta {
           display: flex;
           justify-content: space-between;
@@ -1197,31 +1238,6 @@
       }
      
 
-      // .comment-form {
-      //   .section-title {
-      //     font-size: 24px;
-      //     font-weight: v.$font-weight-bold;
-      //   }
-      //   .form-box {
-      //     .form-content {
-      //       form {
-      //         input,
-      //         textarea {
-      //           border-color: v.$gray-200;
-      //         }
-      //         .nice-select {
-      //           border-color: v.$gray-200 !important;
-      //         }
-      //         .form-slide {
-      //           div {
-      //             width: 100%;
-      //           }
-      //         }
-      //       }
-      //     }
-      //   }
-      // }
-      
 
       // .comment-wrapper {
       //   .comment-info {
@@ -1285,77 +1301,77 @@
     }
   }
 
-  .comment-form{
-    
-    .contacts-name,
-    .contacts-email{
-    @include m.md{
-      margin-bottom: 20px;
-    }
-    @include m.sm{
-      margin-bottom: 20px;
-    }
-      label{
-        font-size: 18px;
-        font-weight: 500;
-        color: v.$gray-800;
-      }
-      input{
-        height: 50px;
-        width: 100%;
-        margin-top: 5px;
-        border-radius: 10px;
-        outline: none;
-        border: 1px solid gray;
-        padding: 0 20px;
-      }
-    
-    }
-    .comment-form-cookies-consent{
-      margin-top: 10px;
-    }
-    p{
-      margin-top: 20px;
-    }
-
-    .contacts-message{
-      margin-top: 20px;
-      label{
-        font-size: 18px;
-        font-weight: 500;
-        color: v.$gray-800;
-      }
-      textarea{
-        width: 100%;
-        margin-top: 5px;
-        border-radius: 10px;
-        outline: none;
-        border: 1px solid gray;
-        padding: 20px;
-      }
-
-    }
-
-    .theme-btn{
-      display: inline-block;
-      border-radius: 7px;
-      color: white;
-      background-color: v.$primary-color;
-      font-size: 20px;
-      border: none;
-      width: fit-content;
-      margin-top: 30px;
-      padding: 15px 20px;
+}
+.comment-form{
+  
+  .contacts-name,
+  .contacts-email{
+  @include m.md{
+    margin-bottom: 20px;
+  }
+  @include m.sm{
+    margin-bottom: 20px;
+  }
+    label{
+      font-size: 18px;
       font-weight: 500;
-      transition: all 0.3s;
+      color: v.$gray-800;
+    }
+    input{
+      height: 50px;
+      width: 100%;
+      margin-top: 5px;
+      border-radius: 10px;
+      outline: none;
+      border: 1px solid gray;
+      padding: 0 20px;
+    }
+  
+  }
+  .comment-form-cookies-consent{
+    margin-top: 10px;
+  }
+  p{
+    margin-top: 20px;
+  }
 
-      &:hover{
-        background-color: black;
-        color: white;
-      }
+  .contacts-message{
+    margin-top: 20px;
+    label{
+      font-size: 18px;
+      font-weight: 500;
+      color: v.$gray-800;
+    }
+    textarea{
+      width: 100%;
+      margin-top: 5px;
+      border-radius: 10px;
+      outline: none;
+      border: 1px solid gray;
+      padding: 20px;
     }
 
   }
+
+  .theme-btn{
+    display: inline-block;
+    border-radius: 7px;
+    color: white;
+    background-color: v.$primary-color;
+    font-size: 20px;
+    border: none;
+    width: fit-content;
+    margin-top: 30px;
+    padding: 15px 20px;
+    font-weight: 500;
+    transition: all 0.3s;
+
+    &:hover{
+      background-color: black;
+      color: white;
+    }
+  }
+
 }
 
 .sidebar.style-two .search-bar .search-icon {

@@ -7054,6 +7054,9 @@ p {
     padding-bottom: 80px;
   }
 }
+.blog-area ol li {
+  padding-top: 10px;
+}
 .blog-area .blog-details-wrapper .single-post-item {
   margin-bottom: 60px;
 }
@@ -7349,6 +7352,26 @@ p {
   margin-bottom: 0;
   font-weight: 500;
   margin-top: -10px;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-comments {
+  padding-left: 0;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-comments .wp-block-comment-template li .wp-block-columns {
+  padding: 50px;
+  border: 1px solid #dfe2e9;
+  margin-bottom: 24px;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-avatar {
+  width: 100px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-avatar img {
+  width: 100%;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .comment-form .comment-respond .contacts-message {
+  margin-bottom: 10px;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
   display: flex;
@@ -8237,26 +8260,27 @@ p {
     font-size: 28px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .post-comments-form .comment-form .contacts-name,
-  .post-comments-form .comment-form .contacts-email {
+  .comment-form .contacts-name,
+  .comment-form .contacts-email {
     margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .post-comments-form .comment-form .contacts-name,
-  .post-comments-form .comment-form .contacts-email {
+  .comment-form .contacts-name,
+  .comment-form .contacts-email {
     margin-bottom: 20px;
   }
 }
-.post-comments-form .comment-form .contacts-name label,
-.post-comments-form .comment-form .contacts-email label {
+.comment-form .contacts-name label,
+.comment-form .contacts-email label {
   font-size: 18px;
   font-weight: 500;
   color: #716f73;
 }
-.post-comments-form .comment-form .contacts-name input,
-.post-comments-form .comment-form .contacts-email input {
+.comment-form .contacts-name input,
+.comment-form .contacts-email input {
   height: 50px;
   width: 100%;
   margin-top: 5px;
@@ -8265,21 +8289,21 @@ p {
   border: 1px solid gray;
   padding: 0 20px;
 }
-.post-comments-form .comment-form .comment-form-cookies-consent {
+.comment-form .comment-form-cookies-consent {
   margin-top: 10px;
 }
-.post-comments-form .comment-form p {
+.comment-form p {
   margin-top: 20px;
 }
-.post-comments-form .comment-form .contacts-message {
+.comment-form .contacts-message {
   margin-top: 20px;
 }
-.post-comments-form .comment-form .contacts-message label {
+.comment-form .contacts-message label {
   font-size: 18px;
   font-weight: 500;
   color: #716f73;
 }
-.post-comments-form .comment-form .contacts-message textarea {
+.comment-form .contacts-message textarea {
   width: 100%;
   margin-top: 5px;
   border-radius: 10px;
@@ -8287,7 +8311,7 @@ p {
   border: 1px solid gray;
   padding: 20px;
 }
-.post-comments-form .comment-form .theme-btn {
+.comment-form .theme-btn {
   display: inline-block;
   border-radius: 7px;
   color: white;
@@ -8300,7 +8324,7 @@ p {
   font-weight: 500;
   transition: all 0.3s;
 }
-.post-comments-form .comment-form .theme-btn:hover {
+.comment-form .theme-btn:hover {
   background-color: black;
   color: white;
 }
