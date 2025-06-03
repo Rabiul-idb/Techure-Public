@@ -7342,7 +7342,14 @@ p {
   color: white;
   background-color: #573db8;
 }
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-terms a {
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-terms,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-navigation-link,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-read-more {
+  color: #573db8;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-terms a,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-post-navigation-link a,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-read-more a {
   color: #573db8;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .blog-coment-title h2,
@@ -7362,13 +7369,13 @@ p {
   margin-bottom: 24px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-avatar {
-  width: 100px;
   flex-shrink: 0;
   border-radius: 50%;
   overflow: hidden;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-avatar img {
-  width: 100%;
+  width: 100px;
+  height: 100px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .comment-form .comment-respond .contacts-message {
   margin-bottom: 10px;

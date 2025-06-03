@@ -350,7 +350,11 @@
               }
             }
 
-            .wp-block-post-terms{
+            .wp-block-post-terms,
+            .wp-block-post-navigation-link,
+            .wp-block-read-more{
+              color: v.$primary-color;
+
               a{
                 color: v.$primary-color;
               }
@@ -377,13 +381,13 @@
               }
             }
             .wp-block-avatar {
-                width: 100px;
                 flex-shrink: 0;
                 border-radius: 50%;
                 overflow: hidden;
 
                 img {
-                  width: 100%;
+                  width: 100px;
+                  height: 100px;
                 }
             }
             
