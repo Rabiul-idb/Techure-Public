@@ -25,7 +25,7 @@
       .single-post-item {  
 
         margin-bottom: 60px;
-        
+
         .post-content-wrapper {
           .post-meta {
             display: flex;
@@ -155,6 +155,26 @@
                   color: v.$primary-color;
                   font-size: 16px;
                 }
+              }
+            }
+
+            h2{
+              margin-bottom: 10px;
+
+              .has-small-font-size {
+                font-size: 13px !important;
+              }
+
+              .has-medium-font-size {
+                  font-size: 20px !important;
+              }
+
+              .has-large-font-size {
+                  font-size: 36px !important;
+              }
+
+              .has-x-large-font-size {
+                  font-size: 42px !important;
               }
             }
             

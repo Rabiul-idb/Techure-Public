@@ -7199,6 +7199,21 @@ p {
   color: #573db8;
   font-size: 16px;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h2 {
+  margin-bottom: 10px;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h2 .has-small-font-size {
+  font-size: 13px !important;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h2 .has-medium-font-size {
+  font-size: 20px !important;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h2 .has-large-font-size {
+  font-size: 36px !important;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h2 .has-x-large-font-size {
+  font-size: 42px !important;
+}
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
   display: flex;
   justify-content: space-between;
