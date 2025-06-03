@@ -1313,7 +1313,7 @@
         position: relative;
         margin-right: 30px;
 
-        @include sm {
+        @include m.sm {
           float: inherit;
           margin-bottom: 20px;
         }
@@ -1355,7 +1355,7 @@
             font-size: 14px;
             font-weight: 400;
 
-            @include sm {
+            @include m.sm {
               display: inline-block;
               width: 100%;
             }
@@ -1378,7 +1378,7 @@
           }
           
 
-          @include sm {
+          @include m.sm {
             position: unset;
             margin-top: 10px;
           }
