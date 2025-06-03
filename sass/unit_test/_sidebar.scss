@@ -15,7 +15,7 @@
 }
 
 /* Widget */
-.widget {
+.widget, .post-content {
   background-color:#F4F4F4;
   padding: 40px;
   margin-bottom: 40px;
@@ -178,29 +178,7 @@
       }
     }
   }
-  /* Recent Comment List Block Widget & Latest Post Widget Block */
-  .has-avatars.has-dates.has-excerpts.wp-block-latest-comments,
-  .has-dates.has-excerpts.wp-block-latest-comments {
-    li {
-      &.wp-block-latest-comments__comment {
-        .wp-block-latest-comments__comment-meta {
-          font-weight: 600;
-          color: black;
-
-          .wp-block-latest-comments__comment-author,
-          .wp-block-latest-comments__comment-link {
-            font-weight: 600;
-            color: black;
-            transition: all 0.3s;
-
-            &:hover{
-              color: v.$primary-color;
-            }
-          }
-        }
-      }
-    }
-  }
+ 
   .wp-block-latest-comments,
   .wp-block-latest-posts {
     li {
@@ -545,6 +523,34 @@
     }
   }
 }
+
+ /* Recent Comment List Block Widget & Latest Post Widget Block */
+  .has-avatars.has-dates.has-excerpts.wp-block-latest-comments,
+  .has-dates.has-excerpts.wp-block-latest-comments {
+    li {
+      &.wp-block-latest-comments__comment {
+        .wp-block-latest-comments__comment-meta {
+          font-weight: 600;
+          color: black;
+
+          .wp-block-latest-comments__comment-author,
+          .wp-block-latest-comments__comment-link {
+            font-weight: 600;
+            color: black;
+            transition: all 0.3s;
+
+            a{
+              color: black;
+            }
+
+            &:hover{
+              color: v.$primary-color;
+            }
+          }
+        }
+      }
+    }
+  }
 
 /* About Info Widget*/
 .widget-about-info {
