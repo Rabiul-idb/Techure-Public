@@ -7241,6 +7241,16 @@ p {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-group {
   margin: 15px 0;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-group:where(.wp-block-group.has-background) {
+  padding: 1.25em 2.375em;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-group p {
+  margin: 0;
+  font-size: 16px;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-group p strong {
+  font-size: 16px;
+}
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
   display: flex;
   justify-content: space-between;
