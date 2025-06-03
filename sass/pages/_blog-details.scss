@@ -229,6 +229,31 @@
                   }
                 }
             }
+
+            .wp-block-pages-list__item {
+              .wp-block-navigation-item{
+                &:before{
+                  display: none;
+                }
+              }
+            }
+
+            .wp-block-navigation__responsive-container-content{
+              ul{
+                margin: 0;
+                padding-left: 20px;
+
+                li{
+                  & ul{
+                    margin: 0;
+                    li{
+                      color: black;
+                      line-height: 30px;
+                    }
+                  }
+                }
+              }
+            }
             
           }
         }
@@ -914,6 +939,15 @@
                 }
               }
               
+            }
+          }
+        }
+
+        &.format-standard{
+          .post-thumbnail{
+            img{
+              max-width: 100%;
+              height: auto;
             }
           }
         }
