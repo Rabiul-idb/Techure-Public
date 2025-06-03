@@ -7192,6 +7192,7 @@ p {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p.has-x-large-font-size {
   font-size: 42px !important;
+  margin-bottom: 20px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul {
   margin-top: 20px;
@@ -7221,12 +7222,10 @@ p {
   margin-bottom: 10px;
   font-weight: 600;
 }
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h2:first-child {
-  margin-top: 25px;
-}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h2.has-small-font-size {
   font-size: 13px !important;
   line-height: 24px;
+  margin-top: 25px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content h2.has-medium-font-size {
   font-size: 20px !important;
