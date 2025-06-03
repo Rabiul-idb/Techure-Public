@@ -16,6 +16,7 @@
           border-bottom-left-radius: 6px;
           .post-meta {
             display: flex;
+            align-items: center;
             gap: 25px;
             a {
               color: v.$gray-900;
