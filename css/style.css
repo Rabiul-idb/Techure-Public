@@ -7421,6 +7421,10 @@ p {
   width: unset;
   height: unset;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .has-pale-cyan-blue-background-color p,
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .has-pale-pink-blue-background-color p {
+  color: black;
+}
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
   display: flex;
   justify-content: space-between;
