@@ -7612,6 +7612,13 @@ p {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-latest-posts__list.has-dates.wp-block-latest-posts li a {
   display: block;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-tag-cloud a {
+  color: #616670;
+  transition: all 0.3s;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-tag-cloud a:hover {
+  color: #573db8;
+}
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
   display: flex;
   justify-content: space-between;

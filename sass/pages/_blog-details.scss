@@ -732,6 +732,17 @@
                 }
               }
             }
+
+            .wp-block-tag-cloud{
+              a{
+                color: #616670;
+                transition: all 0.3s;
+
+                &:hover{
+                  color: v.$primary-color;
+                }
+              }
+            }
             
 
 
