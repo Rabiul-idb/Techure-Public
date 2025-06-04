@@ -7064,6 +7064,10 @@ p {
 .blog-area ul {
   padding-left: 20px;
 }
+.blog-area img {
+  max-width: 100%;
+  height: auto;
+}
 .blog-area .blog-details-wrapper .aligncenter {
   clear: both;
   display: block;
