@@ -538,6 +538,12 @@
               border-left: 1px solid v.$primary-color;
             }
 
+            .wp-block-pullquote {
+                border-top: 2px solid v.$primary-color !important;
+                border-bottom: 2px solid v.$primary-color !important;
+                background-color: #f4f4f4;
+            }
+
 
 
 

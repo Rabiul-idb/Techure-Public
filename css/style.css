@@ -7469,6 +7469,11 @@ p {
   background-color: #fff;
   border-left: 1px solid #573db8;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-pullquote {
+  border-top: 2px solid #573db8 !important;
+  border-bottom: 2px solid #573db8 !important;
+  background-color: #f4f4f4;
+}
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
   display: flex;
   justify-content: space-between;
