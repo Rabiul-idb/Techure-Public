@@ -106,8 +106,8 @@
               }
 
               strong{
-                font-size: 32px;
-                font-weight: v.$font-weight-bold;
+                // font-size: 32px;
+                // font-weight: v.$font-weight-bold;
                 color: #07000e;
       
                 @include m.md{
@@ -747,6 +747,14 @@
             .wp-block-button {
               margin-top: 20px;
               margin-bottom: 40px;
+            }
+
+            .wp-block-list{
+              li{
+                a{
+                  color: black;
+                }
+              }
             }
             
 
