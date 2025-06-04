@@ -7459,7 +7459,7 @@ p {
   background-color: #573db8;
   color: white;
 }
-.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .blockquote {
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote {
   overflow: hidden;
   margin: 40px 0;
   position: relative;
