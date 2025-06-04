@@ -767,6 +767,25 @@
                 }
               }
             }
+
+            table {
+              margin-bottom: 20px;
+              width: 100%;
+              th{
+                a{
+                  color: v.$primary-color;
+                }
+              }
+
+              th, td {
+                background-color: transparent;
+                border: 1px solid #dfe2e9;
+                text-align: center;
+                padding: 8px;
+                transition: 0.3s;
+                color: #616670;
+              }
+            }
             
 
 
