@@ -21,9 +21,14 @@
   }
 
   ol{
+    padding-left: 20px;
     li{
       padding-top: 10px;
+      color: #616670;
     }
+  }
+  ul{
+    padding-left: 20px;
   }
 
   .blog-details-wrapper{
@@ -123,6 +128,10 @@
                   font-size: 22px;
                 }
               }
+              code{
+                color: v.$primary-color;
+              }
+              
               em{
                 strong{
                   font-size: 16px;
@@ -785,6 +794,9 @@
                 transition: 0.3s;
                 color: #616670;
               }
+            }
+            dl{
+              color: #616670 !important;
             }
             
 
