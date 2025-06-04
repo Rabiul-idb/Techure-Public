@@ -7684,6 +7684,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding-top: 40px;
+  width: 100%;
 }
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
