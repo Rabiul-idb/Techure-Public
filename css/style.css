@@ -7473,10 +7473,10 @@ p {
   margin: 0;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p strong {
-  font-size: 16px;
+  font-size: 18px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p strong a {
-  text-decoration: underline;
+  text-decoration: underline !important;
   color: #573db8;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-pullquote {
@@ -7490,6 +7490,17 @@ p {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-pullquote blockquote cite {
   color: #616670;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-pullquote.is-style-solid-color {
+  background-color: #F4F4F4 !important;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-pullquote.is-style-solid-color blockquote {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-pullquote.is-style-solid-color blockquote.has-very-dark-gray-color {
+  color: #313131;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .alignleft {
   display: inline;
