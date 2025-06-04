@@ -724,6 +724,14 @@
                 }
               }
             }
+
+            .wp-block-latest-posts__list.has-dates.wp-block-latest-posts{
+              li{
+                a{
+                  display: block;
+                }
+              }
+            }
             
 
 

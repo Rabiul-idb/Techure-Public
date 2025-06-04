@@ -7609,6 +7609,9 @@ p {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-link:hover {
   color: #573db8;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-latest-posts__list.has-dates.wp-block-latest-posts li a {
+  display: block;
+}
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
   display: flex;
   justify-content: space-between;
@@ -9222,6 +9225,59 @@ ul.children {
   padding-left: 18px;
 }
 
+.wp-block-search__input {
+  padding: 0 25px;
+  height: 60px;
+  width: 100%;
+  color: #23262D;
+  font-size: 18px;
+  border: 1px solid #E3E3E3 !important;
+}
+
+.wp-block-search__button {
+  color: #ffffff;
+  padding: 0 20px;
+  position: relative;
+  right: 0;
+  background-color: #573db8;
+  top: 0;
+  height: auto;
+  line-height: 0;
+  border: 0;
+  margin-left: 0 !important;
+}
+
+.wp-block-search__inside-wrapper {
+  border: none;
+}
+
+.search-form {
+  width: 100%;
+  overflow: hidden;
+  display: flex !important;
+  gap: 10px;
+}
+.search-form input {
+  padding: 0 25px;
+  height: 60px;
+  width: 100%;
+  color: #23262D;
+  font-size: 18px;
+  border: none !important;
+}
+.search-form button {
+  color: #ffffff;
+  padding: 0 20px;
+  position: relative;
+  right: 0;
+  background-color: #573db8;
+  top: 0;
+  height: auto;
+  line-height: 0;
+  border: 0;
+  margin-left: 0 !important;
+}
+
 /* Widget */
 .widget {
   background-color: #F4F4F4;
@@ -9262,55 +9318,6 @@ ul.children {
 .widget ol,
 .widget ul {
   margin-bottom: 0;
-}
-.widget .wp-block-search__input {
-  padding: 0 25px;
-  height: 60px;
-  width: 100%;
-  color: #23262D;
-  font-size: 18px;
-  border: 1px solid #E3E3E3 !important;
-}
-.widget .wp-block-search__button {
-  color: #ffffff;
-  padding: 0 20px;
-  position: relative;
-  right: 0;
-  background-color: #573db8;
-  top: 0;
-  height: auto;
-  line-height: 0;
-  border: 0;
-  margin-left: 0 !important;
-}
-.widget .wp-block-search__inside-wrapper {
-  border: none;
-}
-.widget .search-form {
-  width: 100%;
-  overflow: hidden;
-  display: flex !important;
-  gap: 10px;
-}
-.widget .search-form input {
-  padding: 0 25px;
-  height: 60px;
-  width: 100%;
-  color: #23262D;
-  font-size: 18px;
-  border: none !important;
-}
-.widget .search-form button {
-  color: #ffffff;
-  padding: 0 20px;
-  position: relative;
-  right: 0;
-  background-color: #573db8;
-  top: 0;
-  height: auto;
-  line-height: 0;
-  border: 0;
-  margin-left: 0 !important;
 }
 .widget .textwidget p {
   margin-bottom: 15px;
