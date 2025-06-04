@@ -7261,6 +7261,9 @@ p {
   margin-right: 8px;
   position: relative;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ul li code {
+  color: #573db8;
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content ol {
   padding-left: 0;
 }

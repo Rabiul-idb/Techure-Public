@@ -234,7 +234,11 @@
                 font-size: 18px;
                 font-weight: v.$font-weight-medium;
                 margin-right: 8px;
-                position: relative;        
+                position: relative;    
+                
+                code{
+                  color: v.$primary-color;
+                }
                 
               }
             }
