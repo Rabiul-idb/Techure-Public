@@ -7125,6 +7125,10 @@ p {
     font-size: 25px;
   }
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-heading {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p {
   margin-top: 15px;
   margin-bottom: 15px;
