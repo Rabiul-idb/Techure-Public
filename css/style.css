@@ -7312,6 +7312,12 @@ p {
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-group p strong {
   font-size: 16px;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-navigation__container.wp-block-navigation .wp-block-page-list a {
+  color: #616670;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-navigation__container.wp-block-navigation .wp-block-page-list ul li a {
+  color: black;
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-pages-list__item.wp-block-navigation-item:before {
   display: none;
 }

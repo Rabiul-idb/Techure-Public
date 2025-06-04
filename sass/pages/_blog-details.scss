@@ -306,6 +306,23 @@
                   }
                 }
             }
+            .wp-block-navigation__container {
+              &.wp-block-navigation{
+                .wp-block-page-list{
+                  a{
+                    color: #616670;
+                  }
+
+                  ul{
+                    li{
+                      a{
+                        color: black;
+                      }
+                    }
+                  }
+                }
+              }
+            } 
 
             .wp-block-pages-list__item {
               &.wp-block-navigation-item{
