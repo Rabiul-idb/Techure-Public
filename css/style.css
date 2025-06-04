@@ -7486,6 +7486,10 @@ p {
   float: left;
   margin-right: 1.5em !important;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-gallery ul {
+  margin: 0;
+  padding: 0;
+}
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta {
   display: flex;
   justify-content: space-between;
