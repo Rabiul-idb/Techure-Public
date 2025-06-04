@@ -392,7 +392,10 @@
       // remove white space from p in blog page for wp
 
       $('p').each(function () {
-        if ($(this).text().trim() === '') {
+        // Check if paragraph has no text and no non-empty elements (like <img>)
+        if ($(this).contents().filter(function () {
+          return this.nodeType === 3 ? $.trim(this.nodeValue).length : true;
+        }).length === 0) {
           $(this).hide();
         }
       });
