@@ -8480,6 +8480,10 @@ p {
 }
 .blog-area .blog-details-wrapper .blog-post-nav .post-navigation .text h4 a {
   color: black;
+  transition: all 0.3s;
+}
+.blog-area .blog-details-wrapper .blog-post-nav .post-navigation .text h4 a:hover {
+  color: #573db8;
 }
 .blog-area .blog-details-wrapper .blog-post-nav .post-navigation:nth-child(3) {
   justify-content: end;

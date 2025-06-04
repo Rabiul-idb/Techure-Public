@@ -1609,6 +1609,11 @@
 
             a{          
               color: black;
+              transition: all 0.3s;
+
+              &:hover{
+                color: v.$primary-color;
+              }
             }
           }
           &:nth-child(3) {
@@ -1691,43 +1696,6 @@
      
 
 
-      // .comment-wrapper {
-      //   .comment-info {
-      //     .section-title {
-      //       font-size: 24px;
-      //       font-weight: v.$font-weight-bold;
-      //     }
-      //     .user-comment {
-      //       background: v.$gray-100;
-      //       padding: 30px 40px;
-      //       @include m.border-radius(20px);
-      //       .user-info {
-      //         display: flex;
-      //         justify-content: space-between;
-      //         svg {
-      //           @include m.transform(rotate(180deg));
-      //         }
-      //         .user-name {
-      //           font-size: 24px;
-      //           font-weight: v.$font-weight-bold;
-      //         }
-      //         .comment-colon{
-      //           width: 40px;
-      //           height: 28px;
-      //         }
-      //       }
-      //       .replay-btn {
-      //         font-size: 18px;
-      //         font-weight: v.$font-weight-bold;
-      //         color: v.$gray-900;
-      //         padding: 10px 20px;
-      //         border: 1px solid v.$primary-color;
-      //         @include m.border-radius(50px);
-      //       }
-      //     }
-      //   }
-        
-      // }
   }
 }
 
