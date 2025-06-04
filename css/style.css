@@ -7583,7 +7583,6 @@ p {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .gallery-item {
   display: inline-block;
-  max-width: 33.33%;
   text-align: center;
   vertical-align: top;
   width: 100%;
