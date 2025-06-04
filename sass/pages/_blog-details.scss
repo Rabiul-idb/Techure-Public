@@ -99,6 +99,7 @@
             p{
               margin-top: 15px;
               margin-bottom: 15px;
+              line-height: normal;
 
               @include m.xxs{
                 font-size: 16px;
@@ -149,6 +150,13 @@
                 }
               }
 
+              &.has-text-color{
+                strong{
+                    color: #1e0566;
+                    font-size: 16px;
+                }
+              }
+
               &.has-small-font-size {
                 font-size: 13px !important;
                 line-height: 24px;
@@ -170,6 +178,15 @@
               &.has-x-large-font-size {
                   font-size: 42px !important;
                   margin-bottom: 20px;
+              }
+
+              &.has-drop-cap.has-medium-font-size{
+                font-size: 20px;
+                color: #616670;
+              }
+              &.has-very-light-gray-color {
+                  color: #eee;
+                  background: v.$primary-color !important;
               }
             }
             ul {
@@ -580,6 +597,7 @@
 
                           p{
                             font-size: 1.6em;
+                            color: black;
                           }
                       }
                   }
