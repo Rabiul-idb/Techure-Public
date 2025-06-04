@@ -7469,6 +7469,16 @@ p {
   background-color: #fff;
   border-left: 1px solid #573db8;
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p {
+  margin: 0;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p strong {
+  font-size: 16px;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p strong a {
+  text-decoration: underline;
+  color: #573db8;
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-pullquote {
   border-top: 2px solid #573db8 !important;
   border-bottom: 2px solid #573db8 !important;
