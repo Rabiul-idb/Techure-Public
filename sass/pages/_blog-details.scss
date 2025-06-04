@@ -21,7 +21,16 @@
     padding-bottom: 80px;
   }
 
- 
+  ol{
+    padding-left: 20px;
+    li{
+      padding-top: 10px;
+      color: #616670;
+    }
+  }
+  ul{
+    padding-left: 20px;
+  }
 
   .blog-details-wrapper{
 
@@ -107,17 +116,6 @@
             }
           }
           .post-content {
-
-             ol{
-                padding-left: 20px;
-                li{
-                  padding-top: 10px;
-                  color: #616670;
-                }
-              }
-              ul{
-                padding-left: 20px;
-              }
 
             .wp-block-heading{
               margin-bottom: 10px;
@@ -244,9 +242,7 @@
                 
               }
             }
-            ol{
-              padding-left: 0;
-            }
+            
 
             h2{
               margin-bottom: 10px;
