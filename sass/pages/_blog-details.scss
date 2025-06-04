@@ -234,6 +234,10 @@
                   font-size: 42px !important;
               }
             }
+            h3, h4, h5, h6{
+              margin-bottom: 10px;
+              font-weight: 600;
+            }
 
             .wp-block-group {
                 margin: 15px 0;
@@ -568,6 +572,13 @@
                       text-decoration: underline !important;
                       color: v.$primary-color;
                     }
+
+                    code{
+                      color: v.$primary-color;
+                    }
+                  }
+                  a{
+                    color: v.$primary-color;
                   }
               }
             }
