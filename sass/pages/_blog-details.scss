@@ -884,6 +884,9 @@
 
             .post-cat-list{
               margin-top: 10px;
+              gap: 5px;
+              display: inline-flex;
+              flex-wrap: wrap;
 
               a{
                 display: inline-flex;
@@ -928,7 +931,7 @@
             .post-tag-list {
               display: flex;
               align-items: center;
-              gap: 10px;
+              gap: 5px;
               margin-top: 10px;
               
               a {                    

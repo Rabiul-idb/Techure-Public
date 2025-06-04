@@ -7728,6 +7728,9 @@ p {
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat .post-cat-list {
   margin-top: 10px;
+  gap: 5px;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat .post-cat-list a {
   display: inline-flex;
@@ -7779,7 +7782,7 @@ p {
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   margin-top: 10px;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list a {
