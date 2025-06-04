@@ -7166,6 +7166,9 @@ p {
     font-size: 16px;
   }
 }
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p a {
+  color: #573db8;
+}
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p strong {
   color: #07000e;
 }

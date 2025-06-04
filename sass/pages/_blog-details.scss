@@ -131,6 +131,10 @@
                 font-size: 16px;
               }
 
+              a{
+                color: v.$primary-color;
+              }
+
               strong{
                 // font-size: 32px;
                 // font-weight: v.$font-weight-bold;
@@ -843,7 +847,7 @@
           align-items: center;
           padding-top: 40px;
           width: 100%;
-          
+
           @include m.xs {
             flex-wrap: wrap;
           }
