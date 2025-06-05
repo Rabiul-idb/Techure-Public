@@ -11324,7 +11324,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 50px 45px 50px 0;
   display: block;
 }
-.main-menu ul li ul {
+.main-menu ul ul {
   background-color: #ffffff;
   left: 0;
   opacity: 0;
@@ -11339,14 +11339,14 @@ body.admin-bar .header-menu-area.sticky_menu {
   transform-origin: top;
   transform: scaleY(0);
 }
-.main-menu ul li ul li {
+.main-menu ul ul li {
   float: none;
   min-width: 210px;
 }
-.main-menu ul li ul li ul {
+.main-menu ul ul li ul {
   visibility: hidden;
 }
-.main-menu ul li ul li a {
+.main-menu ul ul li a {
   padding: 10px 20px;
   color: #23262D;
 }
