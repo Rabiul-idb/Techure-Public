@@ -55,13 +55,13 @@
         }
       }
 
-      &:hover {
-        .submenu {
-          visibility: visible;
-          opacity: 1;
-          @include m.transform(scaleY(1));
-        }
-      }
+      // &:hover {
+      //   .submenu {
+      //     visibility: visible;
+      //     opacity: 1;
+      //     @include m.transform(scaleY(1));
+      //   }
+      // }
     }
   }
   @include m.laptop_m {

@@ -68,7 +68,7 @@
     }
 }
 .main-menu ul li:hover > ul {
-    visibility: visible;
+    visibility: visible ;
     transition: all 300ms ease;
     opacity: 1;
     transform: scaleY(1);

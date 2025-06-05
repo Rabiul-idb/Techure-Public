@@ -4173,11 +4173,6 @@ p {
   font-weight: 900;
   line-height: 10px;
 }
-.main-menu ul li:hover .submenu {
-  visibility: visible;
-  opacity: 1;
-  transform: scaleY(1);
-}
 @media (max-width: 1399px) {
   .main-menu {
     display: none;
