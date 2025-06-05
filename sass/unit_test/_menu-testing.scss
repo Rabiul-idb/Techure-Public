@@ -27,6 +27,7 @@
             a{
                 padding: 50px 45px 50px 0;
                 display: block;
+                font-size: 16px;
             }
 
             
@@ -59,6 +60,7 @@
                     a{
                         padding: 10px 20px;
                         color: #23262D;
+                        font-size: 16px;
                     }
                
                 }
@@ -82,4 +84,10 @@
 .main-menu ul li ul li:hover > ul {
     visibility: visible;
     top: -2px;
+}
+
+.number-with-btn{
+    .phone-number{
+        display: none;
+    }
 }
