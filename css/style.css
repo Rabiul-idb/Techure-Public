@@ -11326,6 +11326,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: block;
   font-size: 16px;
 }
+.main-menu ul li a:before {
+  position: absolute;
+  content: "\f107";
+  font-family: "Font Awesome 6 Pro";
+  display: inline-block;
+  padding: 3px;
+  font-size: 14px;
+  top: 50%;
+  right: 6px;
+  line-height: 0;
+  visibility: hidden;
+}
+.main-menu ul li.dropdown > a:before {
+  visibility: visible;
+}
 .main-menu ul li:hover a {
   color: #573db8;
 }

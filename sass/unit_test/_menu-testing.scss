@@ -27,13 +27,29 @@
             display: inline-block;
             padding: 0;
             position: relative;
-             transition: all 0.4s;
+            transition: all 0.4s;
 
             a{
                 padding: 50px 45px 50px 0;
                 display: block;
                 font-size: 16px;
 
+                &:before {
+                    position: absolute;
+                    content: "\f107";
+                    font-family: "Font Awesome 6 Pro";
+                    display: inline-block;
+                    padding: 3px;
+                    font-size: 14px;
+                    top: 50%;
+                    right: 6px;
+                    line-height: 0;
+                    visibility: hidden;
+                }
+
+            }
+            &.dropdown > a:before {
+                visibility: visible;
             }
 
             &:hover{
