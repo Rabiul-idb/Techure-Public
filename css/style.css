@@ -11314,11 +11314,15 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: inline-block;
   padding: 0;
   position: relative;
+  transition: all 0.4s;
 }
 .main-menu ul li a {
   padding: 50px 45px 50px 0;
   display: block;
   font-size: 16px;
+}
+.main-menu ul li:hover a {
+  color: #573db8;
 }
 .main-menu ul li ul {
   background-color: #ffffff;
