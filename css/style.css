@@ -11305,6 +11305,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 /* Theme Default CSS */
+.header-area .container .row {
+  align-items: center;
+}
+
 .main-menu ul {
   margin: 0;
   padding: 0;
@@ -11346,12 +11350,18 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 10px 20px;
   color: #23262D;
 }
+.main-menu ul ul li:hover {
+  visibility: visible;
+  opacity: 1;
+}
 .main-menu ul ul ul {
   left: 100%;
   transition: all 0.3s ease 0s;
   opacity: 0;
   border-top: 0px;
   border-top: 2px solid #573db8;
+  visibility: hidden;
+  opacity: 0;
 }
 
 /* Theme Default CSS */
