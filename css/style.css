@@ -11304,6 +11304,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   align-items: center;
 }
 
+.menu-wrapper {
+  float: none;
+}
+
 .main-menu ul {
   margin: 0;
   padding: 0;
@@ -11370,6 +11374,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   top: -2px;
 }
 
+.number-with-btn {
+  margin-left: auto;
+}
 .number-with-btn .phone-number {
   display: none;
 }
