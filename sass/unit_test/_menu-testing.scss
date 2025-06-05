@@ -12,11 +12,16 @@
         margin: 0;
         padding: 0;
         position: relative;
+        display: block !important;
 
         li{
             display: inline-block;
             padding: 0;
             position: relative;
+
+            a{
+                padding: 51px 24px;
+            }
         }
 
         ul{
@@ -40,6 +45,11 @@
 
                 ul{
                         visibility: hidden;
+                }
+
+                a{
+                    padding: 10px 20px;
+                    color: #23262D;
                 }
             }
 

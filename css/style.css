@@ -11308,11 +11308,15 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin: 0;
   padding: 0;
   position: relative;
+  display: block !important;
 }
 .main-menu ul li {
   display: inline-block;
   padding: 0;
   position: relative;
+}
+.main-menu ul li a {
+  padding: 51px 24px;
 }
 .main-menu ul ul {
   background-color: #ffffff;
@@ -11335,6 +11339,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .main-menu ul ul li ul {
   visibility: hidden;
+}
+.main-menu ul ul li a {
+  padding: 10px 20px;
+  color: #23262D;
 }
 .main-menu ul ul ul {
   left: 100%;
