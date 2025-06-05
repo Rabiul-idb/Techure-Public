@@ -11324,7 +11324,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 50px 45px 50px 0;
   display: block;
 }
-.main-menu ul ul {
+.main-menu ul li ul {
   background-color: #ffffff;
   left: 0;
   opacity: 0;
@@ -11339,22 +11339,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   transform-origin: top;
   transform: scaleY(0);
 }
-.main-menu ul ul li {
+.main-menu ul li ul li {
   float: none;
   min-width: 210px;
 }
-.main-menu ul ul li ul {
-  visibility: hidden;
-}
-.main-menu ul ul li a {
-  padding: 10px 20px;
-  color: #23262D;
-}
-.main-menu ul ul li:hover {
-  visibility: visible;
-  opacity: 1;
-}
-.main-menu ul ul ul {
+.main-menu ul li ul liul {
   left: 100%;
   transition: all 0.3s ease 0s;
   opacity: 0;
@@ -11362,6 +11351,18 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-top: 2px solid #573db8;
   visibility: hidden;
   opacity: 0;
+}
+.main-menu ul li ul li a {
+  padding: 10px 20px;
+  color: #23262D;
+}
+.main-menu ul li ul li:hoverul {
+  visibility: visible;
+  opacity: 1;
+}
+.main-menu ul li:hoverul {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* Theme Default CSS */
