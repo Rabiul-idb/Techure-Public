@@ -11340,6 +11340,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .main-menu ul li ul li ul {
   visibility: hidden;
+  left: 100%;
 }
 .main-menu ul li ul li a {
   padding: 10px 20px;
