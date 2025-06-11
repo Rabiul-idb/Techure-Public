@@ -8620,6 +8620,9 @@ p {
 .comment-form p {
   margin-top: 20px;
 }
+.comment-form p a {
+  color: #573db8;
+}
 .comment-form .contacts-message {
   margin-top: 20px;
 }
