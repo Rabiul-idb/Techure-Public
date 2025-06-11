@@ -19,5 +19,13 @@
                 color: v.$primary-color;
             }
         }
+
+        ol{
+            li{
+                a{
+                    color: v.$primary-color;
+                }
+            }
+        }
     }
 }
