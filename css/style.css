@@ -8766,7 +8766,7 @@ p {
 .latest-comments li.comment .comments-box {
   padding-top: 48px;
   padding-bottom: 13px;
-  border-top: 1px solid red;
+  border-top: 1px solid rgba(44, 53, 62, 0.1490196078);
 }
 .latest-comments li.comment .comments-box blockquote {
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
@@ -8774,7 +8774,7 @@ p {
   margin-right: 40px;
 }
 .latest-comments li.comment .children li.comment .comments-box {
-  border-top: 1px solid red;
+  border-top: 1px solid rgba(44, 53, 62, 0.1490196078);
 }
 .latest-comments li.comment:first-child .comments-box {
   border-top: 0;
