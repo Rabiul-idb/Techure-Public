@@ -1,3 +1,5 @@
+@use "../variables" as v;
+@use "../mixin" as m;
 
 // unit testing pages area
 .page-area{
@@ -10,6 +12,8 @@
     .page-content{
         p{
             margin: 0 0 15px;
+            color: v.$gray-800;
+            font-weight: 500;
         }
     }
 }
