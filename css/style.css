@@ -11432,6 +11432,31 @@ body.admin-bar .header-menu-area.sticky_menu {
 .page-area .page-content dl dd a {
   color: #573db8;
 }
+.page-area .page-content .page-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.page-area .page-content .page-links .post-page-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #23262D;
+  background-color: rgba(217, 161, 76, 0.1);
+  border-radius: 50%;
+  height: 67px;
+  width: 67px;
+  transition: all 0.5s ease-out;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.page-area .page-content .page-links .post-page-numbers:hover, .page-area .page-content .page-links .post-page-numbers.current {
+  background-color: #573db8;
+  color: white;
+}
 
 /* Theme Default CSS */
 /*-======== video-box =======-*/
