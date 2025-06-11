@@ -11410,6 +11410,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #716f73;
   font-weight: 500;
 }
+.page-area .page-content p a {
+  color: #573db8;
+}
 
 /* Theme Default CSS */
 /*-======== video-box =======-*/
