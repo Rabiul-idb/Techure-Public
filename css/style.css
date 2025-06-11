@@ -11413,6 +11413,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .page-area .page-content p a {
   color: #573db8;
 }
+.page-area .page-content ol li {
+  font-weight: 500;
+}
 .page-area .page-content ol li a {
   color: #573db8;
 }
