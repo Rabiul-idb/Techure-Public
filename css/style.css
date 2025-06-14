@@ -4299,7 +4299,10 @@ p {
   display: block;
 }
 .off-canvas .main-menu.mobile-menu ul {
-  display: block;
+  display: flex !important;
+  flex-direction: column;
+  align-items: normal;
+  gap: 0;
   text-transform: capitalize;
   padding-top: 60px;
   font-weight: 500;
@@ -4322,6 +4325,7 @@ p {
 .off-canvas .main-menu.mobile-menu ul li > div > a {
   color: #031f42;
   text-decoration: none !important;
+  padding: 0;
 }
 .off-canvas .main-menu.mobile-menu ul li .off-canvas-dropdown {
   padding-top: 0;
