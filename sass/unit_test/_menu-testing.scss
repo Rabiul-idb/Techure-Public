@@ -3,17 +3,13 @@
 
 // All pages
 
-#menu-all-pages{
-
-
-}
 
 .header-area .container .row{
     align-items: center;
 }
 
 .menu-wrapper{
-    float: none;
+    //float: none;
     justify-content: space-between;
 }
 .main-menu{
@@ -94,6 +90,12 @@
                 }
     
            
+            }
+
+            &:last-child{
+                a{
+                    padding-right: 0;
+                }
             }
         }
     }
