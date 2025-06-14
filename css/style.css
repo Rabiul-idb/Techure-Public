@@ -3591,7 +3591,6 @@ p {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 3px;
 }
 .header-area.style-one .logo .standard-logo {
   display: block;
@@ -4122,29 +4121,35 @@ p {
     float: right;
   }
 }
-.menu-wrapper .number-with-btn {
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.number-with-btn {
   display: flex;
   align-items: center;
   float: right;
   gap: 30px;
-  margin-left: auto;
 }
-.menu-wrapper .number-with-btn .contact-number {
+.number-with-btn .contact-number {
   font-size: 18px;
   font-weight: 700;
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.menu-wrapper .number-with-btn .contact-number a {
+.number-with-btn .contact-number a {
   color: #07000e;
 }
 @media (max-width: 576px) {
-  .menu-wrapper .number-with-btn .contact-number {
+  .number-with-btn .contact-number {
     display: none;
   }
 }
-.menu-wrapper .number-with-btn .contact-number svg path {
+.number-with-btn .contact-number svg path {
   fill: #573db8;
 }
 
@@ -11310,6 +11315,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .menu-wrapper {
+  float: right;
   justify-content: space-between;
 }
 
@@ -11395,13 +11401,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 .main-menu ul li ul li:hover > ul {
   visibility: visible;
   top: -2px;
-}
-
-.number-with-btn {
-  margin-left: auto;
-}
-.number-with-btn .phone-number {
-  display: none;
 }
 
 /* Theme Default CSS */

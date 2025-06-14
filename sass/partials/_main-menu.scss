@@ -9,28 +9,35 @@
   @include m.laptop_m_two {
     float: right;
   }
-  .number-with-btn {
+}
+
+.menu-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.number-with-btn {
+  display: flex;
+  align-items: center;
+  float: right;
+  gap: 30px;
+  
+  .contact-number {
+    a {
+      color: v.$gray-900;
+    }
+    font-size: 18px;
+    font-weight: v.$font-weight-bold;
     display: flex;
     align-items: center;
-    float: right;
-    gap: 30px;
-    margin-left: auto;
-    .contact-number {
-      a {
-        color: v.$gray-900;
-      }
-      font-size: 18px;
-      font-weight: v.$font-weight-bold;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      @include m.device-576px {
-        display: none;
-      }
-      svg {
-        path {
-          fill: v.$primary-color;
-        }
+    gap: 8px;
+    @include m.device-576px {
+      display: none;
+    }
+    svg {
+      path {
+        fill: v.$primary-color;
       }
     }
   }

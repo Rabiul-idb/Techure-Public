@@ -9,7 +9,7 @@
 }
 
 .menu-wrapper{
-    //float: none;
+    float: right;
     justify-content: space-between;
 }
 .main-menu{
@@ -117,8 +117,8 @@
 }
 
 .number-with-btn{
-    margin-left: auto;
+   
     .phone-number{
-        display: none;
+        //display: none;
     }
 }
