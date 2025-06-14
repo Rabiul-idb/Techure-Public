@@ -4464,6 +4464,7 @@ p {
   display: flex;
   align-items: center;
   min-height: 520px;
+  padding-top: 70px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .page-breadcrumb-area {
@@ -4482,17 +4483,11 @@ p {
 }
 
 .breadcrumb-wrapper .page-heading .page-title {
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 700;
-  line-height: 72px;
+  line-height: 10px;
   letter-spacing: -2px;
   text-align: center;
-}
-@media (max-width: 768px) {
-  .breadcrumb-wrapper .page-heading .page-title {
-    font-size: 60px;
-    line-height: 60px;
-  }
 }
 @media (max-width: 767px) {
   .breadcrumb-wrapper .page-heading .page-title {
@@ -4552,7 +4547,7 @@ p {
   color: #573db8;
 }
 .breadcrumb-wrapper .breadcrumb-list ul li.active {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   color: #07000e;
 }
@@ -4572,7 +4567,7 @@ p {
   }
 }
 .breadcrumb-wrapper .breadcrumb-list ul li a {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   color: #07000e;
   display: inline-block;
