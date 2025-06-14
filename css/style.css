@@ -11407,6 +11407,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   top: -2px;
 }
 
+.number-with-btn .phone-number {
+  display: none;
+}
+
 /* Theme Default CSS */
 .page-area {
   padding-top: 140px;
