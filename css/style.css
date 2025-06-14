@@ -11437,6 +11437,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 700;
   margin-bottom: 10px;
 }
+.page-area .page-content table th a {
+  color: #573db8;
+}
 .page-area .page-content table tr td a {
   color: #573db8;
 }

@@ -38,6 +38,11 @@
             margin-bottom: 10px;
         }
         table{
+            th{
+                a{
+                    color: v.$primary-color;
+                }
+            }
             tr{
                 td{
                     a{
