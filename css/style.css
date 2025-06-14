@@ -4116,7 +4116,6 @@ p {
 .menu-wrapper {
   display: flex;
   align-items: center;
-  float: right;
 }
 @media (max-width: 1280px) {
   .menu-wrapper {
@@ -4128,7 +4127,7 @@ p {
   align-items: center;
   float: right;
   gap: 30px;
-  margin-left: 50px;
+  margin-left: auto;
 }
 .menu-wrapper .number-with-btn .contact-number {
   font-size: 18px;

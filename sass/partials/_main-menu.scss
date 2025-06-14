@@ -5,7 +5,7 @@
 .menu-wrapper {
   display: flex;
   align-items: center;
-  float: right;
+  
   @include m.laptop_m_two {
     float: right;
   }
@@ -14,7 +14,7 @@
     align-items: center;
     float: right;
     gap: 30px;
-    margin-left: 50px;
+    margin-left: auto;
     .contact-number {
       a {
         color: v.$gray-900;
