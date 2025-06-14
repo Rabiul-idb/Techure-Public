@@ -29,6 +29,7 @@
             font-weight: 700;
             line-height: 72px;
             letter-spacing: -2px;
+            text-align: center;
 
             @include m.device-768px {
                 font-size: 60px;
@@ -56,6 +57,8 @@
             align-items: center;
             gap: 25px;
             margin-top: 30px;
+            padding-left: 0;
+            justify-content: center;
 
             @include m.lg{
                 margin-top: 20px;
