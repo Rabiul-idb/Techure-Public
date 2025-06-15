@@ -986,7 +986,7 @@
         
         &.format-image {    
           .post-thumbnail {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             img {
               @include m.border-radius(20px);
               width: 100%;
@@ -1563,7 +1563,7 @@
 
         &.format-standard{
           .post-thumbnail{
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             img{
               max-width: 100%;
               height: auto;
