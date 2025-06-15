@@ -10527,6 +10527,7 @@ body .is-layout-grid {
   transition: all 0.3s;
 }
 
+/* Theme Default CSS */
 /* WordPress Core
 ===================*/
 body {
@@ -10796,6 +10797,10 @@ img.emoji {
 
 .single-post-item.format-quote blockquote {
   padding: 45px;
+}
+
+code {
+  color: #573db8;
 }
 
 blockquote {
