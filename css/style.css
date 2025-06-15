@@ -7034,8 +7034,8 @@ p {
 .blog-area {
   position: relative;
   overflow: hidden;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .blog-area {
@@ -11406,8 +11406,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 /* Theme Default CSS */
 .page-area {
-  padding-top: 140px;
-  padding-bottom: 130px;
+  padding-top: 115px;
+  padding-bottom: 105px;
 }
 .page-area .page-content p {
   margin: 0 0 15px;
