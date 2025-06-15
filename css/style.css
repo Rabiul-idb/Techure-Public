@@ -7735,6 +7735,7 @@ p {
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat .post-cat-list {
   margin-top: 10px;
+  margin-bottom: 15px;
   gap: 5px;
   display: inline-flex;
   flex-wrap: wrap;
@@ -7787,8 +7788,9 @@ p {
   }
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 5px;
   margin-top: 10px;
 }

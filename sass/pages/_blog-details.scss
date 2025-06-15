@@ -901,6 +901,7 @@
 
             .post-cat-list{
               margin-top: 10px;
+              margin-bottom: 15px;
               gap: 5px;
               display: inline-flex;
               flex-wrap: wrap;
@@ -946,8 +947,9 @@
               }
             }
             .post-tag-list {
-              display: flex;
+              display: inline-flex;
               align-items: center;
+              flex-wrap: wrap;
               gap: 5px;
               margin-top: 10px;
               
