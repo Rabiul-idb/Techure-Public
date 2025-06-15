@@ -1610,6 +1610,7 @@
             margin-bottom: 0px;
             color: v.$gray-100;
             font-weight: 700;
+            overflow-wrap: anywhere;
 
             @include m.xl{
               font-size: 18px;

@@ -8464,6 +8464,7 @@ p {
   margin-bottom: 0px;
   color: #f7f1fc;
   font-weight: 700;
+  overflow-wrap: anywhere;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .blog-area .blog-details-wrapper .blog-post-nav .post-navigation .text h4 {
