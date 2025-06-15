@@ -73,7 +73,7 @@
             display: flex;
             align-items: center;
             gap: 25px;
-            margin-top: 15px;
+            
             a {
               color: v.$gray-900;
             }
@@ -986,6 +986,7 @@
         
         &.format-image {    
           .post-thumbnail {
+            margin-bottom: 15px;
             img {
               @include m.border-radius(20px);
               width: 100%;
@@ -1562,6 +1563,7 @@
 
         &.format-standard{
           .post-thumbnail{
+            margin-bottom: 15px;
             img{
               max-width: 100%;
               height: auto;
