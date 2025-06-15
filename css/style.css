@@ -10905,7 +10905,6 @@ blockquote footer {
 
 .wp-block-archives select,
 .wp-block-categories select {
-  height: 66px;
   border: 1px solid #e3e3e3;
   padding: 0 10px;
   margin-bottom: 10px;
