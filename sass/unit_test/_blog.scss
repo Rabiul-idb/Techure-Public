@@ -18,6 +18,7 @@
             display: flex;
             align-items: center;
             gap: 25px;
+            flex-wrap: wrap;
 
             @include m.sm{
               gap: 20px;

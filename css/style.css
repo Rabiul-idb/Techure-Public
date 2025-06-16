@@ -9025,6 +9025,7 @@ ul.children {
   display: flex;
   align-items: center;
   gap: 25px;
+  flex-wrap: wrap;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta {
