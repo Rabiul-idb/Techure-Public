@@ -12198,6 +12198,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .section-header.style-two .section-content .section-desc {
   flex-basis: 50%;
+  padding-left: 50px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-header.style-two .section-content .section-desc {

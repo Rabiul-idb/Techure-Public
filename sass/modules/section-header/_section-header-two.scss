@@ -55,6 +55,7 @@
 
       .section-desc {
         flex-basis: 50%;
+        padding-left: 50px;
         @include m.md {
           flex-basis: 100%;
         }
