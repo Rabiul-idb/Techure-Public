@@ -121,6 +121,9 @@
         float: right;
         &:nth-child(1) {
           ul {
+            padding-left: 0;
+            margin: 0;
+
             li {
               a {
                 @include m.transition(0.3s);
@@ -185,6 +188,8 @@
       }
       ul {
         float: right;
+        padding-left: 0;
+        margin-bottom: 7px;
         @include m.sm {
           text-align: center;
         }

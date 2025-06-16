@@ -11387,7 +11387,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.4s;
 }
 .main-menu ul li a {
-  padding: 50px 45px 50px 0;
+  padding: 40px 45px 40px 0;
   display: block;
   font-size: 16px;
 }
@@ -14252,6 +14252,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   visibility: hidden;
   z-index: -2;
 }
+.team-card-wrapper.style-one .card-item .card-img .card-wrap .media-wrapper .shear-media ul {
+  margin: 0;
+  padding-left: 0;
+}
 .team-card-wrapper.style-one .card-item .card-img .card-wrap .media-wrapper .shear-media ul li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -16751,6 +16755,10 @@ video {
 .footer-area.style-one .footer-wrap .footer-list {
   float: right;
 }
+.footer-area.style-one .footer-wrap .footer-list:nth-child(1) ul {
+  padding-left: 0;
+  margin: 0;
+}
 .footer-area.style-one .footer-wrap .footer-list:nth-child(1) ul li a {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -16818,6 +16826,8 @@ video {
 }
 .footer-area.style-one .copyright-area ul {
   float: right;
+  padding-left: 0;
+  margin-bottom: 7px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .footer-area.style-one .copyright-area ul {
