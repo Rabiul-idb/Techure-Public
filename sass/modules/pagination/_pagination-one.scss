@@ -14,6 +14,11 @@
     }
     @include m.sm{
       margin-top: -40px;
+      gap: 10px;
+    }
+    @include m.xs{
+      gap: 5px;
+      margin-top: -25px;
     }
     
       li {
@@ -36,8 +41,21 @@
           padding: 0;
           text-align: center;
           line-height: 50px;
-          display: block;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           @include m.transition(0.5s);
+
+          @include m.sm{
+            height: 40px;
+            width: 40px;
+            font-size: 20px;
+          }
+          @include m.xs{
+            height: 35px;
+            width: 35px;
+            font-size: 18px;
+          }
   
           svg {
             width: 14px;

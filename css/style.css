@@ -10788,6 +10788,11 @@ table td#today a {
 .gallery-caption {
   display: block;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .gallery-caption {
+    font-size: #573db8;
+  }
+}
 
 .size-thumbnail {
   margin-bottom: 20px;
@@ -16527,6 +16532,13 @@ video {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .basic-pagination ul {
     margin-top: -40px;
+    gap: 10px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .basic-pagination ul {
+    gap: 5px;
+    margin-top: -25px;
   }
 }
 .basic-pagination ul li.active a {
@@ -16546,12 +16558,28 @@ video {
   padding: 0;
   text-align: center;
   line-height: 50px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .basic-pagination ul li a, .basic-pagination ul li span {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .basic-pagination ul li a, .basic-pagination ul li span {
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+  }
 }
 .basic-pagination ul li a svg, .basic-pagination ul li span svg {
   width: 14px;
