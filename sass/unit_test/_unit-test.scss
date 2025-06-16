@@ -58,10 +58,12 @@ ul {
     }
   }
 }
-.wp-block-image figcaption{
+.wp-block-image .aligncenter>figcaption, .wp-block-image .alignleft>figcaption, .wp-block-image .alignright>figcaption, .wp-block-image.aligncenter>figcaption, .wp-block-image.alignleft>figcaption, .wp-block-image.alignright>figcaption {
+
   display: block;
   
 }
+
 .wp-block-file__button {
     background: #32373c;
     color: #fff;

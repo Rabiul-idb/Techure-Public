@@ -10587,7 +10587,7 @@ ul {
   background-color: black;
 }
 
-.wp-block-image figcaption {
+.wp-block-image .aligncenter > figcaption, .wp-block-image .alignleft > figcaption, .wp-block-image .alignright > figcaption, .wp-block-image.aligncenter > figcaption, .wp-block-image.alignleft > figcaption, .wp-block-image.alignright > figcaption {
   display: block;
 }
 
