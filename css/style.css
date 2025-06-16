@@ -10587,7 +10587,7 @@ ul {
   background-color: black;
 }
 
-.wp-block-image .aligncenter > figcaption {
+.wp-block-image figcaption {
   display: block;
 }
 
