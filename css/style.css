@@ -9048,6 +9048,15 @@ ul.children {
 .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .post-date a,
 .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .post-comment a {
   color: #716f73;
+  font-size: 18px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .author-img a,
+  .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .blog-category a,
+  .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .post-date a,
+  .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .post-comment a {
+    font-size: 16px;
+  }
 }
 .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .author-img svg path,
 .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .blog-category svg path,
@@ -9061,15 +9070,6 @@ ul.children {
 .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .post-comment .meta-text {
   font-weight: 400;
   margin-left: 3px;
-  font-size: 18px;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .author-img .meta-text,
-  .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .blog-category .meta-text,
-  .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .post-date .meta-text,
-  .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .post-comment .meta-text {
-    font-size: 16px;
-  }
 }
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .blog-area .blog-posts .single-post-item .post-content-wrapper .post-meta .blog-category {

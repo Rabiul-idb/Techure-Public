@@ -37,6 +37,11 @@
                 }
               a {
                 color: v.$gray-800;
+                font-size: 18px;
+  
+                @include m.sm{
+                  font-size: 16px;
+                }
               }
               svg {
                 path {
@@ -46,11 +51,6 @@
               .meta-text {
                 font-weight: v.$font-weight-regular;
                 margin-left: 3px;
-                font-size: 18px;
-
-                @include m.sm{
-                  font-size: 16px;
-                }
 
               }
             }
