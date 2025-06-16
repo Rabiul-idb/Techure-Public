@@ -58,7 +58,10 @@ ul {
     }
   }
 }
-
+.wp-block-image .aligncenter>figcaption{
+  display: block;
+  
+}
 .wp-block-file__button {
     background: #32373c;
     color: #fff;
