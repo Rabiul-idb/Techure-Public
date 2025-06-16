@@ -311,6 +311,10 @@
 
 /*-======== lates-service-area=======-*/
 .lates-service-area {
+
+  padding-top: 135px;
+  padding-bottom: 135px;
+
   background: v.$gray-100;
   @include m.nesthub {
     padding-top: 120px;
@@ -381,6 +385,8 @@
 /*-======== about-area=======-*/
 
 .about-area {
+  padding-top: 135px;
+
   @include m.nesthub {
     padding-top: 120px;
   }
@@ -425,6 +431,8 @@
 
 /*-======== our-team-area =======-*/
 .our-team-area {
+  padding-top: 135px;
+  padding-bottom: 135px;
   background: v.$gray-100;
   @include m.nesthub {
     padding-top: 120px;
@@ -440,9 +448,15 @@
   }
 }
 
+.story-area{
+  padding-top: 125px;
+}
+
 /*-======== tech-experiences-area =======-*/
 
 .tech-experiences-area {
+  padding-top: 135px;
+  padding-bottom: 135px;
   position: relative;
   overflow: hidden;
   @include m.device-375px {
@@ -485,6 +499,8 @@
 /*-======== work-process-area =======-*/
 
 .work-process-area {
+  padding-top: 128px;
+
   @include m.nesthub {
     padding-top: 120px;
   }
@@ -535,8 +551,16 @@
   }
 }
 
+.clients-testimonial-area{
+  padding-top: 135px;
+  padding-bottom: 110px;
+}
+
 /*-========faq-area =======-*/
 .faq-area {
+  padding-top: 135px;
+  padding-bottom: 135px;
+
   @include m.nesthub {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -546,6 +570,9 @@
 /*-======== new-blog-area =======-*/
 
 .new-blog-area {
+  padding-top: 135px;
+  padding-bottom: 135px;
+  
   @include m.nesthub {
     padding-top: 120px;
     padding-bottom: 120px;

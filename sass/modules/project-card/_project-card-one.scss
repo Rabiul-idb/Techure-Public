@@ -1,6 +1,11 @@
 @use "../../variables" as v;
 @use "../../mixin" as m;
 /*-======== client-box =======-*/
+.lates-project-area{
+  padding-top: 130px;
+  padding-bottom: 135px;
+}
+
 .porject-card-wrapper {
   &.style-one {
     .card-item {

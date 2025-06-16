@@ -4910,6 +4910,8 @@ p {
 /*-======== tech-serices-area=======-*/
 /*-======== lates-service-area=======-*/
 .lates-service-area {
+  padding-top: 135px;
+  padding-bottom: 135px;
   background: #f7f1fc;
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -5009,6 +5011,9 @@ p {
 }
 
 /*-======== about-area=======-*/
+.about-area {
+  padding-top: 135px;
+}
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .about-area {
     padding-top: 120px;
@@ -5045,6 +5050,8 @@ p {
 
 /*-======== our-team-area =======-*/
 .our-team-area {
+  padding-top: 135px;
+  padding-bottom: 135px;
   background: #f7f1fc;
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -5064,8 +5071,14 @@ p {
   }
 }
 
+.story-area {
+  padding-top: 125px;
+}
+
 /*-======== tech-experiences-area =======-*/
 .tech-experiences-area {
+  padding-top: 135px;
+  padding-bottom: 135px;
   position: relative;
   overflow: hidden;
 }
@@ -5113,6 +5126,9 @@ p {
 }
 
 /*-======== work-process-area =======-*/
+.work-process-area {
+  padding-top: 128px;
+}
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .work-process-area {
     padding-top: 120px;
@@ -5171,7 +5187,16 @@ p {
   }
 }
 
+.clients-testimonial-area {
+  padding-top: 135px;
+  padding-bottom: 110px;
+}
+
 /*-========faq-area =======-*/
+.faq-area {
+  padding-top: 135px;
+  padding-bottom: 135px;
+}
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .faq-area {
     padding-top: 120px;
@@ -5181,6 +5206,8 @@ p {
 
 /*-======== new-blog-area =======-*/
 .new-blog-area {
+  padding-top: 135px;
+  padding-bottom: 135px;
   background: #f7f1fc;
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -12746,6 +12773,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 /* Theme Default CSS */
 /*-======== client-box =======-*/
+.lates-project-area {
+  padding-top: 130px;
+  padding-bottom: 135px;
+}
+
 .porject-card-wrapper.style-one .card-item {
   padding-top: 60px;
   -webkit-transition: all 0.4s;
