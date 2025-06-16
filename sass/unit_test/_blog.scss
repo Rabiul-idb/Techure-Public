@@ -18,6 +18,10 @@
             display: flex;
             align-items: center;
             gap: 25px;
+
+            @include m.sm{
+              gap: 20px;
+            }
             a {
               color: v.$gray-900;
             }
@@ -42,6 +46,12 @@
               .meta-text {
                 font-weight: v.$font-weight-regular;
                 margin-left: 3px;
+                font-size: 18px;
+
+                @include m.sm{
+                  font-size: 16px;
+                }
+
               }
             }
             .blog-category{
