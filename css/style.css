@@ -3552,6 +3552,7 @@ p {
   left: 0;
   width: 100%;
   z-index: 1023;
+  padding-top: 15px;
 }
 .header-area.style-one.header-fixed {
   position: fixed !important;
@@ -3561,6 +3562,9 @@ p {
   top: 0;
   animation: sticy-menu 1s;
   animation-direction: inherited;
+}
+.header-area.style-one.header-fixed .menu-header {
+  padding-bottom: 15px;
 }
 .header-area.style-one.header-fixed.style-one {
   background: #f7f1fc;

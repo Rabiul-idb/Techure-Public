@@ -22,7 +22,7 @@
     left: 0;
     width: 100%;
     z-index: 1023;
-   // padding: 20px 0;
+    padding-top: 15px;
 
     &.header-fixed {
      position: fixed !important;
@@ -32,6 +32,10 @@
       top: 0;
       animation: sticy-menu 1s;
       animation-direction: inherited;
+
+      .menu-header{
+        padding-bottom: 15px;
+      }
 
       &.style-one {
         background: v.$gray-100;
