@@ -3552,7 +3552,6 @@ p {
   left: 0;
   width: 100%;
   z-index: 1023;
-  padding: 20px 0;
 }
 .header-area.style-one.header-fixed {
   position: fixed !important;
