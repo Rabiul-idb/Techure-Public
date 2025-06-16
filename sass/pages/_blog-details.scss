@@ -2022,6 +2022,14 @@
             color: v.$primary-color;
           }
         }
+
+        table{
+          td{
+            a{
+              color: v.$primary-color;
+            }
+          }
+        }
         .avatar-name {
           margin-bottom: 10px;
           position: relative;

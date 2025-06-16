@@ -19,6 +19,14 @@ dl, ol, ul {
   margin-top: 0;
   margin-bottom: 25px;
 }
+
+dl{
+  dd{
+    a{
+      color: v.$primary-color;
+    }
+  }
+}
 ol {
   padding-left: 20px;
 }
