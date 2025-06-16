@@ -8836,6 +8836,9 @@ p {
   margin-bottom: 20px;
   color: #616670;
 }
+.latest-comments li .comments-box .comments-text p a {
+  color: #573db8;
+}
 .latest-comments li .comments-box .comments-text .avatar-name {
   margin-bottom: 10px;
   position: relative;
