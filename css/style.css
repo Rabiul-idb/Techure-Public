@@ -12771,6 +12771,16 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .porject-card-wrapper.style-one .card-item .card-img {
   position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  border-radius: 20px;
+}
+.porject-card-wrapper.style-one .card-item .card-img:hover img {
+  transform: scale(1.05);
 }
 .porject-card-wrapper.style-one .card-item .card-img img {
   position: relative;

@@ -17,6 +17,15 @@
       }
       .card-img {
         position: relative;
+        overflow: hidden;
+        @include m.transition(0.4s);
+        border-radius: 20px;
+
+        &:hover{
+          img{
+            transform: scale(1.05);
+          }
+        }
 
         img {
           position: relative;
