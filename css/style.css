@@ -3681,9 +3681,15 @@ p {
   padding: 20px 0;
 }
 .header-area.style-two.header-fixed {
-  position: fixed;
+  position: fixed !important;
   background: #07000e;
   border: 0 !important;
+  z-index: 9999;
+  right: 0;
+  left: 0;
+  top: 0;
+  animation: sticy-menu 1s;
+  animation-direction: inherited;
 }
 .header-area.style-two.header-fixed .logo .standard-logo {
   display: none;
@@ -3712,6 +3718,9 @@ p {
 }
 .header-area.style-two .menu-wrapper .main-menu ul li .submenu li a {
   color: #07000e;
+}
+.header-area.style-two .menu-wrapper .number-with-btn {
+  margin-left: 40px;
 }
 .header-area.style-two .contact-number a {
   font-size: 18px;
@@ -12896,6 +12905,13 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .project-card-wrapper.style-two .card-item .card-img {
   flex-basis: 50%;
+  overflow: hidden;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  border-radius: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .project-card-wrapper.style-two .card-item .card-img {
@@ -12917,6 +12933,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
+}
+.project-card-wrapper.style-two .card-item .card-img:hover a img {
+  transform: scale(1.05);
 }
 .project-card-wrapper.style-two .card-item .card-content {
   margin-left: auto;
@@ -14127,6 +14146,8 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex;
   flex-wrap: wrap;
   padding-top: 10px;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-wrapper.style-two .about-wrap .about-content .tech-list ul {
@@ -14423,6 +14444,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   transform: translateY(100%);
   height: 0px;
   margin-bottom: 42px;
+}
+.team-card-wrapper.style-two .card-item .card-img .media-wrapper .media-wrap-overflow .shear-media ul {
+  padding-left: 0;
+  margin-bottom: 10px;
 }
 .team-card-wrapper.style-two .card-item .card-img .media-wrapper:hover .shear-media {
   transform: translateY(0%);

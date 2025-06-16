@@ -18,6 +18,11 @@
       }
       .card-img {
         flex-basis: 50%;
+        overflow: hidden;
+        @include m.transition(0.4s);
+        border-radius: 20px;
+        
+
         @include m.md {
           flex-basis: 100%;
         }
@@ -30,6 +35,14 @@
         img {
           width: 100%;
           @include m.border-radius(20px);
+        }
+
+        &:hover{
+          a{
+            img{
+              transform: scale(1.05);
+            }
+          }
         }
       }
       .card-content {

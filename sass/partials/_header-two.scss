@@ -13,9 +13,16 @@
     z-index: 1023;
     padding: 20px 0;
     &.header-fixed {
-      position: fixed;
+      position: fixed !important;
       background: v.$gray-900;
       border: 0 !important;
+      z-index: 9999;
+      right: 0;
+      left: 0;
+      top: 0;
+      animation: sticy-menu 1s;
+      animation-direction: inherited;
+
       .logo {
         .standard-logo {
           display: none;
@@ -57,6 +64,10 @@
             }
           }
         }
+      }
+
+      .number-with-btn{
+        margin-left: 40px;
       }
     }
     .contact-number {
