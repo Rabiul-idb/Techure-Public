@@ -5799,9 +5799,6 @@ p {
 }
 
 /*-======== faq-area  style-two=======-*/
-.faq-area.style-two {
-  padding-bottom: 0;
-}
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .faq-area.style-two {
     padding-bottom: 120px;
