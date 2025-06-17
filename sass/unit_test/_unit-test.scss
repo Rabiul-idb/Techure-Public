@@ -15,10 +15,19 @@ body {
   word-wrap: break-word;
   overflow-x: hidden;
 }
-dl, ol, ul {
-  margin-top: 0;
-  margin-bottom: 25px;
+
+.blog-area{
+
+  ul, ol{
+     padding-left: 20px;
+  }
+
+  dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
 }
+
 
 dl{
   dd{
@@ -27,13 +36,10 @@ dl{
     }
   }
 }
-ol {
-  padding-left: 20px;
-}
+
 
 ul {
-  list-style: disc;
-  padding-left: 20px;
+  list-style: disc; 
   list-style: none;
 }
 /* Protected Post Type */
