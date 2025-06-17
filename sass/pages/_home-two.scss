@@ -307,6 +307,10 @@
     padding-top: 135px;
     padding-bottom: 115px;
   }
+
+  &.style-three{
+    padding-bottom: 0;
+  }
 }
 
 /*-======== wrok-process-area =======-*/
@@ -370,7 +374,7 @@
 
 .faq-area {
   &.style-two {
-   
+    padding-bottom: 0;
 
     @include m.nesthub{
       padding-bottom: 120px;

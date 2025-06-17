@@ -5752,6 +5752,9 @@ p {
   padding-top: 135px;
   padding-bottom: 115px;
 }
+.our-team-area.style-three {
+  padding-bottom: 0;
+}
 
 /*-======== wrok-process-area =======-*/
 .work-process-area.style-two {
@@ -5796,6 +5799,9 @@ p {
 }
 
 /*-======== faq-area  style-two=======-*/
+.faq-area.style-two {
+  padding-bottom: 0;
+}
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .faq-area.style-two {
     padding-bottom: 120px;
@@ -11939,7 +11945,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 .count-box-wrapper.style-two .counter-item .coun-title {
-  font-size: 72px;
+  font-size: 68px;
   font-weight: 700;
   position: relative;
 }
