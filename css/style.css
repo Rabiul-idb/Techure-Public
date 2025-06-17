@@ -5796,9 +5796,6 @@ p {
 }
 
 /*-======== faq-area  style-two=======-*/
-.faq-area.style-two {
-  padding-bottom: 0;
-}
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .faq-area.style-two {
     padding-bottom: 120px;
@@ -16997,7 +16994,6 @@ video {
 }
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .footer-area.style-two .footer-wrap {
-    padding-top: 38px;
     flex-wrap: wrap;
   }
 }

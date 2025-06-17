@@ -73,7 +73,7 @@
       justify-content: space-between;
       align-items: center;
       @include m.xs {
-        padding-top: 38px;
+        // padding-top: 38px;
         flex-wrap: wrap;
       }
       @include m.device-525px {
