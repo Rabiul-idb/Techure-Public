@@ -5680,6 +5680,8 @@ p {
 .lates-service-area.style-two {
   position: relative;
   overflow: hidden;
+  padding-top: 120px;
+  padding-bottom: 125px;
 }
 .lates-service-area.style-two .count-box-wrapper.style-two {
   position: relative;
@@ -5746,8 +5748,14 @@ p {
   }
 }
 
+.our-team-area.style-2 {
+  padding-top: 135px;
+  padding-bottom: 115px;
+}
+
 /*-======== wrok-process-area =======-*/
 .work-process-area.style-two {
+  padding-top: 0;
   background: #f7f1fc;
 }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -5788,6 +5796,9 @@ p {
 }
 
 /*-======== faq-area  style-two=======-*/
+.faq-area.style-two {
+  padding-bottom: 0;
+}
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .faq-area.style-two {
     padding-bottom: 120px;
@@ -5992,6 +6003,7 @@ p {
 /*-======== new-blogs-area  style-two=======-*/
 .new-blog-area.style-two {
   background: #f7f1fc;
+  padding-bottom: 0;
 }
 @media (max-width: 425px) {
   .new-blog-area.style-two .section--header {
@@ -12932,9 +12944,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   -moz-border-radius: 20px;
   border-radius: 20px;
 }
-.project-card-wrapper.style-two .card-item .card-img:hover a img {
-  transform: scale(1.05);
-}
 .project-card-wrapper.style-two .card-item .card-content {
   margin-left: auto;
 }
@@ -14093,7 +14102,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   align-items: center;
   height: 100%;
   padding-top: 120px;
-  padding-bottom: 130px;
+  padding-bottom: 125px;
 }
 .about-wrapper.style-two .about-wrap .about-content .section-heading .section-title {
   font-size: 62px;
