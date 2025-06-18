@@ -4,6 +4,16 @@
 .lates-project-area{
   padding-top: 130px;
   padding-bottom: 135px;
+
+  &.style-page{
+    padding-bottom: 0;
+    .porject-card-wrapper {
+      &.style-one {
+        .card-item {
+          padding-top: 5px;
+        }
+      }
+    } }
 }
 
 .porject-card-wrapper {

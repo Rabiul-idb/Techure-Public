@@ -7085,8 +7085,22 @@ p {
 .blog-area {
   position: relative;
   overflow: hidden;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 135px;
+  padding-bottom: 135px;
+}
+.blog-area.for-blog {
+  padding-bottom: 110px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .blog-area.for-blog {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area.for-blog {
+    padding: 80px 0;
+    padding-bottom: 80px;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .blog-area {
@@ -12799,6 +12813,12 @@ body.admin-bar .header-menu-area.sticky_menu {
 .lates-project-area {
   padding-top: 130px;
   padding-bottom: 135px;
+}
+.lates-project-area.style-page {
+  padding-bottom: 0;
+}
+.lates-project-area.style-page .porject-card-wrapper.style-one .card-item {
+  padding-top: 5px;
 }
 
 .porject-card-wrapper.style-one .card-item {
