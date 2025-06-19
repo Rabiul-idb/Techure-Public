@@ -7093,12 +7093,19 @@ p {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .blog-area.for-blog {
+    padding-top: 110px;
     padding-bottom: 100px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area.for-blog {
-    padding: 80px 0;
+    padding-top: 30px;
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-area.for-blog {
+    padding-top: 30px;
     padding-bottom: 80px;
   }
 }
@@ -9221,6 +9228,11 @@ ul.children {
 }
 .blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .read-more a:hover span i {
   transform: rotate(405deg);
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .share-blog {
+    display: none;
+  }
 }
 .blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .share-blog span {
   font-size: 18px;
@@ -16460,19 +16472,19 @@ video {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .sidebar.style-two {
-    margin-top: 40px;
+    margin-top: 80px;
     padding: 40px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .sidebar.style-two {
-    margin-top: 40px;
+    margin-top: 70px;
     padding: 40px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .sidebar.style-two {
-    margin-top: 40px;
+    margin-top: 52px;
     padding: 20px;
   }
 }

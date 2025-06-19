@@ -156,6 +156,9 @@
 
             .share-blog{
 
+              @include m.sm{
+                display: none;
+              }
                 span{
                     font-size: 18px;
                     text-transform: uppercase;
