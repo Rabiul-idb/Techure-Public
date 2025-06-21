@@ -13205,13 +13205,26 @@ body.admin-bar .header-menu-area.sticky_menu {
 .post-card.style-1 .image {
   position: relative;
   padding: 10px 10px 0px 10px;
+  overflow: hidden;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 .post-card.style-1 .image img {
   width: 100%;
-  position: relative;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.post-card.style-1 .image:hover img {
+  transform: scale(1.04);
 }
 .post-card.style-1 .image .post-meta {
   display: flex;
@@ -13233,6 +13246,36 @@ body.admin-bar .header-menu-area.sticky_menu {
   border-radius: 50%;
 }
 .post-card.style-1 .image .post-meta .single-post-meta {
+  font-size: 12px;
+  font-weight: 400;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: #8fd45f;
+  line-height: 18px;
+  padding: 5px 10px;
+  color: #07000e;
+}
+.post-card.style-1 .post-date {
+  display: inline-flex;
+  float: right;
+  right: 20px;
+  bottom: 20px;
+  color: #07000e;
+  gap: 5px;
+}
+.post-card.style-1 .post-date .icon {
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  background: #8fd45f;
+  text-align: center;
+  line-height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.post-card.style-1 .post-date p {
   font-size: 12px;
   font-weight: 400;
   -webkit-border-radius: 50px;
@@ -16732,6 +16775,7 @@ video {
 /*-======== footer area =======-*/
 .footer-area.style-one {
   background: #07000e;
+  padding-bottom: 28px;
 }
 .footer-area.style-one a {
   color: #ffffff !important;
@@ -16925,7 +16969,6 @@ video {
 .footer-area.style-one .copyright-area ul {
   float: right;
   padding-left: 0;
-  margin-bottom: 7px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .footer-area.style-one .copyright-area ul {

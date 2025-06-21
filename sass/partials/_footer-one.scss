@@ -5,6 +5,7 @@
 .footer-area {
   &.style-one {
     background: v.$gray-900;
+    padding-bottom: 28px;
     a {
       color: v.$white !important;
     }
@@ -189,7 +190,6 @@
       ul {
         float: right;
         padding-left: 0;
-        margin-bottom: 7px;
         @include m.sm {
           text-align: center;
         }
