@@ -5653,7 +5653,6 @@ p {
 .hero-area.style-two .hero-wrap .global-client-review .review-content .review-box .reviwes-icons ul li {
   display: inline-block;
   color: #ffb34e;
-  margin-right: 10px;
 }
 .hero-area.style-two .hero-wrap .global-client-review .review-content .review-box .reviwes-icons ul li:nth-child(5) {
   color: #ececec;
@@ -5662,7 +5661,6 @@ p {
   font-size: 14px;
   font-weight: 400;
   color: #ffffff;
-  margin-top: 10px;
 }
 .hero-area.style-two .hero-wrap .theme-btn.style-one {
   background: #573db8;
@@ -5906,18 +5904,18 @@ p {
   z-index: 1;
 }
 .client-area.style-two .client-content-wrapper {
-  padding-top: 245px;
+  padding-top: 120px;
   position: relative;
   z-index: 1;
 }
 @media (max-width: 1024px) {
   .client-area.style-two .client-content-wrapper {
-    padding-top: 130px;
+    padding-top: 90px;
   }
 }
 @media (max-width: 425px) {
   .client-area.style-two .client-content-wrapper {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 }
 .client-area.style-two .client-content-wrapper .client-content .best-award-logo {
@@ -13049,7 +13047,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .project-card-wrapper.style-two .card-item .card-content .card-title {
   font-size: 24px;
   font-weight: 700;
-  padding-top: 20px;
+  padding-top: 80px;
 }
 
 /* Theme Default CSS */

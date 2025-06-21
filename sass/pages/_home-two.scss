@@ -195,7 +195,6 @@
                 li {
                   display: inline-block;
                   color: v.$color-3;
-                  margin-right: 10px;
                   &:nth-child(5) {
                     color: v.$gray-200;
                   }
@@ -205,7 +204,6 @@
                 font-size: 14px;
                 font-weight: v.$font-weight-regular;
                 color: v.$white;
-                margin-top: 10px;
               }
             }
           }
@@ -461,14 +459,14 @@
       z-index: 1;
     }
     .client-content-wrapper {
-      padding-top: 245px;
+      padding-top: 120px;
       position: relative;
       z-index: 1;
       @include m.laptop_m_four {
-        padding-top: 130px;
+        padding-top: 90px;
       }
       @include m.device-425px {
-        padding-top: 100px;
+        padding-top: 80px;
       }
       .client-content {
         .best-award-logo {
