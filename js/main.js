@@ -60,16 +60,16 @@
           });
 
           /*==== Video Play =====*/
-          var playBtn = $('.play-btn');
-          var modalClose = $('.btn-close, .modal');
-          playBtn.on('click', function(){
-          var mediaVideo = $("#player").get(0);
-              mediaVideo.play();
-          });
-          modalClose.on('click', function(){
-          var mediaVideo = $("#player").get(0);
-          mediaVideo.pause();
-          });
+          // var playBtn = $('.play-btn');
+          // var modalClose = $('.btn-close, .modal');
+          // playBtn.on('click', function(){
+          // var mediaVideo = $("#player").get(0);
+          //     mediaVideo.play();
+          // });
+          // modalClose.on('click', function(){
+          // var mediaVideo = $("#player").get(0);
+          // mediaVideo.pause();
+          // });
 
        // search field 
       $('#search').on('click', function () {
@@ -280,6 +280,47 @@
 
         //nice select
       $('select').niceSelect();
+
+
+        // ✅ Magnific Popup Configuration
+        $('.playBtn').magnificPopup({
+            type: 'iframe',
+
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+            fixedContentPos: false,
+            iframe: {
+                patterns: {
+                    youtube: {
+                        index: 'youtube.com/',
+                        id: function (url) {
+                            // Support both ?v=ID and /embed/ID
+                            const watchMatch = url.match(/[?&]v=([^&]+)/);
+                            if (watchMatch && watchMatch[1]) return watchMatch[1];
+
+                            const embedMatch = url.match(/embed\/([^\?&]+)/);
+                            if (embedMatch && embedMatch[1]) return embedMatch[1];
+
+                            return null;
+                        },
+                        src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+                    }
+                }
+            },
+            callbacks: {
+                close: function () {
+                    document.activeElement && document.activeElement.blur();
+
+                    setTimeout(() => {
+                        $('#main-content, .slick-current .playBtn').first().focus();
+                    }, 100);
+                }
+            }
+        });
+
+        // <iframe width="560" height="315" src="https://www.youtube.com/embed/4wtS-0IVQY4?si=j_dfbv30b8BWvNq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
       
       //testimonial slick slider
       $('.tech-testimonial-container').slick({
