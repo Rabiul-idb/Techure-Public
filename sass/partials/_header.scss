@@ -23,6 +23,7 @@
     width: 100%;
     z-index: 1023;
     padding-top: 15px;
+    padding-bottom: 15px;
 
     &.header-fixed {
       position: fixed !important;
@@ -34,7 +35,7 @@
       animation-direction: inherited;
 
       .menu-header{
-        padding-bottom: 15px;
+       // padding-bottom: 15px;
       }
 
       &.style-one {

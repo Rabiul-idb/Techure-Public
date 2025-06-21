@@ -3553,6 +3553,7 @@ p {
   width: 100%;
   z-index: 1023;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 .header-area.style-one.header-fixed {
   position: fixed !important;
@@ -3562,9 +3563,6 @@ p {
   top: 0;
   animation: sticy-menu 1s;
   animation-direction: inherited;
-}
-.header-area.style-one.header-fixed .menu-header {
-  padding-bottom: 15px;
 }
 .header-area.style-one.header-fixed.style-one {
   background: #f7f1fc;
@@ -11463,7 +11461,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   transition: all 0.4s;
 }
 .main-menu ul li a {
-  padding: 40px 45px 40px 0;
+  padding: 30px 30px 30px 0;
   display: block;
   font-size: 16px;
 }
