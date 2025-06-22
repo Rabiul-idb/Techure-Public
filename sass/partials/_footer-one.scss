@@ -114,6 +114,12 @@
             height: 32px;
             line-height: 32px;
             text-align: center;
+            transition: all 0.4s;
+
+            &:hover{
+              background-color: v.$primary-color;
+              
+            }
           }
         }
       }
