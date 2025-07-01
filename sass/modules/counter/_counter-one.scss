@@ -29,6 +29,9 @@
           font-size: 60px;
           line-height: 60px;
         }
+        @include m.xxs{
+          line-height: 30px;
+        }
       }
     }
   }

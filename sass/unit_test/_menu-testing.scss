@@ -99,6 +99,16 @@
             }
         }
     }
+
+     &.mobile-menu{
+        ul{
+            li{
+                a{
+                     padding: 10px 30px 12px 0;
+                }
+            }
+        }
+     }
 }
 .main-menu ul li:hover > ul {
     visibility: visible ;
@@ -115,6 +125,8 @@
     visibility: visible;
     top: -2px;
 }
+
+
 
 .number-with-btn{
    

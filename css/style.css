@@ -4338,7 +4338,7 @@ p {
   padding: 0;
 }
 .off-canvas .main-menu.mobile-menu ul li .off-canvas-dropdown {
-  padding-top: 0;
+  padding-top: 0 !important;
   display: none;
   padding-left: 20px;
   font-size: #031f42;
@@ -11522,6 +11522,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 .main-menu ul li:last-child a {
   padding-right: 0;
 }
+.main-menu.mobile-menu ul li a {
+  padding: 10px 30px 12px 0;
+}
 
 .main-menu ul li:hover > ul {
   visibility: visible;
@@ -11929,6 +11932,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     line-height: 60px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .count-box-wrapper.style-one .counter-item .coun-title {
+    line-height: 30px;
+  }
+}
 
 /* Theme Default CSS */
 /*-======== counter box =======-*/
@@ -12285,11 +12293,13 @@ body.admin-bar .header-menu-area.sticky_menu {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-header.style-two .section-content .section-desc {
     flex-basis: 100%;
+    padding-left: 0;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-header.style-two .section-content .section-desc {
     flex-basis: 100%;
+    padding-left: 0;
   }
 }
 
