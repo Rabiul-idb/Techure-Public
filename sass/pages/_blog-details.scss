@@ -1672,6 +1672,13 @@
           width: 1px;
           height: 200px;
           background: rgb(204, 204, 204);
+
+          @include m.xs{
+            height: 150px;
+          }
+          @include m.xxs{
+            height: 95px;
+          }
         }
       }
 
