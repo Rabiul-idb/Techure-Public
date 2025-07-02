@@ -7130,16 +7130,6 @@ p {
     padding-bottom: 80px;
   }
 }
-.blog-area ol {
-  padding-left: 20px;
-}
-.blog-area ol li {
-  padding-top: 10px;
-  color: #616670;
-}
-.blog-area ul {
-  padding-left: 20px;
-}
 .blog-area img {
   max-width: 100%;
   height: auto;
@@ -10653,8 +10643,21 @@ body {
   overflow-x: hidden;
 }
 
-.blog-area ul, .blog-area ol {
+.blog-area ul {
+  padding-left: 0;
+}
+.blog-area ul ul {
   padding-left: 20px;
+}
+.blog-area ol {
+  padding-left: 0;
+}
+.blog-area ol ol {
+  padding-left: 20px;
+}
+.blog-area ol li {
+  padding-top: 10px;
+  color: #616670;
 }
 .blog-area dl, .blog-area ol, .blog-area ul {
   margin-top: 0;

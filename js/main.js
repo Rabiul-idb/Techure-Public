@@ -287,7 +287,7 @@
           delay: 0,
           opacity: 0              
         })
-        sr.reveal('.card-item, .porject-card-wrapper, .card-item, .post-card, ',{
+        sr.reveal('.card-item',{
           interval: 150,
           delay: 0,
           duration: 2000,

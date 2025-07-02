@@ -18,8 +18,25 @@ body {
 
 .blog-area{
 
-  ul, ol{
-     padding-left: 20px;
+  ul{
+    padding-left: 0;
+
+    ul{
+      padding-left: 20px;
+    }
+  }
+
+  ol{
+    padding-left: 0;
+
+    ol{
+      padding-left: 20px;
+    }
+
+    li{
+      padding-top: 10px;
+      color: #616670;
+    }
   }
 
   dl, ol, ul {
