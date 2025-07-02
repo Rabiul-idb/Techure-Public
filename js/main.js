@@ -278,22 +278,6 @@
       // wow js
      //   new WOW().init();
 
-
-       // scroll Revel
-        const sr = ScrollReveal({
-          origin: 'top',
-          duration : 2000,
-          distance: '60px',
-          delay: 0,
-          opacity: 0              
-        })
-        sr.reveal('.card-item',{
-          interval: 150,
-          delay: 0,
-          duration: 2000,
-          origin: 'bottom',
-        })
-
         //nice select
       $('select').niceSelect();
 
