@@ -11523,7 +11523,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding-right: 0;
 }
 .main-menu.mobile-menu ul li a {
-  padding: 10px 30px 12px 0;
+  padding: 10px 30px 12px 10px;
 }
 
 .main-menu ul li:hover > ul {
