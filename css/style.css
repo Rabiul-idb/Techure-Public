@@ -4338,7 +4338,7 @@ p {
   padding: 0;
 }
 .off-canvas .main-menu.mobile-menu ul li .off-canvas-dropdown {
-  padding-top: 0 !important;
+  padding-top: 0;
   display: none;
   padding-left: 20px;
   font-size: #031f42;
@@ -4349,6 +4349,10 @@ p {
 }
 .off-canvas .main-menu.mobile-menu ul li .off-canvas-dropdown li a {
   color: #031f42;
+}
+.off-canvas .main-menu.mobile-menu ul li > ul.sub-menu {
+  padding-top: 0;
+  padding-left: 20px;
 }
 .off-canvas .main-menu.mobile-menu ul .active .off-canvas-dropdown {
   display: block !important;
@@ -11523,7 +11527,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding-right: 0;
 }
 .main-menu.mobile-menu ul li a {
-  padding: 10px 30px 12px 10px;
+  padding: 10px 30px 12px 0px;
 }
 
 .main-menu ul li:hover > ul {
