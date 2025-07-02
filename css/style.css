@@ -4350,7 +4350,7 @@ p {
 .off-canvas .main-menu.mobile-menu ul li .off-canvas-dropdown li a {
   color: #031f42;
 }
-.off-canvas .main-menu.mobile-menu ul li > ul.sub-menu {
+.off-canvas .main-menu.mobile-menu ul li > ul.submenu {
   padding-top: 0;
   padding-left: 20px;
 }
