@@ -4352,6 +4352,9 @@ p {
 }
 .off-canvas .main-menu.mobile-menu ul li > ul.submenu {
   padding-top: 0;
+  padding-left: 0;
+}
+.off-canvas .main-menu.mobile-menu ul li > ul.submenu li > a {
   padding-left: 20px;
 }
 .off-canvas .main-menu.mobile-menu ul .active .off-canvas-dropdown {
