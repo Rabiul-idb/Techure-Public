@@ -20,6 +20,7 @@ body {
 
   ul{
     padding-left: 0;
+    margin-top: 0;
 
     ul{
       padding-left: 20px;
@@ -39,8 +40,8 @@ body {
     }
   }
 
-  dl, ol, ul {
-    margin-top: 0;
+  dl, ol {
+    margin-top: 0; 
     margin-bottom: 25px;
   }
 }
