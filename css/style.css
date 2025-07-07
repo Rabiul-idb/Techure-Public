@@ -13100,6 +13100,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 700;
   padding-top: 80px;
 }
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .project-card-wrapper.style-two .card-item .card-content .card-title {
+    padding-top: 20px;
+  }
+}
 
 /* Theme Default CSS */
 /*-======== card =======-*/
