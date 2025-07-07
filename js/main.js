@@ -320,7 +320,6 @@
         });
 
       
-      
       //testimonial slick slider
       $('.tech-testimonial-container').slick({
         infinite: true,
@@ -446,31 +445,3 @@
 })(jQuery);
 
 
-  // jQuery(document).ready(function($) {
-  //   $('.clients-testimonial-area > div').slick({
-  //       slidesToShow: 2,
-  //       slidesToScroll: 1,
-  //       autoplay: true,
-  //       autoplaySpeed: 3000,
-  //       arrows: false,
-       
-       
-  //       responsive: [
-  //           {
-  //               breakpoint: 992,
-  //               settings: {
-  //                   slidesToShow: 1,
-  //                   slidesToScroll: 1
-  //               }
-  //           },
-  //           {
-  //               breakpoint: 576,
-  //               settings: {
-  //                   slidesToShow: 1,
-  //                   slidesToScroll: 1,
-  //                   arrows: false
-  //               }
-  //           }
-  //       ]
-  //   });
-  // });
