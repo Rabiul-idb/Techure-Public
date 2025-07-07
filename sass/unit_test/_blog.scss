@@ -9,6 +9,11 @@
     .single-post-item {
         margin-bottom: 60px;
 
+        &:last-child{
+          margin-bottom: 0;
+          
+        }
+
         .post-content-wrapper {
           background: v.$gray-100;
           padding: 35px 25px;

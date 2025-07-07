@@ -9107,6 +9107,9 @@ ul.children {
 .blog-area .blog-posts .single-post-item {
   margin-bottom: 60px;
 }
+.blog-area .blog-posts .single-post-item:last-child {
+  margin-bottom: 0;
+}
 .blog-area .blog-posts .single-post-item .post-content-wrapper {
   background: #f7f1fc;
   padding: 35px 25px;
@@ -11884,8 +11887,8 @@ body.admin-bar .header-menu-area.sticky_menu {
 .theme-btn.style-three {
   padding: 20px 30px !important;
   width: 100%;
-  background: #8fd45f;
-  color: #07000e;
+  background: #573db8;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 700;
   border: initial;
@@ -16715,6 +16718,9 @@ video {
 
 /* Theme Default CSS */
 /*-======== sidebar style-one  =======-*/
+.basic-pagination {
+  margin-top: 60px;
+}
 .basic-pagination ul {
   display: flex;
   align-items: center;
