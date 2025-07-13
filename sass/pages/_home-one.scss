@@ -22,13 +22,21 @@
       @include m.transform(translateY(-50%));
 
       @include m.xl {
-        left: 70px;
+        left: 60px;
+       
       }
       @include m.laptop_l {
-        top: 40%;
+        top: 45%;
+      }
+      @include m.lg{
+        display: none;
       }
       @include m.md {
         left: 30px;
+        display: none;
+      }
+      @include m.sm {
+        display: none;
       }
       .media--icons {
         a {
@@ -56,7 +64,7 @@
       @include m.device-576px {
         top: 30%;
         left: 24px;
-        display: none;
+
       }
       @include m.device-525px {
         display: none;
@@ -74,8 +82,12 @@
           font-size: 74px;
           line-height: 74px;
         }
+        @include m.md {
+          font-size: 74px;
+          line-height: 74px;
+        }
         @include m.sm {
-          font-size: 72px;
+          font-size: 70px;
           line-height: 80px;
         }
 
@@ -109,18 +121,33 @@
         
         margin-top: 30px;
       }
+
+      .hero-img-order{
+        @include m.lg{
+          order: 2;
+          text-align: center;
+        }
+        @include m.md{
+          order: 2;
+          text-align: center;
+        }
+        @include m.sm{
+          order: 2;
+          text-align: center;
+        }
+      }
       
       .video-wrap {
-        flex-basis: 25%;
-        @include m.md {
-          flex-basis: inherit;
-        }
-        @include m.sm {
-          flex-basis: 100%;
-        }
+       
         @include m.laptop_m_four {
           width: 410px;
           margin: 0px auto 0px auto;
+        }
+        @include m.md{
+          width: auto;
+        }
+        @include m.sm{
+          width: auto;
         }
         .video-box {
           @include m.device-576px {
@@ -139,50 +166,12 @@
         @include m.rmaxwd(1280) {
           margin-top: 45px;
         }
-        // width: 636px;
-        // @include m.xl {
-        //   width: 600px;
-        // }
-        // @include m.lg {
-        //   width: 480px;
-        //   margin-top: 90px;
-        // }
-        // @include m.md {
-        //   margin-top: 70px !important;
-        //   width: 450px;
-        // }
-        // @include m.sm {
-        //   width: 530px;
-        // }
-        // @include m.xs {
-        //   margin-top: 0px !important;
-        //   width: 450px;
-        // }
-        // @include m.device-425px {
-        //   width: 350px;
-        // }
-        // @include m.device-375px {
-        //   width: 300px;
-        // }
-        // @include m.device-320px {
-        //   width: 250px;
-        // }
+        
         .hero-img {
           position: relative;
           width: 100%;
           height: 100%;
-          // @include m.xl {
-          //   height: 540px;
-          // }
-
-          // @include m.md {
-          //   height: 460px;
-          // }
-
-          // @include m.device-320px {
-          //   height: 320px;
-          //   object-fit: cover;
-          // }
+          
         }
         .theme-btn {
           &.style-one {

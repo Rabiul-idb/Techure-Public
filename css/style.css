@@ -3472,6 +3472,10 @@ body {
   }
 }
 
+img {
+  max-width: 100%;
+}
+
 p {
   color: #716f73;
   font-size: 18px;
@@ -4638,17 +4642,28 @@ p {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-area.style-one .shear-media {
-    left: 70px;
+    left: 60px;
   }
 }
 @media (max-width: 1440px) {
   .hero-area.style-one .shear-media {
-    top: 40%;
+    top: 45%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-area.style-one .shear-media {
+    display: none;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-area.style-one .shear-media {
     left: 30px;
+    display: none;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .hero-area.style-one .shear-media {
+    display: none;
   }
 }
 .hero-area.style-one .shear-media .media--icons a {
@@ -4674,7 +4689,6 @@ p {
   .hero-area.style-one .shear-media {
     top: 30%;
     left: 24px;
-    display: none;
   }
 }
 @media (max-width: 525px) {
@@ -4698,9 +4712,15 @@ p {
     line-height: 74px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-area.style-one .hero-content .section-title {
+    font-size: 74px;
+    line-height: 74px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .hero-area.style-one .hero-content .section-title {
-    font-size: 72px;
+    font-size: 70px;
     line-height: 80px;
   }
 }
@@ -4738,23 +4758,38 @@ p {
     margin-top: 30px;
   }
 }
-.hero-area.style-one .hero-wrapper .video-wrap {
-  flex-basis: 25%;
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-area.style-one .hero-wrapper .hero-img-order {
+    order: 2;
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .hero-area.style-one .hero-wrapper .video-wrap {
-    flex-basis: inherit;
+  .hero-area.style-one .hero-wrapper .hero-img-order {
+    order: 2;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .hero-area.style-one .hero-wrapper .video-wrap {
-    flex-basis: 100%;
+  .hero-area.style-one .hero-wrapper .hero-img-order {
+    order: 2;
+    text-align: center;
   }
 }
 @media (max-width: 1024px) {
   .hero-area.style-one .hero-wrapper .video-wrap {
     width: 410px;
     margin: 0px auto 0px auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-area.style-one .hero-wrapper .video-wrap {
+    width: auto;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .hero-area.style-one .hero-wrapper .video-wrap {
+    width: auto;
   }
 }
 @media (max-width: 576px) {
@@ -11977,10 +12012,19 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 /* Theme Default CSS */
 /*-======== counter box =======-*/
+.count-box-wrapper.style-one {
+  margin-top: 170px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .count-box-wrapper.style-one {
+    margin-top: 0;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .count-box-wrapper.style-one {
     padding-right: 0;
     padding-top: 0;
+    margin-top: 0;
   }
 }
 .count-box-wrapper.style-one .counter-item {
@@ -11988,6 +12032,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   align-items: center;
   padding: 30px 0;
   gap: 30px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .count-box-wrapper.style-one .counter-item {
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .count-box-wrapper.style-one .counter-item {
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .count-box-wrapper.style-one .counter-item {
+    justify-content: center;
+  }
 }
 .count-box-wrapper.style-one .counter-item:nth-child(1) {
   border-bottom: 1px solid #573db8;
@@ -12002,10 +12061,15 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-size: 64px;
   font-weight: 700;
 }
-@media (max-width: 768px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .count-box-wrapper.style-one .counter-item .coun-title {
     font-size: 60px;
-    line-height: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .count-box-wrapper.style-one .counter-item .coun-title {
+    font-size: 52px;
+    line-height: 52px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {
