@@ -22,9 +22,9 @@
         margin-top: 0;
       }
       .coun-title {
-        font-size: 74px;
+        font-size: 64px;
         font-weight: v.$font-weight-bold;
-        min-width: 164px;
+        // min-width: 164px;
         @include m.device-768px {
           font-size: 60px;
           line-height: 60px;

@@ -101,21 +101,15 @@
     .hero-wrapper {
       position: relative;
       z-index: 1;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
 
       @include m.device-425px {
         margin-top: 0 !important;
       }
       @include m.laptop_m_four {
-        flex-wrap: wrap;
+        
         margin-top: 30px;
       }
-      @include m.sm {
-        flex-wrap: wrap;
-        justify-content: center;
-      }
+      
       .video-wrap {
         flex-basis: 25%;
         @include m.md {
@@ -142,8 +136,6 @@
       }
       .hero-center-img {
         position: relative;
-        margin-left: 27px;
-        margin-right: 30px;
         @include m.rmaxwd(1280) {
           margin-top: 45px;
         }
@@ -758,3 +750,66 @@
     background-color: #6c3dd8 !important;
   }
 }
+
+
+
+
+/*
+
+<div class="hero-wrapper">
+          <div class="video-wrap">
+            <div class="video-box style-one mt-130   res-mt-40">
+              <img src="./images/video-img.png" alt="techure video img" />
+              <a class="play-btn playBtn" href="https://www.youtube.com/embed/4wtS-0IVQY4?si=j_dfbv30b8BWvNq4">
+                <span class="play-icon">
+                  <i class="fa-solid fa-play"></i>
+                </span>
+              </a>
+            </div>
+            <!-- end video-box -->
+            <p class="sectiont-desc mt-30 wow animate__ animate__lightSpeedInLeft animated">
+              Information Technology is a rapidly evolving field that
+              encompasses the study and application
+            </p>
+            <div class="d-flex align-items-center mt-30">
+              <div class="user-client style-one">
+                <img src="./images/client-img.png" alt="techure client" class="client-img" />
+                <img src="./images/client-img-02.png" alt="techure client" class="client-img" />
+                <img src="./images/client-img-03.png" alt="techure client"
+                  class="client-img" />
+                <div class="client-box">
+                  <h5 class="count">3K+</h5>
+                </div>
+              </div>
+              <h5 class="happy-text pl-15">Happy Clients</hclass=>
+            </div>
+          </div>
+         
+          <div class="hero-wrap">
+            <div class="hero-center-img">
+              <img src="./images/hero-img.png" alt="techure hero img" class="hero-img wow custom-animate-two" data-wow-delay="0.6s" />
+              <button class="theme-btn style-one ">
+                <a href="contact.html">
+                  <i class="icon-right-arrow"></i>  
+                  <br /> Get<br> Started <br> Now 
+                </a>
+              </button>
+            </div>
+            <div class="count-box-wrapper pr-10 style-one mt-170 res-mt-40">
+              <div class="counter-item " >
+                <h2 class="coun-title "><span class="counter">140</span>+</h2>
+                <p class="coun-decs">Business People</p>
+              </div>
+              <div class="counter-item" >
+                <h2 class="coun-title "><span class="counter">99</span>%</h2>
+                <p class="coun-decs">Customer Satisfaction </p>
+              </div>
+            </div>
+            <!-- end user-item -->
+          </div>
+        </div>
+
+
+
+
+        */
