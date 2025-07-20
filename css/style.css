@@ -13035,6 +13035,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .lates-project-area.style-page .porject-card-wrapper.style-one .card-item:last-child {
   margin-bottom: 0;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .lates-project-area.style-page .col-lg-6:first-child .porject-card-wrapper.style-one .card-item:last-child {
+    margin-bottom: 30px;
+  }
+}
 
 .porject-card-wrapper.style-one .card-item {
   padding-top: 60px;

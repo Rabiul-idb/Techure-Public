@@ -26,6 +26,22 @@
         }
       }
     } 
+
+    .col-lg-6{
+      &:first-child{
+        .porject-card-wrapper{
+           &.style-one {
+              .card-item {
+                &:last-child{
+                   @include m.sm{
+                      margin-bottom: 30px;
+                    }
+                }
+              }
+            }
+        } 
+      }
+    }
   }
 }
 
