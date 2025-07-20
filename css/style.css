@@ -13020,6 +13020,20 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .lates-project-area.style-page .porject-card-wrapper.style-one .card-item {
   padding-top: 5px;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .lates-project-area.style-page .porject-card-wrapper.style-one .card-item {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .lates-project-area.style-page .porject-card-wrapper.style-one .card-item {
+    margin-bottom: 30px;
+  }
+}
+.lates-project-area.style-page .porject-card-wrapper.style-one .card-item:last-child {
+  margin-bottom: 0;
 }
 
 .porject-card-wrapper.style-one .card-item {

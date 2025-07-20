@@ -11,9 +11,22 @@
       &.style-one {
         .card-item {
           padding-top: 5px;
+          margin-bottom: 40px;
+
+          @include m.md{
+            margin-bottom: 30px;
+          }
+          @include m.sm{
+            margin-bottom: 30px;
+          }
+
+          &:last-child{
+            margin-bottom: 0;
+          }
         }
       }
-    } }
+    } 
+  }
 }
 
 .porject-card-wrapper {
