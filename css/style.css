@@ -4144,6 +4144,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .number-with-btn {
@@ -4171,6 +4172,9 @@ p {
   fill: #573db8;
 }
 
+.main-menu {
+  flex: 1;
+}
 .main-menu ul {
   display: flex;
   justify-content: center;
