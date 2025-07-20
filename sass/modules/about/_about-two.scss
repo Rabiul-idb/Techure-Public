@@ -18,13 +18,10 @@
             line-height: 72px;
             letter-spacing: -2px;
             @include m.sm {
-              font-size: 52px;
-              line-height: 60px;
-            }
-            @include m.device-425px {
               font-size: 46px;
-              line-height: 60px;
+              line-height: 52px;
             }
+           
             @include m.device-425px {
               font-size: 42px;
               line-height: 60px;

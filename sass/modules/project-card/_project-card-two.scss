@@ -75,12 +75,18 @@
               font-size: 18px;
               padding: 16px 30px;
               border: 0;
+              @include m.xs{
+                padding: 16px 22px;
+              }
+              
               @include m.device-425px {
                 padding: 16px 16px;
               }
+
               @include m.device-425px {
                 padding: 12px 12px;
               }
+
               &:hover {
                 color: v.$gray-900;
               }
