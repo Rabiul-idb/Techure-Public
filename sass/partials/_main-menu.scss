@@ -18,6 +18,12 @@
   gap: 24px;
 }
 
+.header-area{
+  .logo{
+    flex-shrink: 0;
+  }
+}
+
 .number-with-btn {
   display: flex;
   align-items: center;
@@ -45,7 +51,7 @@
 }
 .main-menu {
   flex: 1;
-  
+
   ul {
     display: flex;
     justify-content: center;

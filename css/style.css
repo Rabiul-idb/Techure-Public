@@ -4147,6 +4147,10 @@ p {
   gap: 24px;
 }
 
+.header-area .logo {
+  flex-shrink: 0;
+}
+
 .number-with-btn {
   display: flex;
   align-items: center;
