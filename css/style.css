@@ -8318,6 +8318,27 @@ p {
 .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .single-post-meta .blog-post-tag .post-tag-list a svg path {
   fill: #573db8;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .share-blog {
+    display: none;
+  }
+}
+.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .share-blog span {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #07000e;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .share-blog .share-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .share-blog .share-links a {
+  font-size: 18px;
+  color: #573db8;
+}
 .blog-area .blog-details-wrapper .single-post-item.format-audio iframe {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
