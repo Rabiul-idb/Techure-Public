@@ -159,28 +159,29 @@
                 }
             }
 
-            .share-blog{
+          }
+          
+          .share-blog{
 
-              @include m.sm{
-                display: none;
-              }
-                span{
-                    font-size: 18px;
-                    text-transform: uppercase;
-                    color: v.$gray-900;
-                    font-weight: 500;
-                    margin-right: 10px;
-                }
-                .share-links{
-                    display: inline-flex;
-                    align-items: center;
-                    gap: 20px;
-                    a{
-                        font-size: 18px;
-                        color: v.$primary-color
-                    }
-                }
+            @include m.sm{
+              display: none;
             }
+              span{
+                  font-size: 18px;
+                  text-transform: uppercase;
+                  color: v.$gray-900;
+                  font-weight: 500;
+                  margin-right: 10px;
+              }
+              .share-links{
+                  display: inline-flex;
+                  align-items: center;
+                  gap: 20px;
+                  a{
+                      font-size: 18px;
+                      color: v.$primary-color
+                  }
+              }
           }
 
         }

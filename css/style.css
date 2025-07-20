@@ -9343,23 +9343,23 @@ ul.children {
   transform: rotate(405deg);
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .share-blog {
+  .blog-area .blog-posts .single-post-item .post-content-wrapper .share-blog {
     display: none;
   }
 }
-.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .share-blog span {
+.blog-area .blog-posts .single-post-item .post-content-wrapper .share-blog span {
   font-size: 18px;
   text-transform: uppercase;
   color: #07000e;
   font-weight: 500;
   margin-right: 10px;
 }
-.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .share-blog .share-links {
+.blog-area .blog-posts .single-post-item .post-content-wrapper .share-blog .share-links {
   display: inline-flex;
   align-items: center;
   gap: 20px;
 }
-.blog-area .blog-posts .single-post-item .post-content-wrapper .blog-read-more .share-blog .share-links a {
+.blog-area .blog-posts .single-post-item .post-content-wrapper .share-blog .share-links a {
   font-size: 18px;
   color: #573db8;
 }
