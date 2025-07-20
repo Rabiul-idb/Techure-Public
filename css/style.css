@@ -4176,9 +4176,6 @@ p {
   fill: #573db8;
 }
 
-.main-menu {
-  flex: 1;
-}
 .main-menu ul {
   display: flex;
   justify-content: center;
