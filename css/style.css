@@ -13131,14 +13131,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   background: #573db8;
 }
 
-.animate__animated {
-  animation-fill-mode: both;
-}
-
-.wow {
-  visibility: visible !important;
-}
-
 /* Theme Default CSS */
 /*-======== card =======-*/
 .project-card-wrapper.style-two .card-item {
