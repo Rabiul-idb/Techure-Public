@@ -276,7 +276,7 @@
       });
 
       // wow js
-       new WOW().init();
+       // new WOW().init();
 
         //nice select
       $('select').niceSelect();
