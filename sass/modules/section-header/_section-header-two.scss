@@ -40,16 +40,20 @@
           line-height: 60px;
         }
         @include m.rmaxwd(767) {
-          font-size: 52px;
-          line-height: 52px;
+          font-size: 48px;
+          line-height: 50px;
+        }
+         @include m.xs{
+          font-size: 42px;
+          line-height: 50px;
         }
         @include m.device-425px {
-          font-size: 48px;
-          line-height: 48px;
+          font-size: 40px;
+          line-height: 45px;
         }
-        @include m.device-320px {
-          font-size: 42px;
-          line-height: 42px;
+        @include m.device-375px {
+          font-size: 38px;
+          line-height: 44px;
         }
       }
 

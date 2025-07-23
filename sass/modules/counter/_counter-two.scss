@@ -31,15 +31,28 @@
         align-items: start;
         text-align: start;
         width: 180px;
-        margin-bottom: 30px;
+        margin-bottom: 18px;
       }
       .coun-title {
         font-size: 68px;
         font-weight: v.$font-weight-bold;
         position: relative;
+
+        @include m.md{
+          font-size: 60px;
+          line-height: 60px;
+        }
         @include m.device-768px {
           font-size: 60px;
           line-height: 60px;
+        }
+        @include m.sm{
+          font-size: 52px;
+          line-height: 52px;
+        }
+        @include m.xs{
+          font-size: 44px;
+          line-height: 48px;
         }
       }
       .coun-decs {

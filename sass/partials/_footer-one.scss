@@ -82,6 +82,7 @@
 
           &::placeholder {
             color: v.$white;
+            opacity: 0.5;
           }
           &:focus {
             border-color: v.$primary-color !important;

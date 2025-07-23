@@ -10,10 +10,10 @@
       padding-top: 200px;
     }
     @include m.sm {
-      padding-top: 180px;
-    }
-    @include m.device-425px {
       padding-top: 160px;
+    }
+    @include m.xs {
+      padding-top: 140px;
     }
     .shear-media {
       position: absolute;
@@ -92,8 +92,8 @@
         }
 
         @include m.xs {
-          font-size: 64px;
-          line-height: 72px;
+          font-size: 56px;
+          line-height: 68px;
         }
         @include m.device-425px {
           font-size: 48px;
@@ -443,7 +443,7 @@
   @include m.device-375px {
     .section-header {
       .section-title {
-        font-size: 40px !important;
+        font-size: 38px !important;
       }
     }
   }
@@ -582,11 +582,11 @@
   }
 
   @include m.xs{
-    padding: 15px;
+    padding: 15px 15px 10px;
   }
   hr{
     margin-top: 30px !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 25px !important;
     color: gray;
 
     @include m.sm{

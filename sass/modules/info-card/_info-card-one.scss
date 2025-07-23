@@ -69,6 +69,10 @@
           font-size: 24px;
           font-weight: v.$font-weight-bold;
           margin-bottom: 20px;
+
+          a{
+            color: v.$gray-900;
+          }
         }
         .card-decs {
           font-weight: v.$font-weight-medium;

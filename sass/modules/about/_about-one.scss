@@ -18,15 +18,19 @@
     }
 
     .about-wrap {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
       gap: 30px;
       @include m.lg {
+        display: flex;
         flex-wrap: wrap;
       }
       @include m.md {
+        display: flex;
         flex-wrap: wrap;
       }
       @include m.sm {
+        display: flex;
         flex-wrap: wrap;
       }
       .about-img {
@@ -67,6 +71,10 @@
         }
         @include m.sm {
           width: 100%;
+        }
+        @include m.xs{
+          flex-direction: column;
+          gap: 30px;
         }
         @include m.device-425px {
           flex-wrap: wrap;

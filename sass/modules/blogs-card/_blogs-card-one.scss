@@ -95,6 +95,10 @@
     }
     .post-content {
       padding: 20px 30px 30px 30px;
+
+      @include m.lg{
+        padding: 20px 12px 25px 12px;
+      }
       .post-meta {
         a {
           display: inline-block;
@@ -115,6 +119,7 @@
         padding-top: 20px;
         a {
           color: v.$gray-900;
+          @include m.transition(0.4s);
           &:hover {
             color: v.$primary-color;
             .title {
@@ -134,8 +139,9 @@
         gap: 5px;
         align-items: center;
         width: fit-content;
+        @include m.transition(0.4s);
         &:hover {
-          p {
+          p,span {
             color: v.$primary-color;
           }
           i {
@@ -144,10 +150,11 @@
           }
           
         }
-        p {
+        span,p {
           color: v.$gray-900;
           font-size: 18px;
           font-weight: v.$font-weight-bold;
+          @include m.transition(0.4s);
         }
         i {
           @include m.transform(rotate(0deg));
