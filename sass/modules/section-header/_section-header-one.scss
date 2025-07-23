@@ -4,9 +4,7 @@
 .section-header {
   &.style-one {
 
-    @include m.sm{
-      padding-bottom: 35px;
-    }
+    
 
     .section-meta {
       font-size: 18px;
