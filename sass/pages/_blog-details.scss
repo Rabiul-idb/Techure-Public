@@ -948,20 +948,20 @@
           .blog-post-tag{
            
             span{
-              font-size: 32px;
+              font-size: 26px;
               font-weight: v.$font-weight-bold;
               margin-bottom: 5px;
               @include m.md{
-                font-size: 28px;
-              }
-              @include m.sm{
                 font-size: 26px;
               }
-              @include m.xs{
+              @include m.sm{
                 font-size: 24px;
               }
-              @include m.xxs{
+              @include m.xs{
                 font-size: 22px;
+              }
+              @include m.xxs{
+                font-size: 20px;
               }
             }
             .post-tag-list {
