@@ -32,10 +32,7 @@
             letter-spacing: -2px;
             text-align: center;
 
-            @include m.device-768px {
-                // font-size: 60px;
-                // line-height: 60px;
-            }
+            
             @include m.rmaxwd(767) {
             font-size: 48px;
             line-height: 50px;
@@ -83,11 +80,11 @@
                 transform: translateY(-50%);
                 color: #07000e;
               }
-                &:nth-child(2) {
-                    a {
-                        color: v.$primary-color; 
-                    }
-                }
+                // &:nth-child(2) {
+                //     a {
+                //         color: v.$primary-color; 
+                //     }
+                // }                
                 &.active{
                     font-size: 20px;
                     font-weight: 700;

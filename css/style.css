@@ -4573,9 +4573,6 @@ p {
   transform: translateY(-50%);
   color: #07000e;
 }
-.breadcrumb-wrapper .breadcrumb-list ul li:nth-child(2) a {
-  color: #573db8;
-}
 .breadcrumb-wrapper .breadcrumb-list ul li.active {
   font-size: 20px;
   font-weight: 700;
