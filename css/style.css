@@ -11437,6 +11437,7 @@ input[type=radio] {
   align-self: center;
   flex-shrink: 0;
   box-shadow: none !important;
+  display: none;
 }
 
 input[type=radio]::before {
@@ -17365,6 +17366,7 @@ video {
 }
 .footer-area.style-one .copyright-area .copyright-text p {
   color: #ffffff;
+  opacity: 0.8;
 }
 
 /* Theme Default CSS */
