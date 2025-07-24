@@ -9084,6 +9084,9 @@ p {
   color: #573db8;
 }
 .latest-comments li .comments-box .comments-text table td a {
+  color: #716f73;
+}
+.latest-comments li .comments-box .comments-text table td a:hover {
   color: #573db8;
 }
 .latest-comments li .comments-box .comments-text .avatar-name {
@@ -11113,7 +11116,7 @@ img.emoji {
 }
 
 code {
-  color: #573db8;
+  color: #716f73;
 }
 
 blockquote {
