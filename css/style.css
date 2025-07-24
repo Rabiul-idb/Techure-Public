@@ -7357,6 +7357,9 @@ p {
   }
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p code {
+  color: #716f73;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p code:hover {
   color: #573db8;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p em strong {
@@ -7724,9 +7727,15 @@ p {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p strong a {
   text-decoration: underline !important;
+  color: #716f73;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p strong a:hover {
   color: #573db8;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p strong code {
+  color: #716f73;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p strong code:hover {
   color: #573db8;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content blockquote p a {
@@ -7867,6 +7876,9 @@ p {
   width: 100%;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content table th a {
+  color: #716f73;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content table th a:hover {
   color: #573db8;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content table th, .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content table td {

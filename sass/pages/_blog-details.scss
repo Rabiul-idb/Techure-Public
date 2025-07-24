@@ -178,7 +178,10 @@
                 }
               }
               code{
-                color: v.$primary-color;
+                color: v.$gray-800;
+                &:hover{
+                  color: v.$primary-color;
+                }
               }
 
               em{
@@ -675,11 +678,19 @@
                     font-size: 18px;
                     a{
                       text-decoration: underline !important;
-                      color: v.$primary-color;
+                      color: v.$gray-800;
+
+                      &:hover{
+                        color: v.$primary-color;
+                      }
                     }
 
                     code{
-                      color: v.$primary-color;
+                      color: v.$gray-800;
+
+                      &:hover{
+                        color: v.$primary-color;
+                      }
                     }
                   }
                   a{
@@ -881,7 +892,10 @@
               width: 100%;
               th{
                 a{
-                  color: v.$primary-color;
+                  color: v.$gray-800;
+                  &:hover{
+                      color: v.$primary-color;
+                    }
                 }
               }
 
