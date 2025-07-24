@@ -7883,28 +7883,28 @@ p {
   }
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {
   .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat .post-cat-list {
