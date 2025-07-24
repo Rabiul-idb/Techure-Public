@@ -5627,9 +5627,9 @@ p {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .hero-area.style-two .hero-content .hero-section .hero-img {
     width: 80%;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
   }
 }
 .hero-area.style-two .hero-wrap {
