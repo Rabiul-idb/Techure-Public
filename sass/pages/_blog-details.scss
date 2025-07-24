@@ -945,9 +945,7 @@
           }
           
           .blog-post-tag{
-            @include m.device-525px {
-              margin-top: 40px;
-            }
+           
             span{
               font-size: 32px;
               font-weight: v.$font-weight-bold;

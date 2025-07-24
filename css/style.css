@@ -7930,11 +7930,6 @@ p {
   background: #573db8;
   color: #ffffff;
 }
-@media (max-width: 525px) {
-  .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag {
-    margin-top: 40px;
-  }
-}
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag span {
   font-size: 32px;
   font-weight: 700;
