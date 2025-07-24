@@ -8836,6 +8836,9 @@ p {
   margin-top: 20px;
 }
 .comment-form p a {
+  color: #716f73;
+}
+.comment-form p a:hover {
   color: #573db8;
 }
 .comment-form .contacts-message {
@@ -9038,6 +9041,9 @@ p {
   color: #616670;
 }
 .latest-comments li .comments-box .comments-text p a {
+  color: #716f73;
+}
+.latest-comments li .comments-box .comments-text p a:hover {
   color: #573db8;
 }
 .latest-comments li .comments-box .comments-text table td a {
