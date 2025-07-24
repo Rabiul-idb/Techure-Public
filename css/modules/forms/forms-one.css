@@ -1,11 +1,12 @@
 /*==== font weight ====*/
 /*-======== forms =======-*/
 .form-wrapper.style-one {
-  padding: 62px 40px;
+  padding: 50px 40px;
   background: #ffffff;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
+  
 }
 @media (max-width: 425px) {
   .form-wrapper.style-one {
