@@ -7857,6 +7857,9 @@ p {
   margin-bottom: 40px;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-list li a {
+  color: #716f73;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-list li a:hover {
   color: #573db8;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content table {
