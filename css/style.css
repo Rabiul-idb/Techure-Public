@@ -12895,6 +12895,14 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .info-card-wrapper.style-one .card-item .card-content .card-title a {
   color: #07000e;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.info-card-wrapper.style-one .card-item .card-content .card-title a:hover {
+  color: #573db8;
 }
 .info-card-wrapper.style-one .card-item .card-content .card-decs {
   font-weight: 500;
