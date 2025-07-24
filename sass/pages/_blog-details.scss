@@ -526,7 +526,11 @@
             .wp-block-categories{
               li{
                 a{
+                  color: v.$gray-800;
+
+                  &:hover{
                   color: v.$primary-color;
+                }
                 }
               }
             }
@@ -546,7 +550,11 @@
             .wp-block-page-list{
               li{
                 a{
-                  color: v.$primary-color;
+                  color: v.$gray-800;
+
+                    &:hover{
+                    color: v.$primary-color;
+                  }
                 }
               }
             }
