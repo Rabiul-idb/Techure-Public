@@ -7999,6 +7999,7 @@ p {
   flex-wrap: wrap;
   gap: 10px;
   margin-left: 7px;
+  margin-top: 5px;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list a {
   display: inline-flex;
