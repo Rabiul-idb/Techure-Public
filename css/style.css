@@ -8912,6 +8912,7 @@ p {
   padding: 15px 20px;
   font-weight: 500;
   transition: all 0.3s;
+  margin-left: 12px;
 }
 .comment-form .theme-btn:hover {
   background-color: black;
@@ -16275,7 +16276,7 @@ video {
 /* Theme Default CSS */
 /*-======== forms =======-*/
 .form-wrapper.style-one {
-  padding: 62px 40px;
+  padding: 50px 40px;
   background: #ffffff;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;

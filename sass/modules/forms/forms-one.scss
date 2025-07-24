@@ -3,7 +3,7 @@
 /*-======== forms =======-*/
 .form-wrapper {
   &.style-one {
-    padding: 62px 40px;
+    padding: 50px 40px;
     background: v.$white;
     @include m.border-radius(20px);
     @include m.device-425px {
