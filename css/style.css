@@ -17363,6 +17363,9 @@ video {
 .footer-area.style-one .copyright-area ul li a:hover {
   color: #573db8 !important;
 }
+.footer-area.style-one .copyright-area .copyright-text p {
+  color: #ffffff;
+}
 
 /* Theme Default CSS */
 /*-======== footer-area  style-two=======-*/
