@@ -179,9 +179,7 @@
               }
               code{
                 color: v.$gray-800;
-                &:hover{
-                  color: v.$primary-color;
-                }
+                
               }
 
               em{
@@ -676,6 +674,7 @@
                 line-height: 30px;
                  strong{
                     font-size: 18px;
+                    color: v.$gray-800;
                     a{
                       text-decoration: underline !important;
                       color: v.$gray-800;
@@ -687,14 +686,14 @@
 
                     code{
                       color: v.$gray-800;
-
-                      &:hover{
-                        color: v.$primary-color;
-                      }
+                      
                     }
                   }
                   a{
-                    color: v.$primary-color;
+                    color: v.$gray-800;
+                    &:hover{
+                      color: v.$primary-color;
+                    }
                   }
               }
             }
