@@ -472,10 +472,12 @@ blockquote {
 .wp-block-cover p.wp-block-cover-text,
 .wp-block-cover.is-light .wp-block-cover__inner-container {
   color: #fff !important;
+  z-index: 1;
+  position: relative;
 }
 
 .wp-block-cover-text a {
-  color: #fff;
+  color: #fff !important;
 }
 
 .wp-block-rss {
