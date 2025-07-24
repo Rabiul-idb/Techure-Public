@@ -5609,6 +5609,7 @@ p {
   }
 }
 .hero-area.style-two .hero-content .hero-section .hero-img {
+  margin-left: 10px;
   -webkit-border-radius: 149px;
   -moz-border-radius: 149px;
   border-radius: 149px;
@@ -5649,6 +5650,7 @@ p {
 .hero-area.style-two .hero-wrap .left {
   flex-basis: 52%;
   padding-top: 56px;
+  padding-left: 15px;
 }
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
   .hero-area.style-two .hero-wrap .left {

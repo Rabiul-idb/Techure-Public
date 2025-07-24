@@ -91,6 +91,7 @@
           }
         }
         .hero-img {
+          margin-left: 10px;
           @include m.border-radius(149px);
           @include m.nesthub {
             width: 40%;
@@ -119,6 +120,7 @@
       .left {
         flex-basis: 52%;
         padding-top: 56px;
+        padding-left: 15px;
         @include m.nesthubmax {
           flex-basis: 62%;
         }
