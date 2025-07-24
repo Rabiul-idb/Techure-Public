@@ -9165,6 +9165,9 @@ ul.children {
 }
 
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-navigation__container.wp-block-navigation .wp-block-page-list .wp-block-pages-list__item.open-on-hover-click .wp-block-pages-list__item__link {
+  color: #716f73;
+}
+.blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content .wp-block-navigation__container.wp-block-navigation .wp-block-page-list .wp-block-pages-list__item.open-on-hover-click .wp-block-pages-list__item__link:hover {
   color: #573db8;
 }
 
