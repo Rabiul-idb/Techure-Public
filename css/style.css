@@ -9128,7 +9128,7 @@ p {
   font-size: 16px;
   font-weight: 500;
   color: black;
-  border: 1px solid transparent;
+  border: 1px solid #573db8;
   padding: 5px 24px;
   gap: 8px;
   position: absolute;
