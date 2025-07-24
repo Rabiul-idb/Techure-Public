@@ -11743,15 +11743,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   font-weight: 500;
 }
 .page-area .page-content p a {
+  color: #716f73;
+}
+.page-area .page-content p a:hover {
   color: #573db8;
 }
 .page-area .page-content p code {
-  color: #573db8;
+  color: #716f73;
 }
 .page-area .page-content ol li {
   font-weight: 500;
 }
 .page-area .page-content ol li a {
+  color: #716f73;
+}
+.page-area .page-content ol li a:hover {
   color: #573db8;
 }
 .page-area .page-content h1, .page-area .page-content h2, .page-area .page-content h3, .page-area .page-content h4, .page-area .page-content h5, .page-area .page-content h6 {
@@ -11759,12 +11765,21 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-bottom: 10px;
 }
 .page-area .page-content table th a {
+  color: #716f73;
+}
+.page-area .page-content table th a:hover {
   color: #573db8;
 }
 .page-area .page-content table tr td a {
+  color: #716f73;
+}
+.page-area .page-content table tr td a:hover {
   color: #573db8;
 }
 .page-area .page-content dl dd a {
+  color: #716f73;
+}
+.page-area .page-content dl dd a:hover {
   color: #573db8;
 }
 .page-area .page-content .page-links {

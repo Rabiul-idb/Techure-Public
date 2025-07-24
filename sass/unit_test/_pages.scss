@@ -15,11 +15,14 @@
             font-weight: 500;
 
             a{
-                color: v.$primary-color;
+                color: v.$gray-800;
+                &:hover{
+                    color: v.$primary-color;
+                }
             }
 
             code{
-                color: v.$primary-color;
+                color: v.$gray-800;
             }
         }
 
@@ -28,7 +31,11 @@
                 font-weight: 500;
 
                 a{
-                    color: v.$primary-color;
+                    color: v.$gray-800;
+
+                    &:hover{
+                        color: v.$primary-color;
+                    }
                 }
             }
         }
@@ -40,13 +47,21 @@
         table{
             th{
                 a{
-                    color: v.$primary-color;
+                    color: v.$gray-800;
+
+                    &:hover{
+                        color: v.$primary-color;
+                    }
                 }
             }
             tr{
                 td{
                     a{
-                        color: v.$primary-color;
+                        color: v.$gray-800;
+
+                        &:hover{
+                            color: v.$primary-color;
+                        }
                     }
                 }
             }
@@ -54,7 +69,11 @@
         dl{
             dd{
                 a{
-                    color: v.$primary-color;
+                    color: v.$gray-800;
+
+                    &:hover{
+                        color: v.$primary-color;
+                    }
                 }
             }
         }
