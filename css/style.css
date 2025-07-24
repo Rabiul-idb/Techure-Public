@@ -7908,10 +7908,11 @@ p {
   }
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat .post-cat-list {
-  gap: 5px;
+  gap: 10px;
   display: inline-flex;
   flex-wrap: wrap;
   margin-top: 5px;
+  margin-left: 7px;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat .post-cat-list a {
   display: inline-flex;
@@ -7959,7 +7960,8 @@ p {
   display: inline-flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px;
+  margin-left: 7px;
 }
 .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-tag .post-tag-list a {
   display: inline-flex;
