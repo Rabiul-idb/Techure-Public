@@ -7361,6 +7361,7 @@ p {
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p em strong {
   font-size: 16px;
+  color: #716f73;
 }
 .blog-area .blog-details-wrapper .single-post-item .post-content-wrapper .post-content p.blog-imgs {
   display: flex;
