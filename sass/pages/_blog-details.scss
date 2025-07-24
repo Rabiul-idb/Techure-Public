@@ -152,7 +152,11 @@
               }
 
               a{
-                color: v.$primary-color;
+                color: v.$gray-800;
+
+                &:hover{
+                  color: v.$primary-color;
+                }
               }
 
               strong{
@@ -454,10 +458,18 @@
             .wp-block-post-terms,
             .wp-block-post-navigation-link,
             .wp-block-read-more{
-              color: v.$primary-color;
+              color: v.$gray-800;
+
+              &:hover{
+                color: v.$primary-color;
+              }
 
               a{
-                color: v.$primary-color;
+                color: v.$gray-800;
+
+                &:hover{
+                  color: v.$primary-color;
+                }
               }
             }
 
@@ -2068,7 +2080,7 @@
 
           a{
             color: v.$gray-800;
-            
+
             &:hover{
               color: v.$primary-color
             }
