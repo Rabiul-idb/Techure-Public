@@ -10834,6 +10834,9 @@ body {
 }
 
 dl dd a {
+  color: #716f73;
+}
+dl dd a:hover {
   color: #573db8;
 }
 
