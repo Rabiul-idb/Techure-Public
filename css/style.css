@@ -8894,6 +8894,7 @@ p {
   outline: none;
   border: 1px solid gray;
   padding: 20px;
+  max-height: 200px;
 }
 .comment-form .theme-btn {
   display: inline-block;
