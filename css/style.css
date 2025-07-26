@@ -9662,24 +9662,29 @@ ul.children {
   font-size: 18px;
 }
 .blog-area .not-found .page-content .error-404-title {
-  font-size: 32px;
+  font-size: 44px;
   color: #07000e;
   font-weight: 700;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .blog-area .not-found .page-content .error-404-title {
+    font-size: 40px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area .not-found .page-content .error-404-title {
-    font-size: 30px;
+    font-size: 36px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-area .not-found .page-content .error-404-title {
-    font-size: 30px;
+    font-size: 34px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   .blog-area .not-found .page-content .error-404-title {
     padding-right: 0;
-    font-size: 22px;
+    font-size: 30px;
   }
 }
 .blog-area .not-found .page-content .error-title {

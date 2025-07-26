@@ -434,19 +434,22 @@
   .not-found{
     .page-content{
       .error-404-title{
-        font-size: 32px;
+        font-size: 44px;
         color: v.$gray-900;
         font-weight: v.$font-weight-bold;
         
+        @include m.lg {
+          font-size: 40px;
+        }
         @include m.md {
-          font-size: 30px;
+          font-size: 36px;
         }
         @include m.sm {
-          font-size: 30px;
+          font-size: 34px;
         }
         @include m.xs {
           padding-right: 0;
-          font-size: 22px;
+          font-size: 30px;
         }
       }
       .error-title{
