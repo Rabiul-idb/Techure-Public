@@ -8844,7 +8844,6 @@ p {
 }
 .blog-area .blog-details-wrapper .author-info .author-text .author-post a {
   color: #ffffff;
-  transition: all 0.3s;
 }
 .blog-area .blog-details-wrapper .author-info .author-text .author-post a:hover {
   text-decoration: underline;
