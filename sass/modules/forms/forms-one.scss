@@ -3,7 +3,7 @@
 /*-======== forms =======-*/
 .form-wrapper {
   &.style-one {
-    padding: 50px 40px;
+    padding: 27px 40px;
     background: v.$white;
     @include m.border-radius(20px);
     @include m.device-425px {
@@ -39,7 +39,8 @@
       .form-slide {
         display: flex;
         gap: 30px;
-        justify-content: space-between;
+        flex-direction: column;
+
 
         @include m.lg{
           flex-direction: column;
@@ -63,6 +64,7 @@
               font-weight: v.$font-weight-medium;
               @include m.border-radius(50px);
               color: v.$gray-800;
+              width: 100%;
             }
           }
         }
