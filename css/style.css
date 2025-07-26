@@ -9814,6 +9814,18 @@ ul.children {
   font-weight: 400;
   font-size: 18px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area .blog-posts .posts-navigation,
+  .blog-area .blog-post-items .posts-navigation {
+    margin-bottom: 45px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-area .blog-posts .posts-navigation,
+  .blog-area .blog-post-items .posts-navigation {
+    margin-bottom: 40px;
+  }
+}
 .blog-area .blog-posts .posts-navigation .nav-links,
 .blog-area .blog-post-items .posts-navigation .nav-links {
   display: flex;
