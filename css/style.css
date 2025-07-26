@@ -17245,7 +17245,7 @@ video {
 .footer-area.style-one .footer-wrap .input-group {
   position: relative;
   padding-top: 29px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 .footer-area.style-one .footer-wrap .input-group input {
   position: relative;
@@ -17294,6 +17294,12 @@ video {
   padding: 0 16px;
   flex: none;
   position: relative;
+}
+.footer-area.style-one .footer-wrap .mc4wp-response {
+  padding-bottom: 16px;
+}
+.footer-area.style-one .footer-wrap .mc4wp-response .mc4wp-alert.mc4wp-success p {
+  color: #ffffff;
 }
 .footer-area.style-one .footer-wrap .shear-media .media--icons a {
   display: inline-block;
