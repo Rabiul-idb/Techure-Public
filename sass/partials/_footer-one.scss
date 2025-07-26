@@ -79,6 +79,7 @@
           color: v.$white;
           @include m.border-radius(50px);
           padding-left: 25px;
+          padding-right: 20px;
 
           &::placeholder {
             color: v.$white;
@@ -100,6 +101,19 @@
           border-bottom-right-radius: 50px !important;
           font-size: 18px;
           cursor: pointer;
+        }
+        input[type=submit]{
+          background: v.$primary-color;
+          border: 0;
+          color: v.$white;
+          height: 50px;
+          font-size: 16px;
+          text-align: center;
+          border-top-right-radius: 50px !important;
+          border-bottom-right-radius: 50px !important;
+          font-size: 18px;
+          cursor: pointer;
+          padding: 0 16px;
         }
       }
       .shear-media {
