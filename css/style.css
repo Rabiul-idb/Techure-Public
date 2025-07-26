@@ -17234,6 +17234,7 @@ video {
   border-radius: 50px;
   padding-left: 25px;
   padding-right: 20px;
+  flex: 1;
 }
 .footer-area.style-one .footer-wrap .input-group input::placeholder {
   color: #ffffff;
