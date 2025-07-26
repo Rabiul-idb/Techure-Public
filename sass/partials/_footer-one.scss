@@ -103,7 +103,7 @@
           font-size: 18px;
           cursor: pointer;
         }
-        .subscribe{
+        input[type=submit]{
           background: v.$primary-color;
           border: 0;
           color: v.$white;
@@ -119,8 +119,14 @@
           position: relative;
 
           &::after{
+            content: "\f1d8"; // Font Awesome unicode
+            font-family: "Font Awesome 6 Free"; // or your version's font name
+            font-weight: 900; // usually required for solid icons
             position: absolute;
-            content: "\f1d8";
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
           }
         }
       }
@@ -225,8 +231,13 @@
       ul {
         float: right;
         padding-left: 0;
+
+        @include m.md{
+          float: none;
+        }
         @include m.sm {
           text-align: center;
+          float: none;
         }
 
         li {
