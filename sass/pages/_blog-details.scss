@@ -79,6 +79,7 @@
         }
 
         .post-content-wrapper {
+          margin-top: 20px;
           .post-meta {
             display: flex;
             align-items: center;
@@ -1422,7 +1423,7 @@
           
           }
         }
-        
+
         &.format-audio{    
           iframe {
             @include m.border-radius(20px);
