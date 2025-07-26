@@ -9783,6 +9783,7 @@ ul.children {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 16px;
 }
 .blog-area .blog-posts .posts-navigation .nav-links .nav-previous a,
 .blog-area .blog-posts .posts-navigation .nav-links .nav-next a,
