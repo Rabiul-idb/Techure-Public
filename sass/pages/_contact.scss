@@ -73,8 +73,7 @@
       }
       .form-content {
         .form-control {
-          border-color: v.$border-color-02;
-          background: v.$gray-100;
+          background: transparent;
         }
 
         .user-chosen-select-container {

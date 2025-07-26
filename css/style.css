@@ -9262,8 +9262,7 @@ ul.children {
   }
 }
 .contact-us-area.style-one .form-box .form-content .form-control {
-  border-color: rgba(7, 0, 14, 0.2);
-  background: #f7f1fc;
+  background: transparent;
 }
 .contact-us-area.style-one .form-box .form-content .user-chosen-select-container .chosen-container-single .chosen-single {
   background: #f7f1fc !important;
