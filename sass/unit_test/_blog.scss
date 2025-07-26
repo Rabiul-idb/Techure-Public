@@ -399,10 +399,36 @@
         }
       }
     }
+    .page-header{
+      margin-bottom: 40px;
+      .page-title{
+        font-size: 32px;
+        color: v.$gray-900;
+        font-weight: v.$font-weight-bold;
+        padding-right: 0px;
+        @include m.md {
+          padding-right: 0;
+        }
+        @include m.sm {
+          padding-right: 0;
+        }
+        @include m.xs {
+          padding-right: 0;
+          font-size: 22px;
+        }
+      }
+      .archive-description{
+        margin-top: 20px;
+        color: v.$gray-800;
+        font-weight: 400;
+        font-size: 18px;
+      }
+    }
   }
-  
+
   .page-header{
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+
     .page-title{
       font-size: 32px;
       color: v.$gray-900;
@@ -419,11 +445,30 @@
         font-size: 22px;
       }
     }
-    .archive-description{
-      margin-top: 20px;
-      color: v.$gray-800;
-      font-weight: 400;
-      font-size: 18px;
+    .blog-search-content{
+
+      p{
+        color: v.$gray-800;
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 0;
+      }
+      .sidebar-form{
+        margin-top: 30px;
+
+        form{
+          gap: 0;
+
+          input{
+            width: 100%;
+            border: 1px solid transparent;
+
+            &:focus{
+              border-color: v.$primary-color;
+            }
+          }
+        }
+      }
     }
   }
 
