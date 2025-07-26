@@ -1775,26 +1775,56 @@
           }
         }
         .author-text{
-        margin-top: 30px;
+          margin-top: 30px;
 
-        .section-title{
-          color: white;
-        }
-        .section-meta{
-          color: white;
-        }
-        .section-desc{
-          color: white;
+          h3{
+            margin-bottom: 7px;
+            a{
+              color: v.$white;
+              font-size: 24px;
+              font-weight: 500;
+            }
+          }
+          .designation{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px;
+            color: v.$white;
+          }
+
+          .section-title{
+            color: white;
+          }
+          .section-meta{
+            color: white;
+          }
+          p{
+            color: white;
+            padding-top: 10px;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px;
+          }
+
+          .section-meta{
+            margin-top: -8px;
+          }
+
+          .author-post{
+            margin-top: 15px;
+            a{
+              color: v.$white;
+              transition: all 0.3s;
+
+              &:hover{
+                text-decoration: underline;
+              }
+            }
+          }
         }
 
-        .section-meta{
-          margin-top: -8px;
-        }
-        }
 
-        p {
-          color: v.$gray-900;
-        }
+        
       }
 
       .post-img {

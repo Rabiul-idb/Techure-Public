@@ -8809,20 +8809,45 @@ p {
 .blog-area .blog-details-wrapper .author-info .author-text {
   margin-top: 30px;
 }
+.blog-area .blog-details-wrapper .author-info .author-text h3 {
+  margin-bottom: 7px;
+}
+.blog-area .blog-details-wrapper .author-info .author-text h3 a {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.blog-area .blog-details-wrapper .author-info .author-text .designation {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #ffffff;
+}
 .blog-area .blog-details-wrapper .author-info .author-text .section-title {
   color: white;
 }
 .blog-area .blog-details-wrapper .author-info .author-text .section-meta {
   color: white;
 }
-.blog-area .blog-details-wrapper .author-info .author-text .section-desc {
+.blog-area .blog-details-wrapper .author-info .author-text p {
   color: white;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
 }
 .blog-area .blog-details-wrapper .author-info .author-text .section-meta {
   margin-top: -8px;
 }
-.blog-area .blog-details-wrapper .author-info p {
-  color: #07000e;
+.blog-area .blog-details-wrapper .author-info .author-text .author-post {
+  margin-top: 15px;
+}
+.blog-area .blog-details-wrapper .author-info .author-text .author-post a {
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.blog-area .blog-details-wrapper .author-info .author-text .author-post a:hover {
+  text-decoration: underline;
 }
 .blog-area .blog-details-wrapper .post-img {
   display: flex;
