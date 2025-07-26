@@ -55,6 +55,16 @@
           @include m.sm {
             width: 100%;
           }
+          p{
+            input{
+              padding: 16px 30px;
+              border: 1px solid v.$border-color-03;
+              font-size: 18px;
+              font-weight: v.$font-weight-medium;
+              @include m.border-radius(50px);
+              color: v.$gray-800;
+            }
+          }
         }
       }
     }

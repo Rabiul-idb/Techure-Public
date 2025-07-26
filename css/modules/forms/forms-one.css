@@ -73,6 +73,16 @@
     width: 100%;
   }
 }
+.form-wrapper.style-one .form-content .form-slide div p input {
+  padding: 16px 30px;
+  border: 1px solid #cdcccf;
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  color: #716f73;
+}
 .form-wrapper.style-one .nice-select {
   background: none !important;
 }
