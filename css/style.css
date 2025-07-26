@@ -9806,6 +9806,16 @@ ul.children {
 .blog-area .not-found .page-header {
   margin-bottom: 25px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area .not-found .blog-search-content {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-area .not-found .blog-search-content {
+    margin-bottom: 40px;
+  }
+}
 .blog-area .not-found .blog-search-content p {
   color: #716f73;
   font-weight: 400;

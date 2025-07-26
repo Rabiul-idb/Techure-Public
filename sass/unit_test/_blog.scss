@@ -456,6 +456,13 @@
     }
 
     .blog-search-content{
+
+      @include m.md{
+        margin-bottom: 50px;
+      }
+      @include m.sm{
+        margin-bottom: 40px;
+      }
   
       p{
         color: v.$gray-800;
