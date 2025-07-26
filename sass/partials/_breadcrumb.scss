@@ -26,24 +26,30 @@
 .breadcrumb-wrapper{
     .page-heading{
         .page-title{
-            font-size: 48px;
+            font-size: 46px;
             font-weight: 700;
             line-height: 1.2;
-            letter-spacing: -2px;
+            letter-spacing: -1px;
             text-align: center;
 
             
-            @include m.rmaxwd(767) {
-            font-size: 48px;
-            line-height: 50px;
+            @include m.xl {
+            font-size: 42px;
             }
-            @include m.device-425px {
-            font-size: 46px;
-            line-height: 48px;
+            @include m.lg {
+            font-size: 40px;
+            }
+            @include m.md {
+            font-size: 36px;
+            }
+            @include m.sm {
+            font-size: 34px;
+            }
+            @include m.xs{
+            font-size: 28px;
             }
             @include m.device-375px {
-            font-size: 42px;
-            line-height: 48px;
+            font-size: 28px;
             }
         }
     }

@@ -4513,28 +4513,40 @@ p {
 }
 
 .breadcrumb-wrapper .page-heading .page-title {
-  font-size: 48px;
+  font-size: 46px;
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   text-align: center;
 }
-@media (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .breadcrumb-wrapper .page-heading .page-title {
-    font-size: 48px;
-    line-height: 50px;
+    font-size: 42px;
   }
 }
-@media (max-width: 425px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .breadcrumb-wrapper .page-heading .page-title {
-    font-size: 46px;
-    line-height: 48px;
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .breadcrumb-wrapper .page-heading .page-title {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .breadcrumb-wrapper .page-heading .page-title {
+    font-size: 34px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .breadcrumb-wrapper .page-heading .page-title {
+    font-size: 28px;
   }
 }
 @media (max-width: 375px) {
   .breadcrumb-wrapper .page-heading .page-title {
-    font-size: 42px;
-    line-height: 48px;
+    font-size: 28px;
   }
 }
 .breadcrumb-wrapper .breadcrumb-list ul {
