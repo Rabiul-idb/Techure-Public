@@ -17268,6 +17268,7 @@ video {
   font-size: 18px;
   cursor: pointer;
   padding: 0 16px;
+  flex: none;
 }
 .footer-area.style-one .footer-wrap .shear-media .media--icons a {
   display: inline-block;
