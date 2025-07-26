@@ -9719,12 +9719,12 @@ ul.children {
 .blog-area .not-found .blog-search-content .sidebar-form {
   margin-top: 30px;
 }
-.blog-area .not-found .blog-search-content .sidebar-form form {
+.blog-area .not-found .blog-search-content .sidebar-form .search-form {
   gap: 0;
 }
-.blog-area .not-found .blog-search-content .sidebar-form form input {
+.blog-area .not-found .blog-search-content .sidebar-form .search-form input {
   width: 100%;
-  border: 1px solid #573db8;
+  border: 1px solid #573db8 !important;
 }
 .blog-area .not-found .page-content .error-404-title {
   font-size: 44px;
