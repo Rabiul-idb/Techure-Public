@@ -8164,17 +8164,20 @@ p {
 }
 .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .author-img a,
 .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .blog-category a,
-.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .post-date a {
+.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .post-date a,
+.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .post-comment a {
   color: #716f73;
 }
 .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .author-img svg,
 .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .blog-category svg,
-.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .post-date svg {
+.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .post-date svg,
+.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .post-comment svg {
   color: #573db8;
 }
 .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .author-img .meta-text,
 .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .blog-category .meta-text,
-.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .post-date .meta-text {
+.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .post-date .meta-text,
+.blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta .post-comment .meta-text {
   font-weight: 400;
   margin-left: 3px;
 }
