@@ -31,6 +31,9 @@
         }
         .section-content {
           .section-title {
+            a{
+              color: black;
+            }
             @include m.nesthub {
               font-size: 62px;
             }
@@ -223,7 +226,7 @@
             &:first-child{
               margin-left: 0;
             }
-            
+
             @include m.md {
               display: inline-block;
               margin-left: 20px;

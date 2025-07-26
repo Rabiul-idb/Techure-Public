@@ -17450,6 +17450,9 @@ video {
     font-size: 16px;
   }
 }
+.footer-area.style-two .section-header.style-two .section-content .section-title a {
+  color: black;
+}
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .footer-area.style-two .section-header.style-two .section-content .section-title {
     font-size: 62px;
