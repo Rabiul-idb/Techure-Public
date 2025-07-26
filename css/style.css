@@ -9654,32 +9654,32 @@ ul.children {
   transition: all 0.5s ease-out;
   text-decoration: underline !important;
 }
-.blog-area .blog-posts .page-header {
+.blog-area .page-header {
   margin-bottom: 50px;
 }
-.blog-area .blog-posts .page-header .page-title {
+.blog-area .page-header .page-title {
   font-size: 32px;
   color: #07000e;
   font-weight: 700;
   padding-right: 0px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .blog-area .blog-posts .page-header .page-title {
+  .blog-area .page-header .page-title {
     padding-right: 0;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .blog-area .blog-posts .page-header .page-title {
+  .blog-area .page-header .page-title {
     padding-right: 0;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 576px) {
-  .blog-area .blog-posts .page-header .page-title {
+  .blog-area .page-header .page-title {
     padding-right: 0;
     font-size: 22px;
   }
 }
-.blog-area .blog-posts .page-header .archive-description {
+.blog-area .page-header .archive-description {
   margin-top: 20px;
   color: #716f73;
   font-weight: 400;
