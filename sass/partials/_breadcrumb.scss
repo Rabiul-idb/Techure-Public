@@ -70,6 +70,22 @@
             li {
               position: relative;
 
+                font-size: 20px;
+                font-weight: 700;
+                color: #07000e;
+                display: inline-block; 
+                padding-right: 5px;   
+
+                @include m.lg{
+                    font-size: 22px;
+                }
+                @include m.md{
+                    font-size: 20px;
+                }
+                @include m.sm{
+                    font-size: 18px;
+                }
+
               &::before {
                 content: "\f054"; // angle-right
                 font-family: "Font Awesome 6 Pro";

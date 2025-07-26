@@ -399,6 +399,34 @@
         }
       }
     }
+
+    .page-header{
+      margin-bottom: 50px;
+      .page-title{
+        font-size: 32px;
+        color: v.$gray-900;
+        font-weight: v.$font-weight-bold;
+        padding-right: 0px;
+        @include m.md {
+          padding-right: 0;
+        }
+        @include m.sm {
+          padding-right: 0;
+        }
+        @include m.xs {
+          padding-right: 0;
+          font-size: 22px;
+        }
+      }
+      .archive-description{
+        margin-top: 20px;
+        color: v.$gray-800;
+        font-weight: 400;
+        font-size: 18px;
+      }
+    }
+
+
   }
 }
 

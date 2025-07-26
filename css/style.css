@@ -4562,6 +4562,26 @@ p {
 }
 .breadcrumb-wrapper .breadcrumb-list ul li {
   position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  color: #07000e;
+  display: inline-block;
+  padding-right: 5px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .breadcrumb-wrapper .breadcrumb-list ul li {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .breadcrumb-wrapper .breadcrumb-list ul li {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .breadcrumb-wrapper .breadcrumb-list ul li {
+    font-size: 18px;
+  }
 }
 .breadcrumb-wrapper .breadcrumb-list ul li::before {
   content: "\f054";
@@ -9609,6 +9629,37 @@ ul.children {
   font-style: normal;
   transition: all 0.5s ease-out;
   text-decoration: underline !important;
+}
+.blog-area .blog-posts .page-header {
+  margin-bottom: 50px;
+}
+.blog-area .blog-posts .page-header .page-title {
+  font-size: 32px;
+  color: #07000e;
+  font-weight: 700;
+  padding-right: 0px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area .blog-posts .page-header .page-title {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-area .blog-posts .page-header .page-title {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .blog-area .blog-posts .page-header .page-title {
+    padding-right: 0;
+    font-size: 22px;
+  }
+}
+.blog-area .blog-posts .page-header .archive-description {
+  margin-top: 20px;
+  color: #716f73;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 /* Theme Default CSS */
