@@ -64,6 +64,7 @@
               @include m.border-radius(50px);
               color: v.$gray-800;
               width: 100%;
+              background-color: transparent;
   
               &:focus{
                 border-color: v.$primary-color;

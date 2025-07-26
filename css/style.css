@@ -16357,6 +16357,7 @@ video {
   border-radius: 50px;
   color: #716f73;
   width: 100%;
+  background-color: transparent;
 }
 .form-wrapper.style-one .form-content .form-slide div p input:focus {
   border-color: #573db8;
