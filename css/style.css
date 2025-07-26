@@ -8408,6 +8408,39 @@ p {
   font-size: 18px;
   color: #573db8;
 }
+.blog-area .blog-details-wrapper .single-post-item.format-gallery .post-gallery button.post-gallery-btn {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  transition: 0.3s;
+  z-index: 99;
+  background-color: #ffffff;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+  border: none;
+}
+.blog-area .blog-details-wrapper .single-post-item.format-gallery .post-gallery button.post-gallery-btn:hover {
+  background-color: #573db8;
+  color: white;
+}
+.blog-area .blog-details-wrapper .single-post-item.format-gallery .post-gallery button.post-gallery-btn.prev-btn {
+  left: 30px;
+}
+.blog-area .blog-details-wrapper .single-post-item.format-gallery .post-gallery button.post-gallery-btn.next-btn {
+  right: 30px;
+}
+.blog-area .blog-details-wrapper .single-post-item.format-gallery .post-gallery button.post-gallery-btn i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #b0b0b0;
+  font-size: 17px;
+  transition: all 0.5s ease-out;
+}
 .blog-area .blog-details-wrapper .single-post-item.format-audio iframe {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;

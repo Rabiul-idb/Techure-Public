@@ -1380,6 +1380,49 @@
             }
           }
         }
+        &.format-gallery{
+          .post-gallery {
+                      
+            button{
+          
+              &.post-gallery-btn{
+                position: absolute;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                transition: 0.3s;
+                z-index: 99;
+                background-color: #ffffff;
+                cursor: pointer;
+                top: 50%;
+                transform: translateY(-50%);
+                overflow: hidden;
+                border: none;
+                &:hover{
+                  background-color: v.$primary-color;
+                  color: white;
+                }
+              }
+              &.post-gallery-btn.prev-btn {
+                left: 30px;
+              }
+              &.post-gallery-btn.next-btn {
+                right: 30px;
+              }
+              &.post-gallery-btn i {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: #b0b0b0;
+                font-size: 17px;
+                transition: all 0.5s ease-out;
+              }
+            }
+          
+          }
+        }
+        
         &.format-audio{    
           iframe {
             @include m.border-radius(20px);
