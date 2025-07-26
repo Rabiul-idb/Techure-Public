@@ -7,8 +7,7 @@
     background: v.$white;
     @include m.border-radius(20px);
     @include m.device-425px {
-      padding: 50px 13px;
-      padding-top: 20px;
+      padding: 25px 13px;
     }
     @include m.md {
       margin-top: 40px;
