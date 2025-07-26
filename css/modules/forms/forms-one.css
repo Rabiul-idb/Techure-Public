@@ -73,7 +73,7 @@
     width: 100%;
   }
 }
-.form-wrapper.style-one .form-content .form-slide div p input {
+.form-wrapper.style-one .form-content .form-slide p input {
   padding: 16px 30px;
   border: 1px solid #cdcccf;
   font-size: 18px;
@@ -83,6 +83,12 @@
   border-radius: 50px;
   color: #716f73;
   width: 100%;
+}
+.form-wrapper.style-one .form-content .form-slide p input:focus {
+  border-color: #573db8;
+}
+.form-wrapper.style-one .form-content .form-slide p textarea:focus {
+  border-color: #573db8;
 }
 .form-wrapper.style-one .nice-select {
   background: none !important;
