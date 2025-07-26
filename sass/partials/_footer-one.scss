@@ -205,7 +205,26 @@
           font-size: 18px;
           font-weight: v.$font-weight-medium;
           display: inline-block;
-          margin-right: 20px;
+          margin-right: 22px;
+          position: relative;
+
+          &:after{
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 2px;
+            background-color: v.$white;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -14px;
+          }
+          &:last-child{
+            margin-right: 0;
+
+            &::after{
+              display: none;
+            }
+          }
           a {
             color: v.$white;
             &:hover {

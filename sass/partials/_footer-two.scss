@@ -154,6 +154,24 @@
       li {
         font-size: 18px;
         font-weight: v.$font-weight-regular;
+        position: relative;
+
+        &:after{
+          position: absolute;
+          content: "";
+          height: 16px;
+          width: 2px;
+          background-color: v.$gray-800;
+          top: 50%;
+          transform: translateY(-50%);
+          right: -13px;
+        }
+
+        &:last-child{
+          &:after{
+            display: none;
+          }
+        }
         a {
           color: v.$gray-800;
           @include m.transition(0.3s);
@@ -183,7 +201,7 @@
       }
       .footer-copy-list {
         display: flex;
-        gap: 20px;
+        gap: 24px;
         @include m.md {
           display: block;
           text-align: center;
