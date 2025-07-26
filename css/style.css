@@ -16348,7 +16348,7 @@ video {
     width: 100%;
   }
 }
-.form-wrapper.style-one .form-content .form-slide p input {
+.form-wrapper.style-one .form-content .form-slide div p input {
   padding: 16px 30px;
   border: 1px solid #cdcccf;
   font-size: 18px;
@@ -16359,10 +16359,10 @@ video {
   color: #716f73;
   width: 100%;
 }
-.form-wrapper.style-one .form-content .form-slide p input:focus {
+.form-wrapper.style-one .form-content .form-slide div p input:focus {
   border-color: #573db8;
 }
-.form-wrapper.style-one .form-content .form-slide p textarea:focus {
+.form-wrapper.style-one .form-content textarea:focus {
   border-color: #573db8;
 }
 .form-wrapper.style-one .nice-select {
