@@ -454,7 +454,7 @@
     .page-header{
       margin-bottom: 25px;
     }
-    
+
     .blog-search-content{
   
       p{
@@ -474,7 +474,8 @@
           input{
             width: 100%;
             border: 1px solid v.$primary-color !important;
-            
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
           }
         }
       }
