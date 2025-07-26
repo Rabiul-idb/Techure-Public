@@ -9710,19 +9710,19 @@ ul.children {
     font-size: 22px;
   }
 }
-.blog-area .page-header .blog-search-content p {
+.blog-area .not-found .blog-search-content p {
   color: #716f73;
   font-weight: 400;
   font-size: 18px;
   margin-top: 0;
 }
-.blog-area .page-header .blog-search-content .sidebar-form {
+.blog-area .not-found .blog-search-content .sidebar-form {
   margin-top: 30px;
 }
-.blog-area .page-header .blog-search-content .sidebar-form form {
+.blog-area .not-found .blog-search-content .sidebar-form form {
   gap: 0;
 }
-.blog-area .page-header .blog-search-content .sidebar-form form input {
+.blog-area .not-found .blog-search-content .sidebar-form form input {
   width: 100%;
   border: 1px solid #573db8;
 }
