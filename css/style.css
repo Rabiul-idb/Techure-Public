@@ -9724,10 +9724,7 @@ ul.children {
 }
 .blog-area .page-header .blog-search-content .sidebar-form form input {
   width: 100%;
-  border: 1px solid transparent;
-}
-.blog-area .page-header .blog-search-content .sidebar-form form input:focus {
-  border-color: #573db8;
+  border: 1px solid #573db8;
 }
 .blog-area .not-found .page-content .error-404-title {
   font-size: 44px;
