@@ -425,6 +425,35 @@
         font-size: 18px;
       }
     }
+
+    .posts-navigation{
+      .nav-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .nav-previous,
+        .nav-next{
+
+          a{
+            display: inline-block;
+            border-radius: 7px;
+            color: white;
+            background-color: #573db8;
+            font-size: 20px;
+            border: none;
+            width: fit-content;
+            padding: 15px 20px;
+            font-weight: 500;
+            transition: all 0.3s;
+
+            &:hover{
+              background-color: v.$gray-900;
+            }
+          }
+        }
+      }
+    }
   }
 
   .page-header{
@@ -556,6 +585,8 @@
       }
     }
   }
+
+
 
 
 }

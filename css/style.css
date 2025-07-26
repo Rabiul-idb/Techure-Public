@@ -9778,6 +9778,33 @@ ul.children {
   font-weight: 400;
   font-size: 18px;
 }
+.blog-area .blog-posts .posts-navigation .nav-links,
+.blog-area .blog-post-items .posts-navigation .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-area .blog-posts .posts-navigation .nav-links .nav-previous a,
+.blog-area .blog-posts .posts-navigation .nav-links .nav-next a,
+.blog-area .blog-post-items .posts-navigation .nav-links .nav-previous a,
+.blog-area .blog-post-items .posts-navigation .nav-links .nav-next a {
+  display: inline-block;
+  border-radius: 7px;
+  color: white;
+  background-color: #573db8;
+  font-size: 20px;
+  border: none;
+  width: fit-content;
+  padding: 15px 20px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.blog-area .blog-posts .posts-navigation .nav-links .nav-previous a:hover,
+.blog-area .blog-posts .posts-navigation .nav-links .nav-next a:hover,
+.blog-area .blog-post-items .posts-navigation .nav-links .nav-previous a:hover,
+.blog-area .blog-post-items .posts-navigation .nav-links .nav-next a:hover {
+  background-color: #07000e;
+}
 .blog-area .page-header {
   margin-bottom: 25px;
 }
