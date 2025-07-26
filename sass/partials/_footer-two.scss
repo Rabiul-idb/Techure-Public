@@ -195,6 +195,12 @@
         padding-top: 25px;
       }
       .copyright-desc {
+        @include m.md{
+          text-align: center;
+        }
+        @include m.sm{
+          text-align: center;
+        }
         a {
           color: v.$primary-color;
         }
