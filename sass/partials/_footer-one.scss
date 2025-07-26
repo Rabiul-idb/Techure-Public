@@ -103,7 +103,7 @@
           font-size: 18px;
           cursor: pointer;
         }
-        input[type=submit]{
+        .subscribe{
           background: v.$primary-color;
           border: 0;
           color: v.$white;
@@ -116,6 +116,12 @@
           cursor: pointer;
           padding: 0 16px;
           flex: none;
+          position: relative;
+
+          &::after{
+            position: absolute;
+            content: "\f1d8";
+          }
         }
       }
       .shear-media {

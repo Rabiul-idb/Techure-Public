@@ -17272,7 +17272,7 @@ video {
   font-size: 18px;
   cursor: pointer;
 }
-.footer-area.style-one .footer-wrap .input-group input[type=submit] {
+.footer-area.style-one .footer-wrap .input-group .subscribe {
   background: #573db8;
   border: 0;
   color: #ffffff;
@@ -17285,6 +17285,11 @@ video {
   cursor: pointer;
   padding: 0 16px;
   flex: none;
+  position: relative;
+}
+.footer-area.style-one .footer-wrap .input-group .subscribe::after {
+  position: absolute;
+  content: "\f1d8";
 }
 .footer-area.style-one .footer-wrap .shear-media .media--icons a {
   display: inline-block;
