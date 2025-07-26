@@ -93,4 +93,12 @@
 .form-wrapper.style-one .nice-select {
   background: none !important;
 }
+
+.wpcf7 form .wpcf7-response-output {
+  margin-top: 1em;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output {
+  border-color: red !important;
+}
 /*# sourceMappingURL=forms-one.css.map */
