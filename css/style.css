@@ -8967,7 +8967,7 @@ p {
   padding: 0 20px;
 }
 .comment-form .comment-form-cookies-consent {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .comment-form p {
   margin-top: 20px;
@@ -8977,9 +8977,6 @@ p {
 }
 .comment-form p a:hover {
   color: #573db8;
-}
-.comment-form .contacts-message {
-  margin-top: 20px;
 }
 .comment-form .contacts-message label {
   font-size: 18px;
