@@ -9661,6 +9661,72 @@ ul.children {
   font-weight: 400;
   font-size: 18px;
 }
+.blog-area .not-found .page-content .error-404-title {
+  font-size: 32px;
+  color: #07000e;
+  font-weight: 700;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area .not-found .page-content .error-404-title {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-area .not-found .page-content .error-404-title {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .blog-area .not-found .page-content .error-404-title {
+    padding-right: 0;
+    font-size: 22px;
+  }
+}
+.blog-area .not-found .page-content .error-title {
+  font-size: 30px;
+  color: #07000e;
+  font-weight: 700;
+  margin-top: 10px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-area .not-found .page-content .error-title {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .blog-area .not-found .page-content .error-title {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 576px) {
+  .blog-area .not-found .page-content .error-title {
+    font-size: 26px;
+  }
+}
+.blog-area .not-found .page-content .error-content {
+  margin-top: 16px;
+}
+.blog-area .not-found .page-content .error-content .error-text {
+  color: #716f73;
+  font-weight: 400;
+  font-size: 18px;
+}
+.blog-area .not-found .page-content .error-content .error-btn-bh .theme-btn {
+  display: inline-block;
+  border-radius: 7px;
+  color: white;
+  background-color: #573db8;
+  font-size: 20px;
+  border: none;
+  width: fit-content;
+  margin-top: 5px;
+  padding: 15px 20px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.blog-area .not-found .page-content .error-content .error-btn-bh .theme-btn:hover {
+  background-color: #07000e;
+}
 
 /* Theme Default CSS */
 .page-sidebar {
