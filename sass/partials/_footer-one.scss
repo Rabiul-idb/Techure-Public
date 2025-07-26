@@ -192,6 +192,12 @@
           color: v.$white;
           font-weight: v.$font-weight-bold;
         }
+        a{
+          @include m.transition(0.3s);
+          &:hover{
+            color: v.$primary-color;
+          }
+        }
       }
     }
     .copyright-area {

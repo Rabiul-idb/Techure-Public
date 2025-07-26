@@ -17354,6 +17354,16 @@ video {
   color: #ffffff;
   font-weight: 700;
 }
+.footer-area.style-one .footer-wrap .footer-list a {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.footer-area.style-one .footer-wrap .footer-list a:hover {
+  color: #573db8;
+}
 .footer-area.style-one .copyright-area {
   padding-top: 30px;
 }
