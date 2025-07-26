@@ -9791,6 +9791,9 @@ ul.children {
     font-size: 22px;
   }
 }
+.blog-area .not-found .page-header {
+  margin-bottom: 25px;
+}
 .blog-area .not-found .blog-search-content p {
   color: #716f73;
   font-weight: 400;
