@@ -9817,13 +9817,13 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area .blog-posts .posts-navigation,
   .blog-area .blog-post-items .posts-navigation {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .blog-area .blog-posts .posts-navigation,
   .blog-area .blog-post-items .posts-navigation {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 }
 .blog-area .blog-posts .posts-navigation .nav-links,
