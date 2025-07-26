@@ -9802,12 +9802,12 @@ ul.children {
 }
 .blog-area .not-found .blog-search-content .sidebar-form .search-form {
   gap: 0;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .blog-area .not-found .blog-search-content .sidebar-form .search-form input {
   width: 100%;
   border: 1px solid #573db8 !important;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
 }
 .blog-area .not-found .page-content .error-404-title {
   font-size: 44px;

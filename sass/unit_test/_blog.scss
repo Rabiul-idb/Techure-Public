@@ -464,12 +464,13 @@
   
         .search-form{
           gap: 0;
+          border-radius: 5px;
+          overflow: hidden;
   
           input{
             width: 100%;
             border: 1px solid v.$primary-color !important;
-            border-top-left-radius: 5px;
-            border-bottom-left-radius: 5px;
+            
           }
         }
       }
