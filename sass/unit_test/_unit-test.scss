@@ -553,19 +553,11 @@ nav.wp-calendar-nav {
     display: inline-block;
     width: 100%;
     overflow: hidden;
+    gap: 10px;
 
     .wp-block-search__inside-wrapper {
       display: flex;
       padding: 0 !important;
-
-      .wp-block-search__input{
-        background-color: $white;
-        border: 1px solid transparent;
-
-        &:focus{
-          border-color: $primary-color;
-        }
-      }
     }
     label {
       font-size: 24px;
